@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE cds SYSTEM "cds.dtd">
 
-<cds>
+<cds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CDs.xsd">
     <cd>
         <id>1</id>
         <naam>Advenge sevenfold The stage</naam>

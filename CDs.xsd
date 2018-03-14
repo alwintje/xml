@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="cds">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="cd"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="cd">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="id"/>
+                <xs:element ref="naam"/>
+                <xs:element ref="uitvoerenden"/>
+                <xs:element ref="uitgever"/>
+                <xs:element ref="gerne"/>
+                <xs:element ref="prijs"/>
+                <xs:element ref="releaseDate"/>
+                <xs:element ref="boxVolume"/>
+                <xs:element ref="tracks"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="id" type="xs:integer"/>
+    <xs:element name="uitvoerenden">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="uitvoerende"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="uitgever" type="xs:string"/>
+    <xs:element name="gerne" type="xs:NCName"/>
+    <xs:element name="prijs">
+        <xs:complexType mixed="true">
+            <xs:attribute name="format" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="releaseDate">
+        <xs:complexType mixed="true">
+            <xs:attribute name="format" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="boxVolume" type="xs:integer"/>
+    <xs:element name="tracks">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="track"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="track">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="naam"/>
+                <xs:element ref="componisten"/>
+                <xs:element ref="tijdsduur"/>
+                <xs:element ref="uitvoerende"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="componisten">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="componist"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="componist" type="xs:string"/>
+    <xs:element name="tijdsduur">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:NMTOKEN">
+                    <xs:attribute name="format" use="required" type="xs:NMTOKEN"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="naam" type="xs:string"/>
+    <xs:element name="uitvoerende" type="xs:string"/>
+</xs:schema>
