@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<!DOCTYPE cds SYSTEM "cds.dtd">
+
+<cds>
+    <cd>
+        <id>1</id>
+        <naam>Advenge sevenfold The stage</naam>
+        <uitvoerenden>
+            <uitvoerende>Advenge sevenfold</uitvoerende>
+        </uitvoerenden>
+        <uitgever>United Recording studio</uitgever>
+        <gerne>Rock</gerne>
+        <prijs format="euro">14,99</prijs>
+        <releaseDate format="date">October 28, 2016</releaseDate>
+        <boxVolume>1</boxVolume>
+        <tracks>
+            <track>
+                <naam>The stage</naam>
+                <componisten>
+                    <componist>Advange</componist>
+                </componisten>
+                <tijdsduur format="mm:ss">8:10</tijdsduur>
+                <uitvoerende>-</uitvoerende>
+            </track>
+            <track>
+                <naam>Paradigim</naam>
+                <componisten>
+                    <componist>Advange</componist>
+                </componisten>
+                <tijdsduur format="mm:ss">4:18</tijdsduur>
+                <uitvoerende>-</uitvoerende>
+            </track>
+            <track>
+                <naam>God Damn</naam>
+                <componisten>
+                    <componist>Advange</componist>
+                </componisten>
+                <tijdsduur format="mm:ss">6:18</tijdsduur>
+                <uitvoerende>-</uitvoerende>
+            </track>
+        </tracks>
+    </cd>
+
+    <cd>
+        <id>2</id>
+        <naam>Foo fighters</naam>
+        <uitvoerenden>
+            <uitvoerende>Foo fighterrs</uitvoerende>
+        </uitvoerenden>
+        <uitgever>United ASD studio</uitgever>
+        <gerne>Rock</gerne>
+        <prijs format="euro">14,99</prijs>
+        <releaseDate format="date">October 28, 2016</releaseDate>
+        <boxVolume>1</boxVolume>
+        <tracks>
+            <track>
+                <naam>Something for nothing</naam>
+                <componisten>
+                    <componist>Foo fighters</componist>
+                </componisten>
+                <tijdsduur format="mm:ss">3:55</tijdsduur>
+                <uitvoerende>-</uitvoerende>
+            </track>
+            <track>
+                <naam>Outside</naam>
+                <componisten>
+                    <componist>Foo fighters</componist>
+                </componisten>
+                <tijdsduur format="mm:ss">3:33</tijdsduur>
+                <uitvoerende>-</uitvoerende>
+            </track>
+        </tracks>
+    </cd>
+
+    <cd>
+        <id>3</id>
+        <naam>The Black keys</naam>
+        <uitvoerenden>
+            <uitvoerende>The blackkeys</uitvoerende>
+        </uitvoerenden>
+        <uitgever>United belgian studio</uitgever>
+        <gerne>Rock</gerne>
+        <prijs format="euro">14,99</prijs>
+        <releaseDate format="date">October 28, 2016</releaseDate>
+        <boxVolume>1</boxVolume>
+        <tracks>
+            <track>
+                <naam>Next girl</naam>
+                <componisten>
+                    <componist>Advange</componist>
+                </componisten>
+                <tijdsduur format="mm:ss">3:55</tijdsduur>
+                <uitvoerende>-</uitvoerende>
+            </track>
+            <track>
+                <naam>These days</naam>
+                <componisten>
+                    <componist>The black keys</componist>
+                </componisten>
+                <tijdsduur format="mm:ss">3:33</tijdsduur>
+                <uitvoerende>-</uitvoerende>
+            </track>
+        </tracks>
+    </cd>
+
+</cds>
