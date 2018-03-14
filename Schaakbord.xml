@@ -1,6 +1,6 @@
 <xml version="1.0" encoding="UTF-8">
 <!DOCTYPE schaakbord SYSTEM "schaakbord.dtd">
-    <schaakbord>
+    <schaakbord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schaakbord.xsd">
         <wit>
             <koning column="F" row="1"></koning>
             <koningin column="G" row="1"></koningin>
