@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE GARAGES SYSTEM "garages.dtd">
+
+<GARAGES>
+    <GARAGE>
+        <NAAM></NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT></STRAAT>
+            <HUISNUMMER></HUISNUMMER>
+            <POSTCODE></POSTCODE>
+            <PLAATS></PLAATS>
+            <PROVINCIE></PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER></TELEFOONNUMMER>
+        <EMAIL></EMAIL>
+        <VERKOOP>
+            <OPENINGSTIJDEN></OPENINGSTIJDEN>
+            <DIENSTEN>
+                <VERHUUR></VERHUUR>
+                <LENEN></LENEN>
+            </DIENSTEN>
+            <AUTOS>
+                <AUTO>
+                    <NIEUW></NIEUW>
+                    <MERK></MERK>
+                    <TYPE></TYPE>
+                    <BOUWJAAR></BOUWJAAR>
+                    <BRANDSTOF></BRANDSTOF>
+                    <PRIJS></PRIJS>
+                    <DATUM></DATUM>
+                    <APK-VERLOOP-DATUM></APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO></FOTO>
+                    </FOTOS>
+                </AUTO>
+            </AUTOS>
+        </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN></OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <ONDERHOUD></ONDERHOUD>
+                <APK></APK>
+                <SCHADEHERSTEL></SCHADEHERSTEL>
+                <RUITENREPARATIE></RUITENREPARATIE>
+                <AIRCOSERVICE></AIRCOSERVICE>
+                <BANDENSERVICE></BANDENSERVICE>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <CERTIFICATEN></CERTIFICATEN>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM></VOORNAAM>
+                <ACHTERNAAM></ACHTERNAAM>
+                <FOTO></FOTO>
+                <FUNCTIE></FUNCTIE>
+            </MEDEWERKER>
+        </MEDEWERKERS>
+        <FACILITEITEN></FACILITEITEN>
+    </GARAGE>
+</GARAGES>
