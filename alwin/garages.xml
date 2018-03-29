@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
-<!DOCTYPE GARAGES SYSTEM "garages.dtd">
+<!DOCTYPE GARAGES SYSTEM "..\together\garages.dtd">
 
 <GARAGES>
     <GARAGE>
