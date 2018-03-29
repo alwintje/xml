@@ -22,7 +22,7 @@
                 <LENEN></LENEN>
             </DIENSTEN>
             <AUTOS>
-                <AUTO>
+                <AUTO kenteken="2">
                     <NIEUW></NIEUW>
                     <MERK></MERK>
                     <TYPE></TYPE>
