@@ -4,59 +4,713 @@
 <!DOCTYPE GARAGES SYSTEM "..\together\garages.dtd">
 
 <GARAGES>
+    <!-- ABS Autoherstel -->
     <GARAGE>
-        <NAAM></NAAM>
+        <NAAM>ABS Autoherstel</NAAM>
         <ADRESGEGEVENS>
-            <STRAAT></STRAAT>
-            <HUISNUMMER></HUISNUMMER>
-            <POSTCODE></POSTCODE>
-            <PLAATS></PLAATS>
-            <PROVINCIE></PROVINCIE>
+            <STRAAT>Strangeweg</STRAAT>
+            <HUISNUMMER>20</HUISNUMMER>
+            <POSTCODE>7731 GW</POSTCODE>
+            <PLAATS>Ommen</PLAATS>
+            <PROVINCIE>Overijssel</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER></TELEFOONNUMMER>
-        <EMAIL></EMAIL>
+        <TELEFOONNUMMER>0529 451 146</TELEFOONNUMMER>
+        <EMAIL>info@absautoherstel.nl</EMAIL>
         <VERKOOP>
-            <OPENINGSTIJDEN></OPENINGSTIJDEN>
+            <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZONDAG>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
             <DIENSTEN>
-                <VERHUUR></VERHUUR>
-                <LENEN></LENEN>
+                <VERHUUR>Ja</VERHUUR>
+                <LENEN>Ja</LENEN>
             </DIENSTEN>
             <AUTOS>
-                <AUTO kenteken="">
-                    <NIEUW></NIEUW>
-                    <MERK></MERK>
-                    <TYPE></TYPE>
-                    <BOUWJAAR></BOUWJAAR>
-                    <BRANDSTOF></BRANDSTOF>
-                    <PRIJS></PRIJS>
-                    <DATUM></DATUM>
-                    <APK-VERLOOP-DATUM></APK-VERLOOP-DATUM>
+                <AUTO kenteken="35-KZ-DL">
+                    <NIEUW>Ja</NIEUW>
+                    <MERK>Fiat</MERK>
+                    <TYPE>Occasion</TYPE>
+                    <BOUWJAAR>2008</BOUWJAAR>
+                    <BRANDSTOF>Diesel</BRANDSTOF>
+                    <PRIJS>6000</PRIJS>
+                    <DATUM>26-08-2017</DATUM>
+                    <APK-VERLOOP-DATUM>26-08-2019</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO></FOTO>
+                        <FOTO>image1.jpg</FOTO>
+                        <FOTO>image2.jpg</FOTO>
+                    </FOTOS>
+                </AUTO>
+                <AUTO kenteken="52-DK-DZ">
+                    <NIEUW>Nee</NIEUW>
+                    <MERK>Opel</MERK>
+                    <TYPE>Occasion</TYPE>
+                    <BOUWJAAR>2001</BOUWJAAR>
+                    <BRANDSTOF>Diesel</BRANDSTOF>
+                    <PRIJS>2450</PRIJS>
+                    <DATUM>26-08-2017</DATUM>
+                    <APK-VERLOOP-DATUM>26-08-2016</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>image1.jpg</FOTO>
+                        <FOTO>image2.jpg</FOTO>
                     </FOTOS>
                 </AUTO>
             </AUTOS>
         </VERKOOP>
         <WERKPLAATS>
-            <OPENINGSTIJDEN></OPENINGSTIJDEN>
+            <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZONDAG>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
-                <ONDERHOUD></ONDERHOUD>
-                <APK></APK>
-                <SCHADEHERSTEL></SCHADEHERSTEL>
-                <RUITENREPARATIE></RUITENREPARATIE>
-                <AIRCOSERVICE></AIRCOSERVICE>
-                <BANDENSERVICE></BANDENSERVICE>
+                <ONDERHOUD>Ja</ONDERHOUD>
+                <APK>Ja</APK>
+                <SCHADEHERSTEL>Ja</SCHADEHERSTEL>
+                <RUITENREPARATIE>Ja</RUITENREPARATIE>
+                <AIRCOSERVICE>Ja</AIRCOSERVICE>
+                <BANDENSERVICE>Nee</BANDENSERVICE>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
-        <CERTIFICATEN></CERTIFICATEN>
+        <CERTIFICATEN>
+            <CERTIFICAAT>APK-Expert</CERTIFICAAT>
+        </CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
-                <VOORNAAM></VOORNAAM>
-                <ACHTERNAAM></ACHTERNAAM>
-                <FOTO></FOTO>
-                <FUNCTIE></FUNCTIE>
+                <VOORNAAM>Cornee</VOORNAAM>
+                <ACHTERNAAM>van Blerk</ACHTERNAAM>
+                <FOTO>cornee.jpg</FOTO>
+                <FUNCTIE>Professionele koffiedrinker</FUNCTIE>
+            </MEDEWERKER>
+            <MEDEWERKER>
+                <VOORNAAM>Thijs</VOORNAAM>
+                <ACHTERNAAM>Janse</ACHTERNAAM>
+                <FOTO>janse.jpg</FOTO>
+                <FUNCTIE>Professionele reperateur</FUNCTIE>
+            </MEDEWERKER>
+        </MEDEWERKERS>
+        <FACILITEITEN>
+            <WASSEN>
+                <WASSTRATEN>
+                    <WASSTRAAT wasstraat="2">
+                        <NAAM>Waasstraat 1</NAAM>
+                        <PRIJS>5</PRIJS>
+                    </WASSTRAAT>
+                    <WASSTRAAT wasstraat="2">
+                        <NAAM>Waasstraat 2</NAAM>
+                        <PRIJS>8</PRIJS>
+                    </WASSTRAAT>
+                </WASSTRATEN>
+                <WASBOXEN>
+                    <WASBOX nummer="1">
+                        <!-- Naam voor een wasbox? -->
+                        <NAAM>Wasbox 1</NAAM>
+                        <PRIJS>12</PRIJS>
+                    </WASBOX>
+                </WASBOXEN>
+            </WASSEN>
+        </FACILITEITEN>
+    </GARAGE>
+
+    <!-- De Groot Auto's -->
+    <GARAGE>
+        <NAAM>De Groot Auto's - Ommen</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Strangeweg</STRAAT>
+            <HUISNUMMER>11</HUISNUMMER>
+            <POSTCODE>7731 GV</POSTCODE>
+            <PLAATS>Ommen</PLAATS>
+            <PROVINCIE>Overijssel</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0529 454 709</TELEFOONNUMMER>
+        <EMAIL>info@degrootautosommen.nl</EMAIL>
+        <VERKOOP>
+            <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZONDAG>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>16:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <DIENSTEN>
+                <VERHUUR>Nee</VERHUUR>
+                <LENEN>Nee</LENEN>
+            </DIENSTEN>
+            <AUTOS>
+                <AUTO kenteken="35-KZ-DL">
+                    <NIEUW>Ja</NIEUW>
+                    <MERK>Fiat</MERK>
+                    <TYPE>Occasion</TYPE>
+                    <BOUWJAAR>2008</BOUWJAAR>
+                    <BRANDSTOF>Diesel</BRANDSTOF>
+                    <PRIJS>6000</PRIJS>
+                    <DATUM>26-08-2017</DATUM>
+                    <APK-VERLOOP-DATUM>26-08-2019</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>image1.jpg</FOTO>
+                        <FOTO>image2.jpg</FOTO>
+                    </FOTOS>
+                </AUTO>
+                <AUTO kenteken="52-DK-DZ">
+                    <NIEUW>Nee</NIEUW>
+                    <MERK>Opel</MERK>
+                    <TYPE>Occasion</TYPE>
+                    <BOUWJAAR>2001</BOUWJAAR>
+                    <BRANDSTOF>Diesel</BRANDSTOF>
+                    <PRIJS>2450</PRIJS>
+                    <DATUM>26-08-2017</DATUM>
+                    <APK-VERLOOP-DATUM>26-08-2016</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>image1.jpg</FOTO>
+                        <FOTO>image2.jpg</FOTO>
+                    </FOTOS>
+                </AUTO>
+            </AUTOS>
+        </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZONDAG>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <ONDERHOUD>Ja</ONDERHOUD>
+                <APK>Ja</APK>
+                <SCHADEHERSTEL>Ja</SCHADEHERSTEL>
+                <RUITENREPARATIE>Ja</RUITENREPARATIE>
+                <AIRCOSERVICE>Ja</AIRCOSERVICE>
+                <BANDENSERVICE>Ja</BANDENSERVICE>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <CERTIFICATEN>
+            <CERTIFICAAT>RDW Certificaat 2017</CERTIFICAAT>
+        </CERTIFICATEN>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Cornee</VOORNAAM>
+                <ACHTERNAAM>van Blerk</ACHTERNAAM>
+                <FOTO>cornee.jpg</FOTO>
+                <FUNCTIE>Professionele koffiedrinker</FUNCTIE>
+            </MEDEWERKER>
+            <MEDEWERKER>
+                <VOORNAAM>Thijs</VOORNAAM>
+                <ACHTERNAAM>Janse</ACHTERNAAM>
+                <FOTO>janse.jpg</FOTO>
+                <FUNCTIE>Professionele reperateur</FUNCTIE>
             </MEDEWERKER>
         </MEDEWERKERS>
         <FACILITEITEN></FACILITEITEN>
+    </GARAGE>
+
+    <!-- Auto Veuring -->
+    <GARAGE>
+        <NAAM>Auto Veurink</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Eskampweg</STRAAT>
+            <HUISNUMMER>9</HUISNUMMER>
+            <POSTCODE>7731 TA</POSTCODE>
+            <PLAATS>Ommen</PLAATS>
+            <PROVINCIE>Overijssel</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0529 456 080</TELEFOONNUMMER>
+        <EMAIL>info@autoveurink.nl</EMAIL>
+        <VERKOOP>
+            <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZONDAG>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <DIENSTEN>
+                <VERHUUR>Ja</VERHUUR>
+                <LENEN>Nee</LENEN>
+            </DIENSTEN>
+            <AUTOS>
+                <AUTO kenteken="26-KDZ-5">
+                    <NIEUW>Ja</NIEUW>
+                    <MERK>Fiat</MERK>
+                    <TYPE>Off-Road</TYPE>
+                    <BOUWJAAR>2012</BOUWJAAR>
+                    <BRANDSTOF>Diesel</BRANDSTOF>
+                    <PRIJS>12500</PRIJS>
+                    <DATUM>26-08-2018</DATUM>
+                    <APK-VERLOOP-DATUM>26-08-2019</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>fiat1.jpg</FOTO>
+                        <FOTO>fiatzijkant.jpg</FOTO>
+                        <FOTO>fiatvoorkant.jpg</FOTO>
+                    </FOTOS>
+                </AUTO>
+            </AUTOS>
+        </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZONDAG>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <ONDERHOUD>Ja</ONDERHOUD>
+                <APK>Ja</APK>
+                <SCHADEHERSTEL>Ja</SCHADEHERSTEL>
+                <RUITENREPARATIE>Ja</RUITENREPARATIE>
+                <AIRCOSERVICE>Ja</AIRCOSERVICE>
+                <BANDENSERVICE>Ja</BANDENSERVICE>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <CERTIFICATEN>
+            <CERTIFICAAT>RDW Certificaat</CERTIFICAAT>
+            <CERTIFICAAT>Veilige werkplek 2017</CERTIFICAAT>
+        </CERTIFICATEN>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Jan</VOORNAAM>
+                <ACHTERNAAM>Veurink</ACHTERNAAM>
+                <FOTO>jan.jpg</FOTO>
+                <FUNCTIE>Hoofdmonteur</FUNCTIE>
+            </MEDEWERKER>
+        </MEDEWERKERS>
+        <FACILITEITEN>
+            <WINKEL>
+                <VERKOOPWAAR>
+                    <ITEMS>
+                        <ITEM>
+                            <NAAM>Bandenspray</NAAM>
+                            <OMSCHRIJVING>Spray om je banden te harden.</OMSCHRIJVING>
+                            <PRIJS>6</PRIJS>
+                            <VOORRAAD>12</VOORRAAD>
+                        </ITEM>
+                        <ITEM>
+                            <NAAM>Ventieldopjes</NAAM>
+                            <OMSCHRIJVING>Dopje om het ventiel mee af te sluiten.</OMSCHRIJVING>
+                            <PRIJS>0.25</PRIJS>
+                            <VOORRAAD>300</VOORRAAD>
+                        </ITEM>
+                    </ITEMS>
+                </VERKOOPWAAR>
+                <OPENINGSTIJDEN>
+                    <ZONDAG>
+                        <OPENING>Gesloten</OPENING>
+                        <SLUITING>Gesloten</SLUITING>
+                    </ZONDAG>
+                    <MAANDAG>
+                        <OPENING>08:00</OPENING>
+                        <SLUITING>17:00</SLUITING>
+                    </MAANDAG>
+                    <DINSDAG>
+                        <OPENING>08:00</OPENING>
+                        <SLUITING>17:00</SLUITING>
+                    </DINSDAG>
+                    <WOENSDAG>
+                        <OPENING>08:00</OPENING>
+                        <SLUITING>17:00</SLUITING>
+                    </WOENSDAG>
+                    <DONDERDAG>
+                        <OPENING>08:00</OPENING>
+                        <SLUITING>17:00</SLUITING>
+                    </DONDERDAG>
+                    <VRIJDAG>
+                        <OPENING>08:00</OPENING>
+                        <SLUITING>17:00</SLUITING>
+                    </VRIJDAG>
+                    <ZATERDAG>
+                        <OPENING>Gesloten</OPENING>
+                        <SLUITING>Gesloten</SLUITING>
+                    </ZATERDAG>
+                </OPENINGSTIJDEN>
+            </WINKEL>
+        </FACILITEITEN>
+    </GARAGE>
+
+    <!-- Garage van Leussen -->
+    <GARAGE>
+        <NAAM>Garage van Leussen</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Brink</STRAAT>
+            <HUISNUMMER>2</HUISNUMMER>
+            <POSTCODE>7731 TG</POSTCODE>
+            <PLAATS>Ommen</PLAATS>
+            <PROVINCIE>Overijssel</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0529 451 261</TELEFOONNUMMER>
+        <EMAIL>info@autobedrijfvanleussen.nl</EMAIL>
+        <VERKOOP>
+            <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZONDAG>
+                <MAANDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <DIENSTEN>
+                <VERHUUR>Ja</VERHUUR>
+                <LENEN>Ja</LENEN>
+            </DIENSTEN>
+            <AUTOS>
+                <AUTO kenteken="56-ZZ-12">
+                    <NIEUW>Ja</NIEUW>
+                    <MERK>Volkswagen</MERK>
+                    <TYPE>Race</TYPE>
+                    <BOUWJAAR>2012</BOUWJAAR>
+                    <BRANDSTOF>Gas</BRANDSTOF>
+                    <PRIJS>25000</PRIJS>
+                    <DATUM>26-08-2018</DATUM>
+                    <APK-VERLOOP-DATUM>13-03-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>volks.jpg</FOTO>
+                    </FOTOS>
+                </AUTO>
+            </AUTOS>
+        </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZONDAG>
+                <MAANDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <ONDERHOUD>Ja</ONDERHOUD>
+                <APK>Ja</APK>
+                <SCHADEHERSTEL>Ja</SCHADEHERSTEL>
+                <RUITENREPARATIE>Ja</RUITENREPARATIE>
+                <AIRCOSERVICE>Ja</AIRCOSERVICE>
+                <BANDENSERVICE>Ja</BANDENSERVICE>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <CERTIFICATEN>
+            <CERTIFICAAT>Veilige werkplaats 2017</CERTIFICAAT>
+        </CERTIFICATEN>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Jan Pieter</VOORNAAM>
+                <ACHTERNAAM>Breken</ACHTERNAAM>
+                <FOTO>janpieter.jpg</FOTO>
+                <FUNCTIE>Hoofdmonteur</FUNCTIE>
+            </MEDEWERKER>
+        </MEDEWERKERS>
+        <FACILITEITEN></FACILITEITEN>
+    </GARAGE>
+
+    <!-- Oostendorp BV -->
+    <GARAGE>
+        <NAAM>Oostendorp BV</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Balkerweg</STRAAT>
+            <HUISNUMMER>10</HUISNUMMER>
+            <POSTCODE>7731 RZ</POSTCODE>
+            <PLAATS>Ommen</PLAATS>
+            <PROVINCIE>Overijssel</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0529 453 659</TELEFOONNUMMER>
+        <EMAIL>info@oostendorp.nl</EMAIL>
+        <VERKOOP>
+            <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZONDAG>
+                <MAANDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>16:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <DIENSTEN>
+                <VERHUUR>Ja</VERHUUR>
+                <LENEN>Ja</LENEN>
+            </DIENSTEN>
+            <AUTOS>
+                <AUTO kenteken="56-ZZ-12">
+                    <NIEUW>Ja</NIEUW>
+                    <MERK>Volkswagen</MERK>
+                    <TYPE>Race</TYPE>
+                    <BOUWJAAR>2012</BOUWJAAR>
+                    <BRANDSTOF>Gas</BRANDSTOF>
+                    <PRIJS>25000</PRIJS>
+                    <DATUM>26-08-2018</DATUM>
+                    <APK-VERLOOP-DATUM>13-03-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>volks.jpg</FOTO>
+                    </FOTOS>
+                </AUTO>
+            </AUTOS>
+        </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>Gesloten</OPENING>
+                    <SLUITING>Gesloten</SLUITING>
+                </ZONDAG>
+                <MAANDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <ONDERHOUD>Ja</ONDERHOUD>
+                <APK>Ja</APK>
+                <SCHADEHERSTEL>Ja</SCHADEHERSTEL>
+                <RUITENREPARATIE>Ja</RUITENREPARATIE>
+                <AIRCOSERVICE>Ja</AIRCOSERVICE>
+                <BANDENSERVICE>Ja</BANDENSERVICE>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <CERTIFICATEN>
+            <CERTIFICAAT>Veilige werkplaats 2017</CERTIFICAAT>
+            <CERTIFICAAT>RDW Gecertificeerd 2017</CERTIFICAAT>
+            <CERTIFICAAT>Beste garage van Ommen 2015</CERTIFICAAT>
+        </CERTIFICATEN>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Jan Pieter</VOORNAAM>
+                <ACHTERNAAM>Breken</ACHTERNAAM>
+                <FOTO>janpieter.jpg</FOTO>
+                <FUNCTIE>Hoofdmonteur</FUNCTIE>
+            </MEDEWERKER>
+        </MEDEWERKERS>
+        <FACILITEITEN>
+            <WASSEN>
+                <WASSTRATEN>
+                    <WASSTRAAT wasstraat="1">
+                        <NAAM>Wasstraat</NAAM>
+                        <PRIJS>13</PRIJS>
+                    </WASSTRAAT>
+                </WASSTRATEN>
+            </WASSEN>
+        </FACILITEITEN>
     </GARAGE>
 </GARAGES>
