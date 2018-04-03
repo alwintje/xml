@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GARAGES" type="GARAGESType"/>
+  <xs:complexType name="GARAGEType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="NAAM"/>
+      <xs:element type="ADRESGEGEVENSType" name="ADRESGEGEVENS"/>
+      <xs:element type="xs:string" name="TELEFOONNUMMER"/>
+      <xs:element type="xs:string" name="EMAIL"/>
+      <xs:element type="VERKOOPType" name="VERKOOP"/>
+      <xs:element type="WERKPLAATSType" name="WERKPLAATS"/>
+      <xs:element type="xs:string" name="CERTIFICATEN"/>
+      <xs:element type="MEDEWERKERSType" name="MEDEWERKERS"/>
+      <xs:element type="xs:string" name="FACILITEITEN"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WERKPLAATSType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="OPENINGSTIJDEN"/>
+      <xs:element type="WERKZAAMHEDENType" name="WERKZAAMHEDEN"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MEDEWERKERSType">
+    <xs:sequence>
+      <xs:element type="MEDEWERKERType" name="MEDEWERKER"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AUTOSType">
+    <xs:sequence>
+      <xs:element type="AUTOType" name="AUTO"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DIENSTENType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="VERHUUR"/>
+      <xs:element type="xs:string" name="LENEN"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MEDEWERKERType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="VOORNAAM"/>
+      <xs:element type="xs:string" name="ACHTERNAAM"/>
+      <xs:element type="xs:string" name="FOTO"/>
+      <xs:element type="xs:string" name="FUNCTIE"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="WERKZAAMHEDENType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="ONDERHOUD"/>
+      <xs:element type="xs:string" name="APK"/>
+      <xs:element type="xs:string" name="SCHADEHERSTEL"/>
+      <xs:element type="xs:string" name="RUITENREPARATIE"/>
+      <xs:element type="xs:string" name="AIRCOSERVICE"/>
+      <xs:element type="xs:string" name="BANDENSERVICE"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GARAGESType">
+    <xs:sequence>
+      <xs:element type="GARAGEType" name="GARAGE"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ADRESGEGEVENSType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="STRAAT"/>
+      <xs:element type="xs:string" name="HUISNUMMER"/>
+      <xs:element type="xs:string" name="POSTCODE"/>
+      <xs:element type="xs:string" name="PLAATS"/>
+      <xs:element type="xs:string" name="PROVINCIE"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FOTOSType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="FOTO"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AUTOType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="NIEUW"/>
+      <xs:element type="xs:string" name="MERK"/>
+      <xs:element type="xs:string" name="TYPE"/>
+      <xs:element type="xs:string" name="BOUWJAAR"/>
+      <xs:element type="xs:string" name="BRANDSTOF"/>
+      <xs:element type="xs:string" name="PRIJS"/>
+      <xs:element type="xs:string" name="DATUM"/>
+      <xs:element type="xs:string" name="APK-VERLOOP-DATUM"/>
+      <xs:element type="FOTOSType" name="FOTOS"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="kenteken"/>
+  </xs:complexType>
+  <xs:complexType name="VERKOOPType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="OPENINGSTIJDEN"/>
+      <xs:element type="DIENSTENType" name="DIENSTEN"/>
+      <xs:element type="AUTOSType" name="AUTOS"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
