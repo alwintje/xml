@@ -5,34 +5,63 @@
 
 <GARAGES>
     <GARAGE>
-        <NAAM></NAAM>
+        <NAAM>Garage Westerink B.V.</NAAM>
         <ADRESGEGEVENS>
-            <STRAAT></STRAAT>
-            <HUISNUMMER></HUISNUMMER>
-            <POSTCODE></POSTCODE>
-            <PLAATS></PLAATS>
-            <PROVINCIE></PROVINCIE>
+            <STRAAT>Westeinde</STRAAT>
+            <HUISNUMMER>106</HUISNUMMER>
+            <POSTCODE>3844 DR</POSTCODE>
+            <PLAATS>Harderwijk</PLAATS>
+            <PROVINCIE>Gelderland</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER></TELEFOONNUMMER>
-        <EMAIL></EMAIL>
+        <TELEFOONNUMMER>0341 431 188</TELEFOONNUMMER>
+        <EMAIL>info@vakgaragewesterink.nl</EMAIL>
         <VERKOOP>
-            <OPENINGSTIJDEN></OPENINGSTIJDEN>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
+                    <SLUITINGSTIJDEN>18:00</SLUITINGSTIJDEN>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
+                    <SLUITINGSTIJDEN>18:00</SLUITINGSTIJDEN>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
+                    <SLUITINGSTIJDEN>18:00</SLUITINGSTIJDEN>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
+                    <SLUITINGSTIJDEN>18:00</SLUITINGSTIJDEN>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
+                    <SLUITINGSTIJDEN>18:00</SLUITINGSTIJDEN>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
+                    <SLUITINGSTIJDEN>17:00</SLUITINGSTIJDEN>
+                </ZATERDAG>
+                <ZONDAG>
+                    <OPENINGSTIJDEN>Gesloten</OPENINGSTIJDEN>
+                    <SLUITINGSTIJDEN>Gesloten</SLUITINGSTIJDEN>
+                </ZONDAG>
+            </OPENINGSTIJDEN>
             <DIENSTEN>
-                <VERHUUR></VERHUUR>
-                <LENEN></LENEN>
+                <VERHUUR>Nee</VERHUUR>
+                <LENEN>Nee</LENEN>
             </DIENSTEN>
             <AUTOS>
-                <AUTO kenteken="">
-                    <NIEUW></NIEUW>
-                    <MERK></MERK>
-                    <TYPE></TYPE>
-                    <BOUWJAAR></BOUWJAAR>
-                    <BRANDSTOF></BRANDSTOF>
-                    <PRIJS></PRIJS>
-                    <DATUM></DATUM>
-                    <APK-VERLOOP-DATUM></APK-VERLOOP-DATUM>
+                <AUTO kenteken="XX-RR22-12">
+                    <NIEUW>Ja</NIEUW>
+                    <MERK>MITSUBISHI</MERK>
+                    <TYPE>SPACE STAR COOL+</TYPE>
+                    <BOUWJAAR>2017</BOUWJAAR>
+                    <BRANDSTOF>Diesel</BRANDSTOF>
+                    <PRIJS>176</PRIJS>
+                    <DATUM>12-02-2015</DATUM>
+                    <APK-VERLOOP-DATUM>12-02-2020</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO></FOTO>
+                        <FOTO>E:\Users\jose_\Desktop\Stenden\jaar 2\periode 3\XML\Space-Star---website-900x900---V3.png</FOTO>
                     </FOTOS>
                 </AUTO>
             </AUTOS>
