@@ -51,17 +51,32 @@
                 <LENEN>Nee</LENEN>
             </DIENSTEN>
             <AUTOS>
-                <AUTO kenteken="XX-RR22-12">
-                    <NIEUW>Ja</NIEUW>
-                    <MERK>MITSUBISHI</MERK>
-                    <TYPE>SPACE STAR COOL+</TYPE>
-                    <BOUWJAAR>2017</BOUWJAAR>
-                    <BRANDSTOF>Diesel</BRANDSTOF>
-                    <PRIJS>176</PRIJS>
+                <AUTO kenteken="10-ZGL-3">
+                    <NIEUW>Nee</NIEUW>
+                    <MERK>Audi</MERK>
+                    <TYPE>A1</TYPE>
+                    <BOUWJAAR>2012</BOUWJAAR>
+                    <BRANDSTOF>Benzine</BRANDSTOF>
+                    <PRIJS>12900</PRIJS>
                     <DATUM>12-02-2015</DATUM>
-                    <APK-VERLOOP-DATUM>12-02-2020</APK-VERLOOP-DATUM>
+                    <APK-VERLOOP-DATUM>13-11-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>E:\Users\jose_\Desktop\Stenden\jaar 2\periode 3\XML\Space-Star---website-900x900---V3.png</FOTO>
+                        <FOTO>https://voorraad.vakgaragewesterink.nl/static-storage2/autodata/images/occasions-module/04/3771904_3.jpg?1536391305</FOTO>
+                    </FOTOS>
+                </AUTO>
+            </AUTOS>
+            <AUTOS>
+                <AUTO kenteken="HV-811-S">
+                    <NIEUW>Nee</NIEUW>
+                    <MERK>Citroën</MERK>
+                    <TYPE>C1</TYPE>
+                    <BOUWJAAR>2016</BOUWJAAR>
+                    <BRANDSTOF>Benzine</BRANDSTOF>
+                    <PRIJS>8900</PRIJS>
+                    <DATUM>12-02-2015</DATUM>
+                    <APK-VERLOOP-DATUM>29-01-2020</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>https://voorraad.vakgaragewesterink.nl/static-storage2/autodata/images/occasions-module/18/4060518_2.jpg?4144564229</FOTO>
                     </FOTOS>
                 </AUTO>
             </AUTOS>
