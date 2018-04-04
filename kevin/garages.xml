@@ -62,7 +62,7 @@
             <FOTO>cayenne2sPromo.jpg</FOTO>
           </FOTOS>
         </AUTO>
-        <AUTO kenteken="99-XDR-4">
+        <AUTO kenteken="99-XDR-4" >
           <NIEUW>true</NIEUW>
           <MERK>Audi</MERK>
           <TYPE>A3</TYPE>
@@ -76,6 +76,7 @@
             <FOTO>A3side.jpg</FOTO>
             <FOTO>A3inside.jpg</FOTO>
           </FOTOS>
+        </AUTO>
       </AUTOS>
     </VERKOOP>
     <WERKPLAATS>
@@ -122,6 +123,7 @@
       <MEDEWERKER>
         <VOORNAAM>Henry</VOORNAAM>
         <ACHTERNAAM>Ottersma</ACHTERNAAM>
+        <FOTO>henry.jpg</FOTO>
         <FUNCTIE>Bandenvervanger</FUNCTIE>
       </MEDEWERKER>
       <MEDEWERKER>
@@ -141,28 +143,26 @@
       <POMPEN>
         <POMP nummer="1">
           <BRANDSTOFFEN>
-            <BRANDSTOF>
-              <NAAM>Diesel</NAAM>
-              <PRIJS>1.31</PRIJS>
-            </BRANDSTOF>
-            <BRANDSTOF>
-              <NAAM>Benzine</NAAM>
-              <PRIJS>1.51</PRIJS>
-            </BRANDSTOF>
+            <BRANDSTOF>Diesel</BRANDSTOF>
+            <BRANDSTOF>Benzine</BRANDSTOF>
           </BRANDSTOFFEN>
         </POMP>
         <POMP nummer="2">
           <BRANDSTOFFEN>
-            <BRANDSTOF>
-              <NAAM>Diesel</NAAM>
-              <PRIJS>1.31</PRIJS>
-            </BRANDSTOF>
-            <BRANDSTOF>
-              <NAAM>Benzine</NAAM>
-              <PRIJS>1.51</PRIJS>
-            </BRANDSTOF>
+            <BRANDSTOF>Diesel</BRANDSTOF>
+            <BRANDSTOF>Benzine</BRANDSTOF>
           </BRANDSTOFFEN>
         </POMP>
+        <BRANDSTOF-PRIJZEN>
+          <BRANDSTOF-PRIJS>
+            <BRANDSTOF>Diesel</BRANDSTOF>
+            <PRIJS>1,31</PRIJS>
+          </BRANDSTOF-PRIJS>
+          <BRANDSTOF-PRIJS>
+            <BRANDSTOF>Benzine</BRANDSTOF>
+            <PRIJS>1,51</PRIJS>
+          </BRANDSTOF-PRIJS>
+        </BRANDSTOF-PRIJZEN>
       </POMPEN>
     </FACILITEITEN>
   </GARAGE>
