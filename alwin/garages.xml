@@ -52,15 +52,17 @@
                 <LENEN/>
             </DIENSTEN>
             <OCCASIONS>
-                <AUTO kenteken="64TTRF">
-                    <MERK>Mini</MERK>
+                <AUTO kenteken="64TTRF" merk="Mini">
                     <MODEL> 1.6 Cooper Chili</MODEL>
                     <BOUWJAAR>2007</BOUWJAAR>
-                    <BRANDSTOF>Benzine</BRANDSTOF>
+                    <BRANDSTOF naam="Euro_95" />
                     <PRIJS>6750,00</PRIJS>
                     <APK-VERLOOP-DATUM>13-04-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>https://api.mobilox.nl/media/cache/default_set/rc/DcirdPPt/ob_uploads/2017/10/0f08aa27aed420a1e8e3b01fde5f9e940d7f3b47.jpg</FOTO>
+                        <FOTO>
+                            <URL>0f08aa27aed420a1e8e3b01fde5f9e940d7f3b47.jpg</URL>
+                            <ALT>Auto</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
@@ -107,22 +109,26 @@
                 <BANDENSERVICE/>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
-        <CERTIFICATEN></CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Henk</VOORNAAM>
                 <ACHTERNAAM>Boertien</ACHTERNAAM>
-                <FOTO>http://henkboertien.autocrew.nl/sites/default/files/styles/default_detail/public/dealer_page/DSCN1500%5B1%5D.JPG?itok=vdxOOzdO</FOTO>
-                <FUNCTIE>Eigenaar</FUNCTIE>
+                <FOTO>
+                    <URL>DSCN1500[1].JPG</URL>
+                    <ALT>Henk Boertien</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Arne</VOORNAAM>
                 <ACHTERNAAM>Boertien</ACHTERNAAM>
-                <FOTO>http://henkboertien.autocrew.nl/sites/default/files/styles/default_detail/public/dealer_page/DSCN1500%5B1%5D.JPG?itok=vdxOOzdO</FOTO>
-                <FUNCTIE>Eigenaar</FUNCTIE>
+                <FOTO>
+                    <URL>DSCN1500[1].JPG</URL>
+                    <ALT>Arne Boertien</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
         </MEDEWERKERS>
-        <FACILITEITEN></FACILITEITEN>
     </GARAGE>
     <GARAGE>
         <NAAM>De Jong</NAAM>
@@ -166,23 +172,37 @@
                 <LENEN/>
             </DIENSTEN>
             <OCCASIONS>
-                <AUTO kenteken="NP-40-1N">
-                    <MERK>Audi</MERK>
+                <AUTO kenteken="NP-40-1N" merk="Audi">
                     <MODEL>A5 2.0</MODEL>
                     <BOUWJAAR>2010</BOUWJAAR>
-                    <BRANDSTOF>Benzine</BRANDSTOF>
+                    <BRANDSTOF naam="Euro_95" />
                     <PRIJS>27950,00</PRIJS>
                     <APK-VERLOOP-DATUM>02-04-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>https://www.dejong-ruinen.nl/wp-content/uploads/2017/11/15394489-1.jpg</FOTO>
-                        <FOTO>https://www.dejong-ruinen.nl/wp-content/uploads/2017/11/15394489-2.jpg</FOTO>
-                        <FOTO>https://www.dejong-ruinen.nl/wp-content/uploads/2017/11/15394489-3.jpg</FOTO>
-                        <FOTO>https://www.dejong-ruinen.nl/wp-content/uploads/2017/11/15394489-4.jpg</FOTO>
-                        <FOTO>https://www.dejong-ruinen.nl/wp-content/uploads/2017/11/15394489-5.jpg</FOTO>
-                        <FOTO>https://www.dejong-ruinen.nl/wp-content/uploads/2017/11/15394489-6.jpg</FOTO>
-                        <FOTO>https://www.dejong-ruinen.nl/wp-content/uploads/2017/11/15394489-7.jpg</FOTO>
-                        <FOTO>https://www.dejong-ruinen.nl/wp-content/uploads/2017/11/15394489-8.jpg</FOTO>
-                        <FOTO>https://www.dejong-ruinen.nl/wp-content/uploads/2017/11/15394489-9.jpg</FOTO>
+                        <FOTO>
+                            <URL>15394489-1.jpg</URL>
+                            <ALT>Audi 1</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>15394489-2.jpg</URL>
+                            <ALT>Audi 2</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>15394489-3.jpg</URL>
+                            <ALT>Audi 3</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>15394489-4.jpg</URL>
+                            <ALT>Audi 4</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>15394489-5.jpg</URL>
+                            <ALT>Audi 5</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>15394489-6.jpg</URL>
+                            <ALT>Audi 6</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
@@ -227,21 +247,26 @@
             <MEDEWERKER>
                 <VOORNAAM>Jesse</VOORNAAM>
                 <ACHTERNAAM>de Jong</ACHTERNAAM>
-                <FOTO>https://www.dejong-ruinen.nl/wp-content/uploads/2015/05/jessep-290x435.jpg</FOTO>
-                <FUNCTIE>Eigenaar</FUNCTIE>
+                <FOTO>
+                    <URL>jessep-290x435.jpg</URL>
+                    <ALT>Jesse</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Eddy</VOORNAAM>
                 <ACHTERNAAM>de Jong</ACHTERNAAM>
-                <FOTO>https://www.dejong-ruinen.nl/wp-content/uploads/2015/05/Eddy-290x435.jpg</FOTO>
-                <FUNCTIE>Eigenaar</FUNCTIE>
+                <FOTO>
+                    <URL>Eddy-290x435.jpg</URL>
+                    <ALT>Eddie</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
         </MEDEWERKERS>
         <FACILITEITEN>
             <WASSEN>
                 <WASSTRATEN>
                     <WASSTRAAT nummer="1">
-                        <NAAM>Wasstraat 1</NAAM>
                         <PRIJS>5,00</PRIJS>
                     </WASSTRAAT>
                 </WASSTRATEN>
@@ -287,15 +312,17 @@
                 <LENEN/>
             </DIENSTEN>
             <OCCASIONS>
-                <AUTO kenteken="5VRR30">
-                    <MERK>Renault </MERK>
+                <AUTO kenteken="5VRR30" merk="Renault">
                     <MODEL>Kangoo Express</MODEL>
                     <BOUWJAAR>2011</BOUWJAAR>
-                    <BRANDSTOF>Diesel</BRANDSTOF>
+                    <BRANDSTOF naam="Diesel" />
                     <PRIJS>4250,00</PRIJS>
                     <APK-VERLOOP-DATUM>26-10-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>https://api.mobilox.nl/media/cache/default_set/rc/HeilrAmG/ob_uploads/2018/01/ce726a97401977b38a2d099ce9e9730c6c4b1590.JPG</FOTO>
+                        <FOTO>
+                            <URL>ce726a97401977b38a2d099ce9e9730c6c4b1590.JPG</URL>
+                            <ALT>Renault Kangoo Express</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
@@ -336,8 +363,11 @@
             <MEDEWERKER>
                 <VOORNAAM>Gerrit</VOORNAAM>
                 <ACHTERNAAM>Soepart</ACHTERNAAM>
-                <FOTO>http://degarage.autocrew.nl/sites/default/files/styles/default_detail/public/dealer_page/degarage-autocrew-autobedrijf-meppel-apk-onderhoud-auto_0.jpg?itok=jRQ-xhzy</FOTO>
-                <FUNCTIE>Eigenaar</FUNCTIE>
+                <FOTO>
+                    <URL>degarage-autocrew-autobedrijf-meppel-apk-onderhoud-auto_0.jpg</URL>
+                    <ALT>De garage meppel</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
         </MEDEWERKERS>
     </GARAGE>
@@ -382,15 +412,17 @@
                 <VERHUUR/>
             </DIENSTEN>
             <OCCASIONS>
-                <AUTO kenteken="22klz1">
-                    <MERK>Citroën </MERK>
+                <AUTO kenteken="22klz1" merk="Citroen">
                     <MODEL>C1</MODEL>
                     <BOUWJAAR>2016</BOUWJAAR>
-                    <BRANDSTOF>Benzine</BRANDSTOF>
+                    <BRANDSTOF naam="Euro_95" />
                     <PRIJS>8000,00</PRIJS>
                     <APK-VERLOOP-DATUM>09-01-2019</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>https://connect.autosociaal.nl/download/public/AutoSociaalModule/Images/0286966001488530998.JPG</FOTO>
+                        <FOTO>
+                            <URL>0286966001488530998.JPG</URL>
+                            <ALT>Citroen C1</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
@@ -434,8 +466,11 @@
             <MEDEWERKER>
                 <VOORNAAM>Emiel</VOORNAAM>
                 <ACHTERNAAM>Stolk</ACHTERNAAM>
-                <FOTO>https://connect.autosociaal.nl/download/public/AutoSociaalModule/Images/0804613001486398250.jpg</FOTO>
-                <FUNCTIE>Eigenaar</FUNCTIE>
+                <FOTO>
+                    <URL>0804613001486398250.jpg</URL>
+                    <ALT>Emiel Stolk</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
         </MEDEWERKERS>
     </GARAGE>
@@ -481,28 +516,38 @@
                 <LENEN />
             </DIENSTEN>
             <OCCASIONS>
-                <AUTO kenteken="05-RX-DT">
-                    <MERK>Audi</MERK>
+                <AUTO kenteken="05-RX-DT" merk="Audi">
                     <MODEL>A3</MODEL>
                     <BOUWJAAR>2005</BOUWJAAR>
-                    <BRANDSTOF>Benzine</BRANDSTOF>
+                    <BRANDSTOF naam="Euro_95" />
                     <PRIJS>4950,-</PRIJS>
                     <APK-VERLOOP-DATUM>19-04-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>http://www.jawadcars.nl/static-storage1/autodata/images/occasions-module/17/3986217_1.jpg?1872504220#voorraad</FOTO>
-                        <FOTO>http://www.jawadcars.nl/static-storage1/autodata/images/occasions-module/17/3986217_3.jpg?4200715036#voorraad</FOTO>
-                        <FOTO>http://www.jawadcars.nl/static-storage1/autodata/images/occasions-module/17/3986217_7.jpg?183187549#voorraad</FOTO>
+                        <FOTO>
+                            <URL>3986217_1.jpg</URL>
+                            <ALT>Audi 1</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>3986217_3.jpg</URL>
+                            <ALT>Audi 2</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>3986217_7.jpg</URL>
+                            <ALT>Audi 3</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
-                <AUTO kenteken="90-XK-LR">
-                    <MERK>BMW</MERK>
+                <AUTO kenteken="90-XK-LR" merk="BMW">
                     <MODEL>1 serie</MODEL>
                     <BOUWJAAR>2007</BOUWJAAR>
-                    <BRANDSTOF>Benzine</BRANDSTOF>
+                    <BRANDSTOF naam="Euro_95"/>
                     <PRIJS>6650,-</PRIJS>
                     <APK-VERLOOP-DATUM>19-02-2019</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>http://www.jawadcars.nl/static-storage1/autodata/images/occasions-module/85/4275085_2.jpg?1155367725#voorraad</FOTO>
+                        <FOTO>
+                            <URL>4275085_2.jpg</URL>
+                            <ALT>BMW 1 serie</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
@@ -547,8 +592,11 @@
             <MEDEWERKER>
                 <VOORNAAM>John</VOORNAAM>
                 <ACHTERNAAM>Jawad</ACHTERNAAM>
-                <FOTO>http://assen.autocrew.nl/sites/default/files/styles/action_block_homepage/public/autocrew_actions_block/8181%20Image%20content%20page%20724x260%20filter%20NL.jpg?itok=fnamFTWz</FOTO>
-                <FUNCTIE>Eigenaar</FUNCTIE>
+                <FOTO>
+                    <URL>8181 Image content page 724x260 filter NL.jpg</URL>
+                    <ALT>John Jawad</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
         </MEDEWERKERS>
     </GARAGE>

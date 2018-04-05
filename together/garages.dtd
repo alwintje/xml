@@ -41,13 +41,16 @@
 <!ELEMENT AUTOS (AUTO+)>
 <!ELEMENT NIEUWE-AUTOS (AUTO+)>
 <!ELEMENT OCCASIONS (AUTO+)
-<!ELEMENT AUTO (MERK, MODEL, BOUWJAAR, BRANDSTOF, PRIJS, APK-VERLOOP-DATUM, FOTOS)>
+<!ELEMENT AUTO (MODEL, BOUWJAAR, BRANDSTOF, PRIJS, APK-VERLOOP-DATUM, FOTOS)>
 <!ATTLIST AUTO kenteken CDATA>
-<!ELEMENT MERK (#PCDATA)>
+<!--<!ELEMENT MERK (#PCDATA)>-->
+<!ATTLIST AUTO merk (Alfa_Romeo AMC Asia Aston_Martin Audi Austin Autobianchi Bedford Bentley Bitter BMW Brilliance Bugatti Buick Cadillac Chevrolet Chrysler Citroen Dacia Daewoo DAF Daihatsu Diversen Dodge Ferrari Fiat Fisker Ford Ford_Usa FSO GMC Honda Hummer Hyundai Infiniti Innocenti Isuzu Iveco Jaguar Jeep Kia Lada Lamborghini Lancia Landrover Landwind LDV Lexus Leyland Lotus MAN Maserati Maybach Mazda Mercedes MG Mini Mitsubishi Morris Nissan NSU Oldsmobile Opel Peugeot PGO Piaggio Plymouth Pontiac Porsche Proton Reliant Renault Rolls_Royce Rover Saab Seat Skoda Smart Ssang Yong Subaru Sunbeam Suzuki Talbot Tata Tesla Toyota Trabant Triumph TVR Vauxhall Volkswagen Volvo Xedos Yue Loong Zastava) #REQUIRED>
 <!-- Selecteer merk, Alfa Romeo, AMC, Asia, Aston Martin, Audi, Austin, Autobianchi, Bedford, Bentley, Bitter, BMW, Brilliance, Bugatti, Buick, Cadillac, Chevrolet, Chrysler, Citroen, Dacia, Daewoo, DAF, Daihatsu, Diversen, Dodge, Ferrari, Fiat, Fisker, Ford, Ford Usa, FSO, GMC, Honda, Hummer, Hyundai, Infiniti, Innocenti, Isuzu, Iveco, Jaguar, Jeep, Kia, Lada, Lamborghini, Lancia, Landrover, Landwind, LDV, Lexus, Leyland, Lotus, MAN, Maserati, Maybach, Mazda, Mercedes, MG, Mini, Mitsubishi, Morris, Nissan, NSU, Oldsmobile, Opel, Peugeot, PGO, Piaggio, Plymouth, Pontiac, Porsche, Proton, Reliant, Renault, Rolls Royce, Rover, Saab, Seat, Skoda, Smart, Ssang Yong, Subaru, Sunbeam, Suzuki, Talbot, Tata, Tesla, Toyota, Trabant, Triumph, TVR, Vauxhall, Volkswagen, Volvo, Xedos, Yue Loong, Zastava -->
 <!ELEMENT MODEL (#PCDATA)>
 <!ELEMENT BOUWJAAR (#PCDATA)>
-<!ELEMENT BRANDSTOF (#PCDATA)>
+<!ELEMENT BRANDSTOF EMPTY>
+<!ATTLIST BRANDSTOF naam (Euro_95 LPG Diesel CNG Super_Plus Super_MLV Premium_Benzine Premium Diesel) #REQUIRED>
+
 <!ELEMENT PRIJS (#PCDATA)>
 <!ELEMENT APK-VERLOOP-DATUM (#PCDATA)>
 <!ELEMENT FOTOS (FOTO+)>
@@ -76,7 +79,9 @@
 <!ELEMENT TUSSENVOEGSEL (#PCDATA)>
 <!ELEMENT ACHTERNAAM (#PCDATA)>
 <!-- FOTO IS AL GEDEFINEERD -->
-<!ELEMENT FUNCTIE (#PCDATA)>
+<!ELEMENT FUNCTIE EMPTY>
+<!ATTLIST FUNCTIE naam (Eigenaar Medewerker Monteur Verkoper Telefonist) #REQUIRED >
+
 
 <!ELEMENT FACILITEITEN (POMPEN?, WASSEN?, WINKEL?)>
 
