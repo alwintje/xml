@@ -54,7 +54,7 @@
                 <AUTO kenteken="10-ZGL-3">
                     <NIEUW>Nee</NIEUW>
                     <MERK>Audi</MERK>
-                    <TYPE>A1</TYPE>
+                    <MODEL>A1</MODEL>
                     <BOUWJAAR>2012</BOUWJAAR>
                     <BRANDSTOF>Benzine</BRANDSTOF>
                     <PRIJS>12900</PRIJS>
@@ -69,7 +69,7 @@
                 <AUTO kenteken="HV-811-S">
                     <NIEUW>Nee</NIEUW>
                     <MERK>Citroën</MERK>
-                    <TYPE>C1</TYPE>
+                    <MODEL>C1</MODEL>
                     <BOUWJAAR>2016</BOUWJAAR>
                     <BRANDSTOF>Benzine</BRANDSTOF>
                     <PRIJS>8900</PRIJS>

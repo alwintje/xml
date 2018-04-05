@@ -55,7 +55,7 @@
                 <AUTO kenteken="35-KZ-DL">
                     <NIEUW>Ja</NIEUW>
                     <MERK>Fiat</MERK>
-                    <TYPE>Occasion</TYPE>
+                    <MODEL>Occasion</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
                     <BRANDSTOF>Diesel</BRANDSTOF>
                     <PRIJS>6000</PRIJS>
@@ -69,7 +69,7 @@
                 <AUTO kenteken="52-DK-DZ">
                     <NIEUW>Nee</NIEUW>
                     <MERK>Opel</MERK>
-                    <TYPE>Occasion</TYPE>
+                    <MODEL>Occasion</MODEL>
                     <BOUWJAAR>2001</BOUWJAAR>
                     <BRANDSTOF>Diesel</BRANDSTOF>
                     <PRIJS>2450</PRIJS>
@@ -142,11 +142,11 @@
         <FACILITEITEN>
             <WASSEN>
                 <WASSTRATEN>
-                    <WASSTRAAT wasstraat="2">
+                    <WASSTRAAT nummer="2">
                         <NAAM>Waasstraat 1</NAAM>
                         <PRIJS>5</PRIJS>
                     </WASSTRAAT>
-                    <WASSTRAAT wasstraat="2">
+                    <WASSTRAAT nummer="2">
                         <NAAM>Waasstraat 2</NAAM>
                         <PRIJS>8</PRIJS>
                     </WASSTRAAT>
@@ -213,7 +213,7 @@
                 <AUTO kenteken="35-KZ-DL">
                     <NIEUW>Ja</NIEUW>
                     <MERK>Fiat</MERK>
-                    <TYPE>Occasion</TYPE>
+                    <MODEL>Occasion</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
                     <BRANDSTOF>Diesel</BRANDSTOF>
                     <PRIJS>6000</PRIJS>
@@ -227,7 +227,7 @@
                 <AUTO kenteken="52-DK-DZ">
                     <NIEUW>Nee</NIEUW>
                     <MERK>Opel</MERK>
-                    <TYPE>Occasion</TYPE>
+                    <MODEL>Occasion</MODEL>
                     <BOUWJAAR>2001</BOUWJAAR>
                     <BRANDSTOF>Diesel</BRANDSTOF>
                     <PRIJS>2450</PRIJS>
@@ -351,7 +351,7 @@
                 <AUTO kenteken="26-KDZ-5">
                     <NIEUW>Ja</NIEUW>
                     <MERK>Fiat</MERK>
-                    <TYPE>Off-Road</TYPE>
+                    <MODEL>Off-Road</MODEL>
                     <BOUWJAAR>2012</BOUWJAAR>
                     <BRANDSTOF>Diesel</BRANDSTOF>
                     <PRIJS>12500</PRIJS>
@@ -520,7 +520,7 @@
                 <AUTO kenteken="56-ZZ-12">
                     <NIEUW>Ja</NIEUW>
                     <MERK>Volkswagen</MERK>
-                    <TYPE>Race</TYPE>
+                    <MODEL>Race</MODEL>
                     <BOUWJAAR>2012</BOUWJAAR>
                     <BRANDSTOF>Gas</BRANDSTOF>
                     <PRIJS>25000</PRIJS>
@@ -637,7 +637,7 @@
                 <AUTO kenteken="56-ZZ-12">
                     <NIEUW>Ja</NIEUW>
                     <MERK>Volkswagen</MERK>
-                    <TYPE>Race</TYPE>
+                    <MODEL>Race</MODEL>
                     <BOUWJAAR>2012</BOUWJAAR>
                     <BRANDSTOF>Gas</BRANDSTOF>
                     <PRIJS>25000</PRIJS>
@@ -705,7 +705,7 @@
         <FACILITEITEN>
             <WASSEN>
                 <WASSTRATEN>
-                    <WASSTRAAT wasstraat="1">
+                    <WASSTRAAT nummer="1">
                         <NAAM>Wasstraat</NAAM>
                         <PRIJS>13</PRIJS>
                     </WASSTRAAT>

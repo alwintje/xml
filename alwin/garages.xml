@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet  href="garages.xsl" type="text/xsl" ?>
+<?xml-stylesheet  href="..\together\garages.xsl" type="text/xsl" ?>
 
 <!DOCTYPE GARAGES SYSTEM "..\together\garages.dtd">
 
@@ -49,24 +49,21 @@
                 </VRIJDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
-                <VERHUUR>false</VERHUUR>
-                <LENEN>true</LENEN>
+                <LENEN/>
             </DIENSTEN>
-            <AUTOS>
+            <OCCASIONS>
                 <AUTO kenteken="64TTRF">
-                    <NIEUW>false</NIEUW>
                     <MERK>Mini</MERK>
-                    <TYPE> 1.6 Cooper Chili</TYPE>
+                    <MODEL> 1.6 Cooper Chili</MODEL>
                     <BOUWJAAR>2007</BOUWJAAR>
                     <BRANDSTOF>Benzine</BRANDSTOF>
                     <PRIJS>6750,00</PRIJS>
-                    <DATUM>02-04-2018</DATUM>
                     <APK-VERLOOP-DATUM>13-04-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>https://api.mobilox.nl/media/cache/default_set/rc/DcirdPPt/ob_uploads/2017/10/0f08aa27aed420a1e8e3b01fde5f9e940d7f3b47.jpg</FOTO>
                     </FOTOS>
                 </AUTO>
-            </AUTOS>
+            </OCCASIONS>
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -102,12 +99,12 @@
                 </VRIJDAG>
             </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
-                <ONDERHOUD>true</ONDERHOUD>
-                <APK>true</APK>
-                <SCHADEHERSTEL>true</SCHADEHERSTEL>
-                <RUITENREPARATIE>true</RUITENREPARATIE>
-                <AIRCOSERVICE>true</AIRCOSERVICE>
-                <BANDENSERVICE>true</BANDENSERVICE>
+                <ONDERHOUD/>
+                <APK/>
+                <SCHADEHERSTEL/>
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
         <CERTIFICATEN></CERTIFICATEN>
@@ -166,18 +163,15 @@
                 </ZATERDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
-                <VERHUUR>false</VERHUUR>
-                <LENEN>true</LENEN>
+                <LENEN/>
             </DIENSTEN>
-            <AUTOS>
+            <OCCASIONS>
                 <AUTO kenteken="NP-40-1N">
-                    <NIEUW>false</NIEUW>
                     <MERK>Audi</MERK>
-                    <TYPE>A5 2.0</TYPE>
+                    <MODEL>A5 2.0</MODEL>
                     <BOUWJAAR>2010</BOUWJAAR>
                     <BRANDSTOF>Benzine</BRANDSTOF>
                     <PRIJS>27950,00</PRIJS>
-                    <DATUM>02-04-2018</DATUM>
                     <APK-VERLOOP-DATUM>02-04-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>https://www.dejong-ruinen.nl/wp-content/uploads/2017/11/15394489-1.jpg</FOTO>
@@ -191,7 +185,7 @@
                         <FOTO>https://www.dejong-ruinen.nl/wp-content/uploads/2017/11/15394489-9.jpg</FOTO>
                     </FOTOS>
                 </AUTO>
-            </AUTOS>
+            </OCCASIONS>
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -221,15 +215,14 @@
                 </ZATERDAG>
             </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
-                <ONDERHOUD>true</ONDERHOUD>
-                <APK>true</APK>
-                <SCHADEHERSTEL>true</SCHADEHERSTEL>
-                <RUITENREPARATIE>true</RUITENREPARATIE>
-                <AIRCOSERVICE>true</AIRCOSERVICE>
-                <BANDENSERVICE>true</BANDENSERVICE>
+                <ONDERHOUD/>
+                <APK/>
+                <SCHADEHERSTEL/>
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
-        <CERTIFICATEN></CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Jesse</VOORNAAM>
@@ -247,7 +240,7 @@
         <FACILITEITEN>
             <WASSEN>
                 <WASSTRATEN>
-                    <WASSTRAAT wasstraat="1">
+                    <WASSTRAAT nummer="1">
                         <NAAM>Wasstraat 1</NAAM>
                         <PRIJS>5,00</PRIJS>
                     </WASSTRAAT>
@@ -290,24 +283,22 @@
                 </VRIJDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
-                <VERHUUR>true</VERHUUR>
-                <LENEN>true</LENEN>
+                <VERHUUR/>
+                <LENEN/>
             </DIENSTEN>
-            <AUTOS>
+            <OCCASIONS>
                 <AUTO kenteken="5VRR30">
-                    <NIEUW>false</NIEUW>
                     <MERK>Renault </MERK>
-                    <TYPE>Kangoo Express</TYPE>
+                    <MODEL>Kangoo Express</MODEL>
                     <BOUWJAAR>2011</BOUWJAAR>
                     <BRANDSTOF>Diesel</BRANDSTOF>
                     <PRIJS>4250,00</PRIJS>
-                    <DATUM>02-04-2018</DATUM>
                     <APK-VERLOOP-DATUM>26-10-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>https://api.mobilox.nl/media/cache/default_set/rc/HeilrAmG/ob_uploads/2018/01/ce726a97401977b38a2d099ce9e9730c6c4b1590.JPG</FOTO>
                     </FOTOS>
                 </AUTO>
-            </AUTOS>
+            </OCCASIONS>
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -333,15 +324,14 @@
                 </VRIJDAG>
             </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
-                <ONDERHOUD>true</ONDERHOUD>
-                <APK>true</APK>
-                <SCHADEHERSTEL>true</SCHADEHERSTEL>
-                <RUITENREPARATIE>true</RUITENREPARATIE>
-                <AIRCOSERVICE>true</AIRCOSERVICE>
-                <BANDENSERVICE>true</BANDENSERVICE>
+                <ONDERHOUD />
+                <APK />
+                <SCHADEHERSTEL />
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
-        <CERTIFICATEN></CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Gerrit</VOORNAAM>
@@ -350,7 +340,6 @@
                 <FUNCTIE>Eigenaar</FUNCTIE>
             </MEDEWERKER>
         </MEDEWERKERS>
-        <FACILITEITEN></FACILITEITEN>
     </GARAGE>
     <GARAGE>
         <NAAM>Stolk autoservice</NAAM>
@@ -362,7 +351,6 @@
             <PROVINCIE>Drenthe</PROVINCIE>
         </ADRESGEGEVENS>
         <TELEFOONNUMMER>0521345844</TELEFOONNUMMER>
-        <EMAIL></EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
                 <MAANDAG>
@@ -391,24 +379,21 @@
                 </ZATERDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
-                <VERHUUR>true</VERHUUR>
-                <LENEN>false</LENEN>
+                <VERHUUR/>
             </DIENSTEN>
-            <AUTOS>
+            <OCCASIONS>
                 <AUTO kenteken="22klz1">
-                    <NIEUW>true</NIEUW>
                     <MERK>Citroën </MERK>
-                    <TYPE>C1</TYPE>
+                    <MODEL>C1</MODEL>
                     <BOUWJAAR>2016</BOUWJAAR>
                     <BRANDSTOF>Benzine</BRANDSTOF>
                     <PRIJS>8000,00</PRIJS>
-                    <DATUM>02-04-2018</DATUM>
                     <APK-VERLOOP-DATUM>09-01-2019</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>https://connect.autosociaal.nl/download/public/AutoSociaalModule/Images/0286966001488530998.JPG</FOTO>
                     </FOTOS>
                 </AUTO>
-            </AUTOS>
+            </OCCASIONS>
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -438,15 +423,13 @@
                 </ZATERDAG>
             </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
-                <ONDERHOUD>true</ONDERHOUD>
-                <APK>true</APK>
-                <SCHADEHERSTEL>true</SCHADEHERSTEL>
-                <RUITENREPARATIE>false</RUITENREPARATIE>
-                <AIRCOSERVICE>true</AIRCOSERVICE>
-                <BANDENSERVICE>true</BANDENSERVICE>
+                <ONDERHOUD/>
+                <APK/>
+                <SCHADEHERSTEL/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE />
             </WERKZAAMHEDEN>
         </WERKPLAATS>
-        <CERTIFICATEN></CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Emiel</VOORNAAM>
@@ -455,7 +438,6 @@
                 <FUNCTIE>Eigenaar</FUNCTIE>
             </MEDEWERKER>
         </MEDEWERKERS>
-        <FACILITEITEN></FACILITEITEN>
     </GARAGE>
     <GARAGE>
         <NAAM>Jawad Cars</NAAM>
@@ -496,18 +478,15 @@
                 </ZATERDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
-                <VERHUUR>false</VERHUUR>
-                <LENEN>true</LENEN>
+                <LENEN />
             </DIENSTEN>
-            <AUTOS>
+            <OCCASIONS>
                 <AUTO kenteken="05-RX-DT">
-                    <NIEUW>false</NIEUW>
                     <MERK>Audi</MERK>
-                    <TYPE>A3</TYPE>
+                    <MODEL>A3</MODEL>
                     <BOUWJAAR>2005</BOUWJAAR>
                     <BRANDSTOF>Benzine</BRANDSTOF>
                     <PRIJS>4950,-</PRIJS>
-                    <DATUM>08-06-2017</DATUM>
                     <APK-VERLOOP-DATUM>19-04-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>http://www.jawadcars.nl/static-storage1/autodata/images/occasions-module/17/3986217_1.jpg?1872504220#voorraad</FOTO>
@@ -516,19 +495,17 @@
                     </FOTOS>
                 </AUTO>
                 <AUTO kenteken="90-XK-LR">
-                    <NIEUW>false</NIEUW>
                     <MERK>BMW</MERK>
-                    <TYPE>1 serie</TYPE>
+                    <MODEL>1 serie</MODEL>
                     <BOUWJAAR>2007</BOUWJAAR>
                     <BRANDSTOF>Benzine</BRANDSTOF>
                     <PRIJS>6650,-</PRIJS>
-                    <DATUM>08-06-2017</DATUM>
                     <APK-VERLOOP-DATUM>19-02-2019</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>http://www.jawadcars.nl/static-storage1/autodata/images/occasions-module/85/4275085_2.jpg?1155367725#voorraad</FOTO>
                     </FOTOS>
                 </AUTO>
-            </AUTOS>
+            </OCCASIONS>
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -558,15 +535,14 @@
                 </ZATERDAG>
             </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
-                <ONDERHOUD>true</ONDERHOUD>
-                <APK>true</APK>
-                <SCHADEHERSTEL>true</SCHADEHERSTEL>
-                <RUITENREPARATIE>true</RUITENREPARATIE>
-                <AIRCOSERVICE>true</AIRCOSERVICE>
-                <BANDENSERVICE>true</BANDENSERVICE>
+                <ONDERHOUD/>
+                <APK/>
+                <SCHADEHERSTEL/>
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
-        <CERTIFICATEN></CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>John</VOORNAAM>
@@ -575,6 +551,5 @@
                 <FUNCTIE>Eigenaar</FUNCTIE>
             </MEDEWERKER>
         </MEDEWERKERS>
-        <FACILITEITEN></FACILITEITEN>
     </GARAGE>
 </GARAGES>

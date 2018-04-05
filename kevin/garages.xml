@@ -50,7 +50,7 @@
         <AUTO kenteken="26-NTT-2">
           <NIEUW>true</NIEUW>
           <MERK>Porsche</MERK>
-          <TYPE>Cayenne 2s</TYPE>
+          <MODEL>Cayenne 2s</MODEL>
           <BOUWJAAR>2018</BOUWJAAR>
           <BRANDSTOF>Diesel</BRANDSTOF>
           <PRIJS>98000,00</PRIJS>
@@ -65,7 +65,7 @@
         <AUTO kenteken="99-XDR-4" >
           <NIEUW>true</NIEUW>
           <MERK>Audi</MERK>
-          <TYPE>A3</TYPE>
+          <MODEL>A3</MODEL>
           <BOUWJAAR>2018</BOUWJAAR>
           <BRANDSTOF>Benzine</BRANDSTOF>
           <PRIJS>58000,00</PRIJS>
