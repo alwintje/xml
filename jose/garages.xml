@@ -61,7 +61,7 @@
                     <DATUM>12-02-2015</DATUM>
                     <APK-VERLOOP-DATUM>13-11-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>https://voorraad.vakgaragewesterink.nl/static-storage2/autodata/images/occasions-module/04/3771904_3.jpg?1536391305</FOTO>
+                        <FOTO>auto/1920x1080_AA1_141009.jpg</FOTO>
                     </FOTOS>
                 </AUTO>
             </AUTOS>
@@ -76,23 +76,54 @@
                     <DATUM>12-02-2015</DATUM>
                     <APK-VERLOOP-DATUM>29-01-2020</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>https://voorraad.vakgaragewesterink.nl/static-storage2/autodata/images/occasions-module/18/4060518_2.jpg?4144564229</FOTO>
+                        <FOTO>auto/0000166_citroen-c1-actie_550.png</FOTO>
                     </FOTOS>
                 </AUTO>
             </AUTOS>
         </VERKOOP>
         <WERKPLAATS>
-            <OPENINGSTIJDEN></OPENINGSTIJDEN>
+            <OPENINGSTIJDEN>
+              <MAANDAG>
+                  <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
+                  <SLUITINGSTIJDEN>18:00</SLUITINGSTIJDEN>
+              </MAANDAG>
+              <DINSDAG>
+                  <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
+                  <SLUITINGSTIJDEN>18:00</SLUITINGSTIJDEN>
+              </DINSDAG>
+              <WOENSDAG>
+                  <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
+                  <SLUITINGSTIJDEN>18:00</SLUITINGSTIJDEN>
+              </WOENSDAG>
+              <DONDERDAG>
+                  <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
+                  <SLUITINGSTIJDEN>18:00</SLUITINGSTIJDEN>
+              </DONDERDAG>
+              <VRIJDAG>
+                  <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
+                  <SLUITINGSTIJDEN>18:00</SLUITINGSTIJDEN>
+              </VRIJDAG>
+              <ZATERDAG>
+                  <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
+                  <SLUITINGSTIJDEN>17:00</SLUITINGSTIJDEN>
+              </ZATERDAG>
+              <ZONDAG>
+                  <OPENINGSTIJDEN>Gesloten</OPENINGSTIJDEN>
+                  <SLUITINGSTIJDEN>Gesloten</SLUITINGSTIJDEN>
+              </ZONDAG>
+            </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
-                <ONDERHOUD></ONDERHOUD>
-                <APK></APK>
-                <SCHADEHERSTEL></SCHADEHERSTEL>
-                <RUITENREPARATIE></RUITENREPARATIE>
-                <AIRCOSERVICE></AIRCOSERVICE>
-                <BANDENSERVICE></BANDENSERVICE>
+                <ONDERHOUD/>
+                <APK/>
+                <SCHADEHERSTEL/>
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
-        <CERTIFICATEN></CERTIFICATEN>
+        <CERTIFICATEN>
+          <RDW/>
+        </CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM></VOORNAAM>
