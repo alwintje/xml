@@ -5,58 +5,513 @@
 
 <GARAGES>
     <GARAGE>
-        <NAAM></NAAM>
+        <NAAM>Shell coevorden</NAAM>
         <ADRESGEGEVENS>
-            <STRAAT></STRAAT>
-            <HUISNUMMER></HUISNUMMER>
-            <POSTCODE></POSTCODE>
-            <PLAATS></PLAATS>
-            <PROVINCIE></PROVINCIE>
+            <STRAAT>EUROPAWEG </STRAAT>
+            <HUISNUMMER>2</HUISNUMMER>
+            <POSTCODE>7742 PN</POSTCODE>
+            <PLAATS>Coevorden</PLAATS>
+            <PROVINCIE>Drenthe</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER></TELEFOONNUMMER>
-        <EMAIL></EMAIL>
+        <TELEFOONNUMMER>0524519209</TELEFOONNUMMER>
+        <EMAIL>info@shell.com</EMAIL>
         <VERKOOP>
-            <OPENINGSTIJDEN></OPENINGSTIJDEN>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>07:00</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>07:00</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>07:00</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>07:00</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>07:00</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </ZATERDAG>
+                <ZONDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </ZONDAG>
+            </OPENINGSTIJDEN>
             <DIENSTEN>
-                <VERHUUR></VERHUUR>
-                <LENEN></LENEN>
+                <LENEN/>
             </DIENSTEN>
-            <AUTOS>
-                <AUTO kenteken="">
-                    <NIEUW></NIEUW>
-                    <MERK></MERK>
-                    <MODEL></MODEL>
-                    <BOUWJAAR></BOUWJAAR>
-                    <BRANDSTOF></BRANDSTOF>
-                    <PRIJS></PRIJS>
-                    <DATUM></DATUM>
-                    <APK-VERLOOP-DATUM></APK-VERLOOP-DATUM>
+            <OCCASIONS>
+                <AUTO kenteken="XDLF76" merk="Opel">
+                    <MODEL>Opel Astra 1.6-16V</MODEL>
+                    <BOUWJAAR>1998</BOUWJAAR>
+                    <BRANDSTOF naam="Euro_95" />
+                    <PRIJS>1594,00</PRIJS>
+                    <APK-VERLOOP-DATUM>14-11-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO></FOTO>
+                        <FOTO>
+                            <URL>a87ff679a2f3e71d9181a67b7542122c.jpg</URL>
+                            <ALT>Auto</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
-            </AUTOS>
+                <AUTO kenteken="50LFPF" merk="Opel">
+                    <MODEL>Rover 45 1.6</MODEL>
+                    <BOUWJAAR>2003</BOUWJAAR>
+                    <BRANDSTOF naam="Euro_95" />
+                    <PRIJS>1950,00</PRIJS>
+                    <APK-VERLOOP-DATUM>08-09-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>1679091c5a880faf6fb5e6087eb1b2dc.jpg</URL>
+                            <ALT>Auto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
         </VERKOOP>
         <WERKPLAATS>
-            <OPENINGSTIJDEN></OPENINGSTIJDEN>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>07:00</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>07:00</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>07:00</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>07:00</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>07:00</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </ZATERDAG>
+                <ZONDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </ZONDAG>
+            </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
-                <ONDERHOUD></ONDERHOUD>
-                <APK></APK>
-                <SCHADEHERSTEL></SCHADEHERSTEL>
-                <RUITENREPARATIE></RUITENREPARATIE>
-                <AIRCOSERVICE></AIRCOSERVICE>
-                <BANDENSERVICE></BANDENSERVICE>
+                <ONDERHOUD/>
+                <APK/>
+                <SCHADEHERSTEL/>
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
-        <CERTIFICATEN></CERTIFICATEN>
+        <CERTIFICATEN>
+            <BOVAG/>
+            <RDW/>
+        </CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
-                <VOORNAAM></VOORNAAM>
-                <ACHTERNAAM></ACHTERNAAM>
-                <FOTO></FOTO>
-                <FUNCTIE></FUNCTIE>
+                <VOORNAAM>Rick</VOORNAAM>
+                <ACHTERNAAM>SchoneWille</ACHTERNAAM>
+                <FOTO>3588b8a8010f88846007457cf3cb87fd.jpg</FOTO>
+                <FUNCTIE naam="Verkoper"/>
+            </MEDEWERKER>
+            <MEDEWERKER>
+                <VOORNAAM>Maththijs</VOORNAAM>
+                <ACHTERNAAM>Bakker</ACHTERNAAM>
+                <FOTO>9bd50671f604bcdbfdef7d9483dcbca2.jpg</FOTO>
+                <FUNCTIE naam="Verkoper"/>
             </MEDEWERKER>
         </MEDEWERKERS>
-        <FACILITEITEN></FACILITEITEN>
+        <FACILITEITEN>
+            <WASSEN>
+                <WASSTRATEN>
+                    <WASSTRAAT nummer="1">
+                        <PRIJS>5,00</PRIJS>
+                    </WASSTRAAT>
+                </WASSTRATEN>
+            </WASSEN>
+        </FACILITEITEN>
+    </GARAGE>
+
+    <GARAGE>
+        <NAAM>3huizen garage</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Rembrandtlaan </STRAAT>
+            <HUISNUMMER>76</HUISNUMMER>
+            <POSTCODE>7741 76</POSTCODE>
+            <PLAATS>Coevorden</PLAATS>
+            <PROVINCIE>Drenthe</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0524-516949</TELEFOONNUMMER>
+        <EMAIL>info@3huizen.nl</EMAIL>
+        <VERKOOP>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <DIENSTEN>
+                <LENEN/>
+            </DIENSTEN>
+            <OCCASIONS>
+                <AUTO kenteken="69LZNV" merk="Mini">
+                    <MODEL> Toyota Yaris Verso</MODEL>
+                    <BOUWJAAR>2003</BOUWJAAR>
+                    <BRANDSTOF naam="Euro_95" />
+                    <PRIJS>3450,00</PRIJS>
+                    <APK-VERLOOP-DATUM>13-11-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>24e0ee58654f36ec17c2bc57a4447bb0.jpg</URL>
+                            <ALT>Auto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </VRIJDAG>
+            </OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <ONDERHOUD/>
+                <APK/>
+                <AIRCOSERVICE/>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Alex</VOORNAAM>
+                <ACHTERNAAM>Driehuizen</ACHTERNAAM>
+                <FOTO>
+                    <URL>04071d2bd1857c70f2418701d8fee67e.JPG</URL>
+                    <ALT>Alex Driehuizen</ALT>
+                </FOTO>
+                <FUNCTIE naam="Monteur" />
+            </MEDEWERKER>
+            <MEDEWERKER>
+                <VOORNAAM>Ricka</VOORNAAM>
+                <ACHTERNAAM>Driehuizen</ACHTERNAAM>
+                <FOTO>
+                    <URL>04071d2bd1857c70f2418701d8f3425.JPG</URL>
+                    <ALT>Ricka Driehuizen</ALT>
+                </FOTO>
+                <FUNCTIE naam="Telefonist" />
+            </MEDEWERKER>
+        </MEDEWERKERS>
+    </GARAGE>
+    <GARAGE>
+        <NAAM>TinQ coevorden</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Krimweg</STRAAT>
+            <HUISNUMMER>22</HUISNUMMER>
+            <POSTCODE>7741 KJ</POSTCODE>
+            <PLAATS>Coevorden</PLAATS>
+            <PROVINCIE>Drenthe</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0341 439 000</TELEFOONNUMMER>
+        <EMAIL>info@tinQ.nl</EMAIL>
+        <VERKOOP>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>00:00</OPENING>
+                    <SLUITING>24:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>00:00</OPENING>
+                    <SLUITING>24:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>00:00</OPENING>
+                    <SLUITING>24:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>00:00</OPENING>
+                    <SLUITING>24:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>00:00</OPENING>
+                    <SLUITING>24:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>00:00</OPENING>
+                    <SLUITING>24:00</SLUITING>
+                </ZATERDAG>
+                <ZONDAG>
+                    <OPENING>00:00</OPENING>
+                    <SLUITING>24:00</SLUITING>
+                </ZONDAG>
+            </OPENINGSTIJDEN>
+            <DIENSTEN>
+                <VERHUUR/>
+                <LENEN/>
+            </DIENSTEN>
+            <OCCASIONS>
+                <AUTO kenteken="87PVXP" merk="Fiat">
+                    <MODEL>Idea</MODEL>
+                    <BOUWJAAR>2004</BOUWJAAR>
+                    <BRANDSTOF naam="Premium_Benzine" />
+                    <PRIJS>2150,00</PRIJS>
+                    <FOTOS>
+                        <FOTO>7bcc66e51135490574ed9cb313cf3e8d.jpg</FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>10:00</OPENING>
+                    <SLUITING>16:30</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <APK/>
+                <BANDENSERVICE/>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <CERTIFICATEN/>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Henk</VOORNAAM>
+                <ACHTERNAAM>Visser</ACHTERNAAM>
+                <FOTO>ef77894c0920f61d03984dff245afa74.jpg</FOTO>
+                <FUNCTIE naam="Monteur" />
+            </MEDEWERKER>
+        </MEDEWERKERS>
+    </GARAGE>
+    <GARAGE>
+        <NAAM>Autopaas Emmen</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Magelhaenstraat</STRAAT>
+            <HUISNUMMER>1</HUISNUMMER>
+            <POSTCODE>7825 VL</POSTCODE>
+            <PLAATS>Emmen</PLAATS>
+            <PROVINCIE>Drenthe</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0591 630 848</TELEFOONNUMMER>
+        <EMAIL>info@autopaas.nl</EMAIL>
+        <VERKOOP>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                    <OPENING>19:00</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>10:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <DIENSTEN>
+            </DIENSTEN>
+            <OCCASIONS>
+                <AUTO kenteken="70HJK7" merk="Audi">
+                    <MODEL>A3</MODEL>
+                    <BOUWJAAR>2009</BOUWJAAR>
+                    <BRANDSTOF naam="Euro_95"/>
+                    <PRIJS>10.950,00</PRIJS>
+                    <FOTOS>
+                        <FOTO>f878bba49cfaf402831adfbb8a4b4394.jpg</FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>10:00</OPENING>
+                    <SLUITING>16:30</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <ONDERHOUD/>
+                <APK/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <CERTIFICATEN/>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Jan</VOORNAAM>
+                <ACHTERNAAM>Aardema</ACHTERNAAM>
+                <FOTO>23f10cc8bec253abbf3f7dc5c87ea155.jpg</FOTO>
+                <FUNCTIE naam="Monteur"/>
+            </MEDEWERKER>
+        </MEDEWERKERS>
+    </GARAGE>
+    <GARAGE>
+        <NAAM>Auto Hoge Emmen bv</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Jacob Le Mairestraat</STRAAT>
+            <HUISNUMMER>231</HUISNUMMER>
+            <POSTCODE>7825 XE</POSTCODE>
+            <PLAATS>Emmen</PLAATS>
+            <PROVINCIE>Drenthe</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0591 531 915</TELEFOONNUMMER>
+        <EMAIL>info@autohoge.nl</EMAIL>
+        <VERKOOP>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>16:30</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <DIENSTEN>
+            </DIENSTEN>
+            <OCCASIONS>
+                <AUTO kenteken="8SPD66" merk="Audi">
+                    <MODEL>A5</MODEL>
+                    <BOUWJAAR>2008</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel"/>
+                    <PRIJS>11.948,00</PRIJS>
+                    <FOTOS>
+                        <FOTO>da9846b3dcc128cf63edcc448801f423.jpg</FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <CERTIFICATEN/>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Frank</VOORNAAM>
+                <ACHTERNAAM>Hoge</ACHTERNAAM>
+                <FOTO>26253c50741faa9c2e2b836773c69fe6.jpg</FOTO>
+                <FUNCTIE naam="Verkoper"/>
+            </MEDEWERKER>
+        </MEDEWERKERS>
     </GARAGE>
 </GARAGES>
