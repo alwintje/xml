@@ -61,7 +61,7 @@
                     <DATUM>12-02-2015</DATUM>
                     <APK-VERLOOP-DATUM>13-11-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>auto/1920x1080_AA1_141009.jpg</FOTO>
+                        <FOTO>../images/1920x1080_AA1_141009.jpg</FOTO>
                     </FOTOS>
                 </AUTO>
             </AUTOS>
@@ -76,7 +76,7 @@
                     <DATUM>12-02-2015</DATUM>
                     <APK-VERLOOP-DATUM>29-01-2020</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>auto/0000166_citroen-c1-actie_550.png</FOTO>
+                        <FOTO>../images/0000166_citroen-c1-actie_550.png</FOTO>
                     </FOTOS>
                 </AUTO>
             </AUTOS>
