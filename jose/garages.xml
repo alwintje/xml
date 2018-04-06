@@ -145,19 +145,17 @@
         </MEDEWERKERS>
         <FACILITEITEN></FACILITEITEN>
     </GARAGE>
-</GARAGES>
-<GARAGES>
     <GARAGE>
-        <NAAM>Garage Westerink B.V.</NAAM>
+        <NAAM>Garage Wester B.V.</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>Westeinde</STRAAT>
-            <HUISNUMMER>106</HUISNUMMER>
+            <HUISNUMMER>10</HUISNUMMER>
             <POSTCODE>3844 DR</POSTCODE>
             <PLAATS>Harderwijk</PLAATS>
             <PROVINCIE>Gelderland</PROVINCIE>
         </ADRESGEGEVENS>
         <TELEFOONNUMMER>0341 431 188</TELEFOONNUMMER>
-        <EMAIL>info@vakgaragewesterink.nl</EMAIL>
+        <EMAIL>info@vakgaragewester.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
                 <MAANDAG>
@@ -184,10 +182,6 @@
                     <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
                     <SLUITINGSTIJDEN>17:00</SLUITINGSTIJDEN>
                 </ZATERDAG>
-                <ZONDAG>
-                    <OPENINGSTIJDEN>Gesloten</OPENINGSTIJDEN>
-                    <SLUITINGSTIJDEN>Gesloten</SLUITINGSTIJDEN>
-                </ZONDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
                 <VERHUUR>Nee</VERHUUR>
@@ -285,16 +279,16 @@
         <FACILITEITEN></FACILITEITEN>
     </GARAGE>
     <GARAGE>
-        <NAAM>Garage Westerink B.V.</NAAM>
+        <NAAM>Garage Erink B.V.</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>Westeinde</STRAAT>
-            <HUISNUMMER>106</HUISNUMMER>
+            <HUISNUMMER>20</HUISNUMMER>
             <POSTCODE>3844 DR</POSTCODE>
             <PLAATS>Harderwijk</PLAATS>
             <PROVINCIE>Gelderland</PROVINCIE>
         </ADRESGEGEVENS>
         <TELEFOONNUMMER>0341 431 188</TELEFOONNUMMER>
-        <EMAIL>info@vakgaragewesterink.nl</EMAIL>
+        <EMAIL>info@vakgarageerink.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
                 <MAANDAG>
@@ -321,10 +315,6 @@
                     <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
                     <SLUITINGSTIJDEN>17:00</SLUITINGSTIJDEN>
                 </ZATERDAG>
-                <ZONDAG>
-                    <OPENINGSTIJDEN>Gesloten</OPENINGSTIJDEN>
-                    <SLUITINGSTIJDEN>Gesloten</SLUITINGSTIJDEN>
-                </ZONDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
                 <VERHUUR/>
@@ -387,21 +377,16 @@
                   <OPENINGSTIJDEN>9:00</OPENINGSTIJDEN>
                   <SLUITINGSTIJDEN>17:00</SLUITINGSTIJDEN>
               </ZATERDAG>
-              <ZONDAG>
-                  <OPENINGSTIJDEN>Gesloten</OPENINGSTIJDEN>
-                  <SLUITINGSTIJDEN>Gesloten</SLUITINGSTIJDEN>
-              </ZONDAG>
             </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
                 <ONDERHOUD/>
                 <APK/>
-                <SCHADEHERSTEL/>
                 <RUITENREPARATIE/>
                 <BANDENSERVICE/>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
         <CERTIFICATEN>
-          <RDW/>
+          <BOVAG/>
         </CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
@@ -425,8 +410,6 @@
         </MEDEWERKERS>
         <FACILITEITEN></FACILITEITEN>
     </GARAGE>
-</GARAGES>
-<GARAGES>
     <GARAGE>
         <NAAM>Garage De Boer B.V.</NAAM>
         <ADRESGEGEVENS>
@@ -436,7 +419,7 @@
             <PLAATS>Harderwijk</PLAATS>
             <PROVINCIE>Gelderland</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER>0341 431 188</TELEFOONNUMMER>
+        <TELEFOONNUMMER>0341 431 123</TELEFOONNUMMER>
         <EMAIL>info@deboer.nl</EMAIL>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -494,6 +477,15 @@
                     <ALT>Anne de Boer</ALT>
                 </FOTO>
                 <FUNCTIE naam="Telefonist" />
+            </MEDEWERKER>
+            <MEDEWERKER>
+                <VOORNAAM>Mark</VOORNAAM>
+                <ACHTERNAAM>de Boer</ACHTERNAAM>
+                <FOTO>
+                    <URL>8181 Image content page 724x260 filter NL.jpg</URL>
+                    <ALT>Mark de Boer</ALT>
+                </FOTO>
+                <FUNCTIE naam="Monteur" />
             </MEDEWERKER>
         </MEDEWERKERS>
         <FACILITEITEN></FACILITEITEN>
