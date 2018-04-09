@@ -261,7 +261,7 @@
                 <VOORNAAM>Henk</VOORNAAM>
                 <ACHTERNAAM>Boertien</ACHTERNAAM>
                 <FOTO>
-                    <URL>DSCN1500[1].JPG</URL>
+                    <URL>../images/DSCN1500[1].JPG</URL>
                     <ALT>Henk Boer</ALT>
                 </FOTO>
                 <FUNCTIE naam="Eigenaar" />
@@ -270,7 +270,7 @@
                 <VOORNAAM>Anne</VOORNAAM>
                 <ACHTERNAAM>Boer</ACHTERNAAM>
                 <FOTO>
-                    <URL>DSCN1500[1].JPG</URL>
+                    <URL>../images/DSCN1500[1].JPG</URL>
                     <ALT>Anne Boer</ALT>
                 </FOTO>
                 <FUNCTIE naam="Verkoper" />
@@ -393,7 +393,7 @@
                 <VOORNAAM>Henk</VOORNAAM>
                 <ACHTERNAAM>Boertien</ACHTERNAAM>
                 <FOTO>
-                    <URL>DSCN1500[1].JPG</URL>
+                    <URL>../images/DSCN1500[1].JPG</URL>
                     <ALT>Henk Boer</ALT>
                 </FOTO>
                 <FUNCTIE naam="Eigenaar" />
@@ -402,7 +402,7 @@
                 <VOORNAAM>Anne</VOORNAAM>
                 <ACHTERNAAM>Boer</ACHTERNAAM>
                 <FOTO>
-                    <URL>DSCN1500[1].JPG</URL>
+                    <URL>../images/DSCN1500[1].JPG</URL>
                     <ALT>Anne Boer</ALT>
                 </FOTO>
                 <FUNCTIE naam="Verkoper" />
@@ -411,15 +411,15 @@
         <FACILITEITEN></FACILITEITEN>
     </GARAGE>
     <GARAGE>
-        <NAAM>Garage De Boer B.V.</NAAM>
+        <NAAM>Garage Boer B.V.</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>Westeinde</STRAAT>
-            <HUISNUMMER>6</HUISNUMMER>
+            <HUISNUMMER>66</HUISNUMMER>
             <POSTCODE>3844 DR</POSTCODE>
             <PLAATS>Harderwijk</PLAATS>
             <PROVINCIE>Gelderland</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER>0341 431 123</TELEFOONNUMMER>
+        <TELEFOONNUMMER>0341 431 583</TELEFOONNUMMER>
         <EMAIL>info@deboer.nl</EMAIL>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -452,7 +452,6 @@
                 <ONDERHOUD/>
                 <APK/>
                 <SCHADEHERSTEL/>
-                <BANDENSERVICE/>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
         <CERTIFICATEN>
@@ -462,28 +461,28 @@
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Henk</VOORNAAM>
-                <ACHTERNAAM>Tien</ACHTERNAAM>
+                <ACHTERNAAM>Elf</ACHTERNAAM>
                 <FOTO>
-                    <URL>DSCN1500[1].JPG</URL>
-                    <ALT>Henk Boer</ALT>
+                    <URL>../images/DSCN1500[1].JPG</URL>
+                    <ALT>Henk Elf</ALT>
                 </FOTO>
                 <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Anne</VOORNAAM>
-                <ACHTERNAAM>de Boer</ACHTERNAAM>
+                <ACHTERNAAM>Boer</ACHTERNAAM>
                 <FOTO>
-                    <URL>DSCN1500[1].JPG</URL>
-                    <ALT>Anne de Boer</ALT>
+                    <URL>../images/DSCN1500[1].JPG</URL>
+                    <ALT>Anne Boer</ALT>
                 </FOTO>
                 <FUNCTIE naam="Telefonist" />
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Mark</VOORNAAM>
-                <ACHTERNAAM>de Boer</ACHTERNAAM>
+                <ACHTERNAAM>Boer</ACHTERNAAM>
                 <FOTO>
-                    <URL>8181 Image content page 724x260 filter NL.jpg</URL>
-                    <ALT>Mark de Boer</ALT>
+                    <URL>../images/8181 Image content page 724x260 filter NL.jpg</URL>
+                    <ALT>Mark Boer</ALT>
                 </FOTO>
                 <FUNCTIE naam="Monteur" />
             </MEDEWERKER>
