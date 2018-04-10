@@ -1,0 +1,10 @@
+.t_select{
+    width: 80px;
+    font-weight: bold;
+}
+.lowerCase{
+    text-transform: lowercase;
+}
+.lowerCase:first-letter{
+    text-transform: uppercase;
+}
