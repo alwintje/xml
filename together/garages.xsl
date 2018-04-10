@@ -9,6 +9,7 @@
                 <title>Garages</title>
             </head>
             <body>
+
                 <xsl:for-each select="GARAGES/GARAGE">
                     <xsl:value-of select="NAAM" />
                 </xsl:for-each>

@@ -49,7 +49,7 @@
 <!ELEMENT MODEL (#PCDATA)>
 <!ELEMENT BOUWJAAR (#PCDATA)>
 <!ELEMENT BRANDSTOF EMPTY>
-<!ATTLIST BRANDSTOF naam (Euro_95 LPG Diesel CNG Super_Plus Super_MLV Premium_Benzine Premium Diesel) #REQUIRED>
+<!ATTLIST BRANDSTOF naam (Euro_95 LPG Diesel CNG Super_Plus Super_MLV Premium_Benzine Premium_Diesel) #REQUIRED>
 
 <!ELEMENT PRIJS (#PCDATA)>
 <!ELEMENT APK-VERLOOP-DATUM (#PCDATA)>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../together/garages.xsd">
+<!--<!DOCTYPE GARAGES SYSTEM "..\together\garages.dtd">-->
 
-<!DOCTYPE GARAGES SYSTEM "..\together\garages.dtd">
-
-<GARAGES>
     <GARAGE>
         <NAAM>Shell coevorden</NAAM>
         <ADRESGEGEVENS>
@@ -350,7 +349,7 @@
                 <VOORNAAM>Henk</VOORNAAM>
                 <ACHTERNAAM>Visser</ACHTERNAAM>
                 <FOTO>ef77894c0920f61d03984dff245afa74.jpg</FOTO>
-                <FUNCTIE naam="Monteur" />
+                <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
         </MEDEWERKERS>
     </GARAGE>
