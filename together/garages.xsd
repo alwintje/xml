@@ -57,6 +57,7 @@
                                                     <xs:enumeration value="Zeeland" />
                                                     <xs:enumeration value="Noor-Brabant" />
                                                     <xs:enumeration value="Limburg" />
+                                                    <xs:enumeration value="België" /><!--Toegevoegd want het is gewoon zuid-nederland-->
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
@@ -106,8 +107,8 @@
                                                                 </xs:element>
                                                                 <xs:element name="BOUWJAAR">
                                                                     <xs:simpleType>
-                                                                        <xs:restriction base="xs:string">
-                                                                            <xs:pattern value="[1-2][0-9]{3}" />
+                                                                        <xs:restriction base="xs:integer">
+                                                                            <xs:pattern value="[1-2][0-9]{4}" />
                                                                         </xs:restriction>
                                                                     </xs:simpleType>
                                                                 </xs:element>
