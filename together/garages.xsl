@@ -57,9 +57,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <div>
-                        <
-                    </div>
+
                     <table class="uk-table">
                         <caption>Werkzaamheden:</caption>
                         <tbody>
@@ -71,6 +69,10 @@
                             </xsl:for-each>
                         </tbody>
                     </table>
+                    <div>
+                        <xsl:if test="boolean(CERTIFICATEN/BOVAG)"><img src="img/BOVAG.jpeg" class="img_cert"/></xsl:if>
+                        <xsl:if test="boolean(CERTIFICATEN/RDW)"><img src="img/RDW.jpeg" class="img_cert"/></xsl:if>
+                    </div>
 
                 </div>
                     <hr class="uk-divider-icon"/>

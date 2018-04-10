@@ -107,6 +107,7 @@
                     <SLUITING>17:00</SLUITING>
                 </VRIJDAG>
             </OPENINGSTIJDEN>
+
             <WERKZAAMHEDEN>
                 <ONDERHOUD/>
                 <APK/>
@@ -116,6 +117,10 @@
                 <BANDENSERVICE/>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
+        <CERTIFICATEN>
+            <BOVAG></BOVAG>
+            <RDW></RDW>
+        </CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Henk</VOORNAAM>

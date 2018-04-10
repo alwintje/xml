@@ -8,3 +8,7 @@
 .lowerCase:first-letter{
     text-transform: uppercase;
 }
+.img_cert{
+    width: 150px;
+    height:80px;
+}
