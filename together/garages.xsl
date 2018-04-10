@@ -77,7 +77,6 @@
                         <table class="uk-table">
                             <caption>Werkzaamheden:</caption>
                             <tbody>
-
                                 <xsl:for-each select="WERKPLAATS/WERKZAAMHEDEN/*">
                                     <tr>
                                         <td class="t_select, lowerCase">
@@ -96,7 +95,6 @@
                             <img src="img/RDW.jpeg" class="img_cert"/>
                         </xsl:if>
                     </div>
-
                 </div>
                 <hr class="uk-divider-icon"/>
                 <div class="uk-grid-large" uk-grid="">
@@ -106,21 +104,30 @@
                     <div>
                         <xsl:apply-templates select="WERKPLAATS/OPENINGSTIJDEN"/>
                     </div>
-
                 </div>
                 <hr class="uk-divider-icon"/>
                 <h3>Werknemers:</h3>
                 <div class="uk-child-width-1-3@m uk-grid-medium uk-grid-match" uk-grid="">
-                            <xsl:apply-templates select="MEDEWERKERS"/>
+                    <xsl:apply-templates select="MEDEWERKERS"/>
                 </div>
                 <hr class="uk-divider-icon"/>
-                <h3>Occasions:</h3>
-                <div class="uk-panel uk-panel-scrollable table_height">
-
-                    <table class="uk-table ">
+                <xsl:choose>
+                    <xsl:when test="boolean(VERKOOP/NIEUWE-AUTOS)">
+                        <xsl:apply-templates select="VERKOOP/NIEUWE-AUTOS"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <h3>Wij verkopen geen nieuwe auto's.</h3>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <hr class="uk-divider-icon"/>
+                <xsl:choose>
+                    <xsl:when test="boolean(VERKOOP/OCCASIONS)">
                         <xsl:apply-templates select="VERKOOP/OCCASIONS"/>
-                    </table>
-                </div>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <h3>Wij hebben momenteel geen occasions.</h3>
+                    </xsl:otherwise>
+                </xsl:choose>
             </div>
         </li>
     </xsl:template>
@@ -159,103 +166,120 @@
     </xsl:template>
     <xsl:template match="GARAGES/GARAGE/MEDEWERKERS">
         <xsl:for-each select="MEDEWERKER">
-    <div>
+            <div>
                 <div class="uk-card uk-card-body uk-card-secondary">
-                <img onerror="this.src='../images/default.jpg';" style="max-width:300px;"><xsl:attribute name="src">../images/<xsl:value-of select='FOTO/URL' /></xsl:attribute><xsl:attribute name="alt">Afbeelding: <xsl:value-of select='FOTO/ALT' /></xsl:attribute></img><br/>
-                <xsl:value-of select="VOORNAAM"/><xsl:text> </xsl:text><xsl:value-of select="ACHTERNAAM"/>,
-                <xsl:value-of select="FUNCTIE/@naam"/>
+                    <img onerror="this.src='../images/default.jpg';" style="max-width:300px;">
+                        <xsl:attribute name="src">../images/<xsl:value-of select='FOTO/URL'/>
+                        </xsl:attribute>
+                        <xsl:attribute name="alt">Afbeelding:
+                            <xsl:value-of select='FOTO/ALT'/>
+                        </xsl:attribute>
+                    </img>
+                    <br/>
+                    <xsl:value-of select="VOORNAAM"/><xsl:text> </xsl:text><xsl:value-of select="ACHTERNAAM"/>,
+                    <xsl:value-of select="FUNCTIE/@naam"/>
                 </div>
-    </div>
+            </div>
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="GARAGES/GARAGE/VERKOOP/OCCASIONS">
-        <xsl:for-each select="AUTO">
-            <tbody>
-                <tr>
-                    <td class="t_select">Model</td>
-                    <td class="t_value">
-                        <b><xsl:value-of select="@merk"/></b> <xsl:text> </xsl:text>
-                        <xsl:value-of select="MODEL"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t_select">Bouwjaar</td>
-                    <td class="t_value">
-                        <xsl:value-of select="BOUWJAAR"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t_select">Brandstof</td>
-                    <td class="t_value">
-                        <xsl:value-of select="BRANDSTOF/@naam"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t_select">Kenteken</td>
-                    <td class="t_value">
-                        <xsl:value-of select="@kenteken"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t_select">Prijs</td>
-                    <td class="t_value">
-                        <xsl:value-of select="PRIJS"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t_select">APK-verloopdatum</td>
-                    <td class="t_value">
-                        <xsl:value-of select="APK-VERLOOP-DATUM"/>
-                    </td>
-                </tr>
-                <xsl:if test="position() != last()"></xsl:if>
-                <tr style="border-bottom: solid #d3d3d3 1px"></tr>
-            </tbody>
-        </xsl:for-each>
+        <h3>Occasions:</h3>
+        <div class="uk-panel uk-panel-scrollable table_height">
+            <table class="uk-table ">
+                <xsl:for-each select="AUTO">
+                    <tbody>
+                        <tr>
+                            <td class="t_select">Model</td>
+                            <td class="t_value">
+                                <b>
+                                    <xsl:value-of select="@merk"/>
+                                </b>
+                                <xsl:text> </xsl:text>
+                                <xsl:value-of select="MODEL"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="t_select">Bouwjaar</td>
+                            <td class="t_value">
+                                <xsl:value-of select="BOUWJAAR"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="t_select">Brandstof</td>
+                            <td class="t_value">
+                                <xsl:value-of select="BRANDSTOF/@naam"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="t_select">Kenteken</td>
+                            <td class="t_value">
+                                <xsl:value-of select="@kenteken"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="t_select">Prijs</td>
+                            <td class="t_value">
+                                <xsl:value-of select="PRIJS"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="t_select">APK-verloopdatum</td>
+                            <td class="t_value">
+                                <xsl:value-of select="APK-VERLOOP-DATUM"/>
+                            </td>
+                        </tr>
+                        <xsl:if test="position() != last()"></xsl:if>
+                        <tr style="border-bottom: solid #d3d3d3 1px"></tr>
+                    </tbody>
+                </xsl:for-each>
+            </table>
+        </div>
     </xsl:template>
-    <xsl:template match="GARAGES/GARAGE/VERKOOP/OCCASIONS">
-        <xsl:for-each select="AUTO">
-            <tbody>
-                <tr>
-                    <td class="t_select">Model</td>
-                    <td class="t_value">
-                        <b><xsl:value-of select="@merk"/></b> <xsl:text> </xsl:text>
-                        <xsl:value-of select="MODEL"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t_select">Bouwjaar</td>
-                    <td class="t_value">
-                        <xsl:value-of select="BOUWJAAR"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t_select">Brandstof</td>
-                    <td class="t_value">
-                        <xsl:value-of select="BRANDSTOF/@naam"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t_select">Kenteken</td>
-                    <td class="t_value">
-                        <xsl:value-of select="@kenteken"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t_select">Prijs</td>
-                    <td class="t_value">
-                        <xsl:value-of select="PRIJS"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="t_select">APK-verloopdatum</td>
-                    <td class="t_value">
-                        <xsl:value-of select="APK-VERLOOP-DATUM"/>
-                    </td>
-                </tr>
-                <xsl:if test="position() != last()"></xsl:if>
-                <tr style="border-bottom: solid #d3d3d3 1px"></tr>
-            </tbody>
-        </xsl:for-each>
+    <xsl:template match="GARAGES/GARAGE/VERKOOP/NIEUWE-AUTOS">
+        <h3>Nieuwe auto's:</h3>
+        <div class="uk-panel uk-panel-scrollable table_height">
+            <table class="uk-table ">
+                <xsl:for-each select="AUTO">
+                    <tbody>
+                        <tr>
+                            <td class="t_select">Model</td>
+                            <td class="t_value">
+                                <b>
+                                    <xsl:value-of select="@merk"/>
+                                </b>
+                                <xsl:text> </xsl:text>
+                                <xsl:value-of select="MODEL"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="t_select">Bouwjaar</td>
+                            <td class="t_value">
+                                <xsl:value-of select="BOUWJAAR"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="t_select">Brandstof</td>
+                            <td class="t_value">
+                                <xsl:value-of select="BRANDSTOF/@naam"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="t_select">Prijs</td>
+                            <td class="t_value">
+                                <xsl:value-of select="PRIJS"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="t_select">APK-verloopdatum</td>
+                            <td class="t_value">
+                                <xsl:value-of select="APK-VERLOOP-DATUM"/>
+                            </td>
+                        </tr>
+                        <xsl:if test="position() != last()"></xsl:if>
+                        <tr style="border-bottom: solid #d3d3d3 1px"></tr>
+                    </tbody>
+                </xsl:for-each>
+            </table>
+        </div>
     </xsl:template>
 </xsl:stylesheet>
