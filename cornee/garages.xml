@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../together/garages.xsl"?>
 
-
-<!DOCTYPE GARAGES SYSTEM "..\together\garages.dtd">
-
-<GARAGES>
+<GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../together/garages.xsd">
     <!-- ABS Autoherstel -->
     <GARAGE>
         <NAAM>ABS Autoherstel</NAAM>
@@ -51,36 +49,34 @@
                 <VERHUUR>Ja</VERHUUR>
                 <LENEN>Ja</LENEN>
             </DIENSTEN>
-            <AUTOS>
-                <AUTO kenteken="35-KZ-DL">
-                    <NIEUW>Ja</NIEUW>
-                    <MERK>Fiat</MERK>
-                    <MODEL>Occasion</MODEL>
+            <OCCASIONS>
+                <AUTO merk="Volvo">
+                    <MODEL>Astra</MODEL>
+                    <BOUWJAAR>2016</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>25000</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>opelastra.jpg</URL>
+                            <ALT>Opel Astra Foto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+                <AUTO merk="Fiat">
+                    <MODEL>Panda</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
-                    <BRANDSTOF>Diesel</BRANDSTOF>
-                    <PRIJS>6000</PRIJS>
-                    <DATUM>26-08-2017</DATUM>
-                    <APK-VERLOOP-DATUM>26-08-2019</APK-VERLOOP-DATUM>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>6025</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>image1.jpg</FOTO>
-                        <FOTO>image2.jpg</FOTO>
+                        <FOTO>
+                            <URL>img/fiatpanda.jpg</URL>
+                            <ALT>Fiat Panda Foto</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
-                <AUTO kenteken="52-DK-DZ">
-                    <NIEUW>Nee</NIEUW>
-                    <MERK>Opel</MERK>
-                    <MODEL>Occasion</MODEL>
-                    <BOUWJAAR>2001</BOUWJAAR>
-                    <BRANDSTOF>Diesel</BRANDSTOF>
-                    <PRIJS>2450</PRIJS>
-                    <DATUM>26-08-2017</DATUM>
-                    <APK-VERLOOP-DATUM>26-08-2016</APK-VERLOOP-DATUM>
-                    <FOTOS>
-                        <FOTO>image1.jpg</FOTO>
-                        <FOTO>image2.jpg</FOTO>
-                    </FOTOS>
-                </AUTO>
-            </AUTOS>
+            </OCCASIONS>
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -123,39 +119,31 @@
             </WERKZAAMHEDEN>
         </WERKPLAATS>
         <CERTIFICATEN>
-            <CERTIFICAAT>APK-Expert</CERTIFICAAT>
+            <BOVAG></BOVAG>
+            <RDW></RDW>
         </CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Cornee</VOORNAAM>
                 <ACHTERNAAM>van Blerk</ACHTERNAAM>
                 <FOTO>cornee.jpg</FOTO>
-                <FUNCTIE>Professionele koffiedrinker</FUNCTIE>
+                <FUNCTIE naam="Professionele koffiedrinker">Professionele koffiedrinker</FUNCTIE>
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Thijs</VOORNAAM>
                 <ACHTERNAAM>Janse</ACHTERNAAM>
                 <FOTO>janse.jpg</FOTO>
-                <FUNCTIE>Professionele reperateur</FUNCTIE>
+                <FUNCTIE naam="Professionele koffiedrinker">Professionele koffiedrinker</FUNCTIE>
             </MEDEWERKER>
         </MEDEWERKERS>
         <FACILITEITEN>
             <WASSEN>
-                <WASSTRATEN>
-                    <WASSTRAAT nummer="2">
-                        <NAAM>Waasstraat 1</NAAM>
-                        <PRIJS>5</PRIJS>
-                    </WASSTRAAT>
-                    <WASSTRAAT nummer="2">
-                        <NAAM>Waasstraat 2</NAAM>
-                        <PRIJS>8</PRIJS>
-                    </WASSTRAAT>
-                </WASSTRATEN>
                 <WASBOXEN>
-                    <WASBOX nummer="1">
-                        <!-- Naam voor een wasbox? -->
-                        <NAAM>Wasbox 1</NAAM>
-                        <PRIJS>12</PRIJS>
+                    <WASBOX>
+                        <PRIJS>5</PRIJS>
+                    </WASBOX>
+                    <WASBOX>
+                        <PRIJS>8</PRIJS>
                     </WASBOX>
                 </WASBOXEN>
             </WASSEN>
@@ -209,36 +197,34 @@
                 <VERHUUR>Nee</VERHUUR>
                 <LENEN>Nee</LENEN>
             </DIENSTEN>
-            <AUTOS>
-                <AUTO kenteken="35-KZ-DL">
-                    <NIEUW>Ja</NIEUW>
-                    <MERK>Fiat</MERK>
-                    <MODEL>Occasion</MODEL>
+            <OCCASIONS>
+                <AUTO merk="Volvo">
+                    <MODEL>Astra</MODEL>
+                    <BOUWJAAR>2016</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>25000</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>opelastra.jpg</URL>
+                            <ALT>Opel Astra Foto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+                <AUTO merk="Fiat">
+                    <MODEL>Panda</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
-                    <BRANDSTOF>Diesel</BRANDSTOF>
-                    <PRIJS>6000</PRIJS>
-                    <DATUM>26-08-2017</DATUM>
-                    <APK-VERLOOP-DATUM>26-08-2019</APK-VERLOOP-DATUM>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>6025</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>image1.jpg</FOTO>
-                        <FOTO>image2.jpg</FOTO>
+                        <FOTO>
+                            <URL>img/fiatpanda.jpg</URL>
+                            <ALT>Fiat Panda Foto</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
-                <AUTO kenteken="52-DK-DZ">
-                    <NIEUW>Nee</NIEUW>
-                    <MERK>Opel</MERK>
-                    <MODEL>Occasion</MODEL>
-                    <BOUWJAAR>2001</BOUWJAAR>
-                    <BRANDSTOF>Diesel</BRANDSTOF>
-                    <PRIJS>2450</PRIJS>
-                    <DATUM>26-08-2017</DATUM>
-                    <APK-VERLOOP-DATUM>26-08-2016</APK-VERLOOP-DATUM>
-                    <FOTOS>
-                        <FOTO>image1.jpg</FOTO>
-                        <FOTO>image2.jpg</FOTO>
-                    </FOTOS>
-                </AUTO>
-            </AUTOS>
+            </OCCASIONS>
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -281,23 +267,22 @@
             </WERKZAAMHEDEN>
         </WERKPLAATS>
         <CERTIFICATEN>
-            <CERTIFICAAT>RDW Certificaat 2017</CERTIFICAAT>
+            <RDW></RDW>
         </CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Cornee</VOORNAAM>
                 <ACHTERNAAM>van Blerk</ACHTERNAAM>
                 <FOTO>cornee.jpg</FOTO>
-                <FUNCTIE>Professionele koffiedrinker</FUNCTIE>
+                <FUNCTIE naam="Professionele koffiedrinker">Professionele koffiedrinker</FUNCTIE>
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Thijs</VOORNAAM>
                 <ACHTERNAAM>Janse</ACHTERNAAM>
                 <FOTO>janse.jpg</FOTO>
-                <FUNCTIE>Professionele reperateur</FUNCTIE>
+                <FUNCTIE naam="Professionele koffiedrinker">Professionele koffiedrinker</FUNCTIE>
             </MEDEWERKER>
         </MEDEWERKERS>
-        <FACILITEITEN></FACILITEITEN>
     </GARAGE>
 
     <!-- Auto Veuring -->
@@ -347,23 +332,34 @@
                 <VERHUUR>Ja</VERHUUR>
                 <LENEN>Nee</LENEN>
             </DIENSTEN>
-            <AUTOS>
-                <AUTO kenteken="26-KDZ-5">
-                    <NIEUW>Ja</NIEUW>
-                    <MERK>Fiat</MERK>
-                    <MODEL>Off-Road</MODEL>
-                    <BOUWJAAR>2012</BOUWJAAR>
-                    <BRANDSTOF>Diesel</BRANDSTOF>
-                    <PRIJS>12500</PRIJS>
-                    <DATUM>26-08-2018</DATUM>
-                    <APK-VERLOOP-DATUM>26-08-2019</APK-VERLOOP-DATUM>
+            <OCCASIONS>
+                <AUTO merk="Volvo">
+                    <MODEL>Astra</MODEL>
+                    <BOUWJAAR>2016</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>25000</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>fiat1.jpg</FOTO>
-                        <FOTO>fiatzijkant.jpg</FOTO>
-                        <FOTO>fiatvoorkant.jpg</FOTO>
+                        <FOTO>
+                            <URL>opelastra.jpg</URL>
+                            <ALT>Opel Astra Foto</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
-            </AUTOS>
+                <AUTO merk="Fiat">
+                    <MODEL>Panda</MODEL>
+                    <BOUWJAAR>2008</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>6025</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>img/fiatpanda.jpg</URL>
+                            <ALT>Fiat Panda Foto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -405,66 +401,31 @@
                 <BANDENSERVICE>Ja</BANDENSERVICE>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
-        <CERTIFICATEN>
-            <CERTIFICAAT>RDW Certificaat</CERTIFICAAT>
-            <CERTIFICAAT>Veilige werkplek 2017</CERTIFICAAT>
-        </CERTIFICATEN>
+        <CERTIFICATEN></CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Jan</VOORNAAM>
                 <ACHTERNAAM>Veurink</ACHTERNAAM>
                 <FOTO>jan.jpg</FOTO>
-                <FUNCTIE>Hoofdmonteur</FUNCTIE>
+                <FUNCTIE naam="Hoofdmonteur">Hoofdmonteur</FUNCTIE>
             </MEDEWERKER>
         </MEDEWERKERS>
         <FACILITEITEN>
             <WINKEL>
-                <VERKOOPWAAR>
-                    <ITEMS>
-                        <ITEM>
-                            <NAAM>Bandenspray</NAAM>
-                            <OMSCHRIJVING>Spray om je banden te harden.</OMSCHRIJVING>
-                            <PRIJS>6</PRIJS>
-                            <VOORRAAD>12</VOORRAAD>
-                        </ITEM>
-                        <ITEM>
-                            <NAAM>Ventieldopjes</NAAM>
-                            <OMSCHRIJVING>Dopje om het ventiel mee af te sluiten.</OMSCHRIJVING>
-                            <PRIJS>0.25</PRIJS>
-                            <VOORRAAD>300</VOORRAAD>
-                        </ITEM>
-                    </ITEMS>
-                </VERKOOPWAAR>
-                <OPENINGSTIJDEN>
-                    <ZONDAG>
-                        <OPENING>Gesloten</OPENING>
-                        <SLUITING>Gesloten</SLUITING>
-                    </ZONDAG>
-                    <MAANDAG>
-                        <OPENING>08:00</OPENING>
-                        <SLUITING>17:00</SLUITING>
-                    </MAANDAG>
-                    <DINSDAG>
-                        <OPENING>08:00</OPENING>
-                        <SLUITING>17:00</SLUITING>
-                    </DINSDAG>
-                    <WOENSDAG>
-                        <OPENING>08:00</OPENING>
-                        <SLUITING>17:00</SLUITING>
-                    </WOENSDAG>
-                    <DONDERDAG>
-                        <OPENING>08:00</OPENING>
-                        <SLUITING>17:00</SLUITING>
-                    </DONDERDAG>
-                    <VRIJDAG>
-                        <OPENING>08:00</OPENING>
-                        <SLUITING>17:00</SLUITING>
-                    </VRIJDAG>
-                    <ZATERDAG>
-                        <OPENING>Gesloten</OPENING>
-                        <SLUITING>Gesloten</SLUITING>
-                    </ZATERDAG>
-                </OPENINGSTIJDEN>
+                <ITEMS>
+                    <ITEM>
+                        <NAAM>Ventieldopjes</NAAM>
+                        <OMSCHRIJVING>Dopje om het ventiel mee af te sluiten.</OMSCHRIJVING>
+                        <PRIJS>0.25</PRIJS>
+                        <VOORRAAD>200</VOORRAAD>
+                    </ITEM>
+                    <ITEM>
+                        <NAAM>Winterbanden</NAAM>
+                        <OMSCHRIJVING>Autobanden met meer profiel, handig voor de wintermaanden.</OMSCHRIJVING>
+                        <PRIJS>40</PRIJS>
+                        <VOORRAAD>26</VOORRAAD>
+                    </ITEM>
+                </ITEMS>
             </WINKEL>
         </FACILITEITEN>
     </GARAGE>
@@ -516,21 +477,21 @@
                 <VERHUUR>Ja</VERHUUR>
                 <LENEN>Ja</LENEN>
             </DIENSTEN>
-            <AUTOS>
-                <AUTO kenteken="56-ZZ-12">
-                    <NIEUW>Ja</NIEUW>
-                    <MERK>Volkswagen</MERK>
-                    <MODEL>Race</MODEL>
-                    <BOUWJAAR>2012</BOUWJAAR>
-                    <BRANDSTOF>Gas</BRANDSTOF>
-                    <PRIJS>25000</PRIJS>
-                    <DATUM>26-08-2018</DATUM>
-                    <APK-VERLOOP-DATUM>13-03-2018</APK-VERLOOP-DATUM>
+            <OCCASIONS>
+                <AUTO merk="Fiat">
+                    <MODEL>Panda</MODEL>
+                    <BOUWJAAR>2008</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>6025</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>volks.jpg</FOTO>
+                        <FOTO>
+                            <URL>img/fiatpanda.jpg</URL>
+                            <ALT>Fiat Panda Foto</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
-            </AUTOS>
+            </OCCASIONS>
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -573,17 +534,36 @@
             </WERKZAAMHEDEN>
         </WERKPLAATS>
         <CERTIFICATEN>
-            <CERTIFICAAT>Veilige werkplaats 2017</CERTIFICAAT>
+           <BOVAG></BOVAG>
         </CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Jan Pieter</VOORNAAM>
                 <ACHTERNAAM>Breken</ACHTERNAAM>
                 <FOTO>janpieter.jpg</FOTO>
-                <FUNCTIE>Hoofdmonteur</FUNCTIE>
+                <FUNCTIE naam="Hoofdmonteur">Hoofdmonteur</FUNCTIE>
             </MEDEWERKER>
         </MEDEWERKERS>
-        <FACILITEITEN></FACILITEITEN>
+        <FACILITEITEN>
+            <POMPEN>
+                <POMP nummer="1">
+                    <BRANDSTOFFEN>
+                        <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                        <BRANDSTOF naam="Benzine">Benzine</BRANDSTOF>
+                    </BRANDSTOFFEN>
+                </POMP>
+                <BRANDSTOF-PRIJZEN>
+                    <BRANDSTOF-PRIJS>
+                        <BRANDSTOF naam="Benzine">Benzine</BRANDSTOF>
+                        <PRIJS>1.35</PRIJS>
+                    </BRANDSTOF-PRIJS>
+                    <BRANDSTOF-PRIJS>
+                        <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                        <PRIJS>1.20</PRIJS>
+                    </BRANDSTOF-PRIJS>
+                </BRANDSTOF-PRIJZEN>
+            </POMPEN>
+        </FACILITEITEN>
     </GARAGE>
 
     <!-- Oostendorp BV -->
@@ -633,21 +613,21 @@
                 <VERHUUR>Ja</VERHUUR>
                 <LENEN>Ja</LENEN>
             </DIENSTEN>
-            <AUTOS>
-                <AUTO kenteken="56-ZZ-12">
-                    <NIEUW>Ja</NIEUW>
-                    <MERK>Volkswagen</MERK>
-                    <MODEL>Race</MODEL>
-                    <BOUWJAAR>2012</BOUWJAAR>
-                    <BRANDSTOF>Gas</BRANDSTOF>
-                    <PRIJS>25000</PRIJS>
-                    <DATUM>26-08-2018</DATUM>
-                    <APK-VERLOOP-DATUM>13-03-2018</APK-VERLOOP-DATUM>
+            <OCCASIONS>
+                <AUTO merk="Fiat">
+                    <MODEL>Panda</MODEL>
+                    <BOUWJAAR>2008</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>6025</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>volks.jpg</FOTO>
+                        <FOTO>
+                            <URL>img/fiatpanda.jpg</URL>
+                            <ALT>Fiat Panda Foto</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
-            </AUTOS>
+            </OCCASIONS>
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -690,27 +670,30 @@
             </WERKZAAMHEDEN>
         </WERKPLAATS>
         <CERTIFICATEN>
-            <CERTIFICAAT>Veilige werkplaats 2017</CERTIFICAAT>
-            <CERTIFICAAT>RDW Gecertificeerd 2017</CERTIFICAAT>
-            <CERTIFICAAT>Beste garage van Ommen 2015</CERTIFICAAT>
+            <BOVAG></BOVAG>
+            <RDW></RDW>
         </CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Jan Pieter</VOORNAAM>
                 <ACHTERNAAM>Breken</ACHTERNAAM>
                 <FOTO>janpieter.jpg</FOTO>
-                <FUNCTIE>Hoofdmonteur</FUNCTIE>
+                <FUNCTIE naam="Hoofdmonteur">Hoofdmonteur</FUNCTIE>
             </MEDEWERKER>
         </MEDEWERKERS>
         <FACILITEITEN>
-            <WASSEN>
-                <WASSTRATEN>
-                    <WASSTRAAT nummer="1">
-                        <NAAM>Wasstraat</NAAM>
-                        <PRIJS>13</PRIJS>
-                    </WASSTRAAT>
-                </WASSTRATEN>
-            </WASSEN>
+           <WASSEN>
+               <WASSTRATEN>
+                   <WASSTRAAT>
+                       <PRIJS>5</PRIJS>
+                   </WASSTRAAT>
+               </WASSTRATEN>
+               <WASSTRATEN>
+                   <WASSTRAAT>
+                       <PRIJS>10</PRIJS>
+                   </WASSTRAAT>
+               </WASSTRATEN>
+           </WASSEN>
         </FACILITEITEN>
     </GARAGE>
 </GARAGES>
