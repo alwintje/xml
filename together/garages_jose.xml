@@ -80,7 +80,7 @@
           <APK-VERLOOP-DATUM>29-01-2020</APK-VERLOOP-DATUM>
           <FOTOS>
             <FOTO>
-              <URL>../images/0000166_citroen-c1-actie_550.png</URL>
+              <URL>img/0000166_citroen-c1-actie_550.png</URL>
             <ALT>Auto</ALT>
             </FOTO>
           </FOTOS>
@@ -205,7 +205,7 @@
           <APK-VERLOOP-DATUM>13-11-2018</APK-VERLOOP-DATUM>
           <FOTOS>
             <FOTO>
-              <URL>../images/1920x1080_AA1_141009.jpg</URL>
+              <URL>img/1920x1080_AA1_141009.jpg</URL>
               <ALT>Auto</ALT>
             </FOTO>
           </FOTOS>
@@ -220,7 +220,7 @@
           <APK-VERLOOP-DATUM>29-01-2020</APK-VERLOOP-DATUM>
           <FOTOS>
             <FOTO>
-              <URL>../images/0000166_citroen-c1-actie_550.png</URL>
+              <URL>img/0000166_citroen-c1-actie_550.png</URL>
               <ALT>Auto</ALT>
             </FOTO>
           </FOTOS>
@@ -270,7 +270,7 @@
         <VOORNAAM>Henk</VOORNAAM>
         <ACHTERNAAM>Boertien</ACHTERNAAM>
         <FOTO>
-          <URL>../images/DSCN1500[1].JPG</URL>
+          <URL>img/DSCN1500[1].JPG</URL>
           <ALT>Henk Boer</ALT>
         </FOTO>
         <FUNCTIE naam="Eigenaar" />
@@ -279,7 +279,7 @@
         <VOORNAAM>Anne</VOORNAAM>
         <ACHTERNAAM>Boer</ACHTERNAAM>
         <FOTO>
-          <URL>../images/DSCN1500[1].JPG</URL>
+          <URL>img/DSCN1500[1].JPG</URL>
           <ALT>Anne Boer</ALT>
         </FOTO>
         <FUNCTIE naam="Verkoper" />
@@ -337,7 +337,7 @@
           <APK-VERLOOP-DATUM>13-11-2018</APK-VERLOOP-DATUM>
           <FOTOS>
               <FOTO>
-                  <URL>../images/1920x1080_AA1_141009.jpg</URL>
+                  <URL>img/1920x1080_AA1_141009.jpg</URL>
                   <ALT>Audi</ALT>
               </FOTO>
           </FOTOS>
@@ -352,7 +352,7 @@
           <APK-VERLOOP-DATUM>29-01-2020</APK-VERLOOP-DATUM>
           <FOTOS>
               <FOTO>
-                  <URL>../images/0000166_citroen-c1-actie_550.png</URL>
+                  <URL>img/0000166_citroen-c1-actie_550.png</URL>
                   <ALT>citroen</ALT>
               </FOTO>
           </FOTOS>
@@ -401,7 +401,7 @@
         <VOORNAAM>Henk</VOORNAAM>
         <ACHTERNAAM>Boertien</ACHTERNAAM>
         <FOTO>
-          <URL>../images/DSCN1500[1].JPG</URL>
+          <URL>img/DSCN1500[1].JPG</URL>
           <ALT>Henk Boer</ALT>
         </FOTO>
         <FUNCTIE naam="Eigenaar" />
@@ -410,7 +410,7 @@
         <VOORNAAM>Anne</VOORNAAM>
         <ACHTERNAAM>Boer</ACHTERNAAM>
         <FOTO>
-          <URL>../images/DSCN1500[1].JPG</URL>
+          <URL>img/DSCN1500[1].JPG</URL>
           <ALT>Anne Boer</ALT>
         </FOTO>
         <FUNCTIE naam="Verkoper" />
@@ -470,7 +470,7 @@
         <VOORNAAM>Henk</VOORNAAM>
         <ACHTERNAAM>Elf</ACHTERNAAM>
         <FOTO>
-          <URL>../images/DSCN1500[1].JPG</URL>
+          <URL>img/DSCN1500[1].JPG</URL>
           <ALT>Henk Elf</ALT>
         </FOTO>
         <FUNCTIE naam="Eigenaar" />
@@ -479,7 +479,7 @@
         <VOORNAAM>Anne</VOORNAAM>
         <ACHTERNAAM>Boer</ACHTERNAAM>
         <FOTO>
-          <URL>../images/DSCN1500[1].JPG</URL>
+          <URL>img/DSCN1500[1].JPG</URL>
           <ALT>Anne Boer</ALT>
         </FOTO>
         <FUNCTIE naam="Telefonist" />
@@ -488,7 +488,7 @@
         <VOORNAAM>Mark</VOORNAAM>
         <ACHTERNAAM>Boer</ACHTERNAAM>
         <FOTO>
-          <URL>../images/8181 Image content page 724x260 filter NL.jpg</URL>
+          <URL>img/8181 Image content page 724x260 filter NL.jpg</URL>
           <ALT>Mark Boer</ALT>
         </FOTO>
         <FUNCTIE naam="Monteur" />
@@ -549,7 +549,7 @@
                 <VOORNAAM>Henk</VOORNAAM>
                 <ACHTERNAAM>Elven</ACHTERNAAM>
                 <FOTO>
-                    <URL>../images/DSCN1500[1].JPG</URL>
+                    <URL>img/DSCN1500[1].JPG</URL>
                     <ALT>Henk Elven</ALT>
                 </FOTO>
                 <FUNCTIE naam="Eigenaar" />
@@ -558,7 +558,7 @@
                 <VOORNAAM>Anne</VOORNAAM>
                 <ACHTERNAAM>Boer</ACHTERNAAM>
                 <FOTO>
-                    <URL>../images/DSCN1500[1].JPG</URL>
+                    <URL>img/DSCN1500[1].JPG</URL>
                     <ALT>Anne Boer</ALT>
                 </FOTO>
                 <FUNCTIE naam="Telefonist" />
@@ -567,7 +567,7 @@
                 <VOORNAAM>Mark</VOORNAAM>
                 <ACHTERNAAM>Boer</ACHTERNAAM>
                 <FOTO>
-                    <URL>../images/8181 Image content page 724x260 filter NL.jpg</URL>
+                    <URL>img/8181 Image content page 724x260 filter NL.jpg</URL>
                     <ALT>Mark Boer</ALT>
                 </FOTO>
                 <FUNCTIE naam="Monteur" />
