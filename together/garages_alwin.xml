@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet  href="..\together\garages.xsl" type="text/xsl" ?>
+
+<!DOCTYPE GARAGES SYSTEM "..\together\garages.dtd">
+
+<GARAGES>
+    <GARAGE>
+        <NAAM>Henk Boertien</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>J.B. Slotstraat</STRAAT>
+            <HUISNUMMER>5</HUISNUMMER>
+            <POSTCODE>7913 ZZ</POSTCODE>
+            <PLAATS>Hollandscheveld</PLAATS>
+            <PROVINCIE>Drenthe</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0528343895</TELEFOONNUMMER>
+        <EMAIL>werkplaats@henkboertien.nl</EMAIL>
+        <VERKOOP>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>12:30</SLUITING>
+                    <OPENING>13:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>12:30</SLUITING>
+                    <OPENING>13:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>12:30</SLUITING>
+                    <OPENING>13:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>12:30</SLUITING>
+                    <OPENING>13:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>12:30</SLUITING>
+                    <OPENING>13:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+            </OPENINGSTIJDEN>
+            <DIENSTEN>
+                <LENEN/>
+            </DIENSTEN>
+            <OCCASIONS>
+                <AUTO kenteken="64TTRF" merk="Mini">
+                    <MODEL> 1.6 Cooper Chili</MODEL>
+                    <BOUWJAAR>2007</BOUWJAAR>
+                    <BRANDSTOF naam="Euro_95" />
+                    <PRIJS>6750,00</PRIJS>
+                    <APK-VERLOOP-DATUM>13-04-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>0f08aa27aed420a1e8e3b01fde5f9e940d7f3b47.jpg</URL>
+                            <ALT>Auto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>12:30</SLUITING>
+                    <OPENING>13:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>12:30</SLUITING>
+                    <OPENING>13:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>12:30</SLUITING>
+                    <OPENING>13:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>12:30</SLUITING>
+                    <OPENING>13:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>12:30</SLUITING>
+                    <OPENING>13:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+            </OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <ONDERHOUD/>
+                <APK/>
+                <SCHADEHERSTEL/>
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Henk</VOORNAAM>
+                <ACHTERNAAM>Boertien</ACHTERNAAM>
+                <FOTO>
+                    <URL>DSCN1500[1].JPG</URL>
+                    <ALT>Henk Boertien</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
+            </MEDEWERKER>
+            <MEDEWERKER>
+                <VOORNAAM>Arne</VOORNAAM>
+                <ACHTERNAAM>Boertien</ACHTERNAAM>
+                <FOTO>
+                    <URL>DSCN1500[1].JPG</URL>
+                    <ALT>Arne Boertien</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
+            </MEDEWERKER>
+        </MEDEWERKERS>
+    </GARAGE>
+    <GARAGE>
+        <NAAM>De Jong</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Brink</STRAAT>
+            <HUISNUMMER>41</HUISNUMMER>
+            <POSTCODE>7963 AB</POSTCODE>
+            <PLAATS>Ruinen</PLAATS>
+            <PROVINCIE>Drenthe</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0522472888</TELEFOONNUMMER>
+        <EMAIL>info@dejong-ruinen.nl</EMAIL>
+        <VERKOOP>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>16:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <DIENSTEN>
+                <LENEN/>
+            </DIENSTEN>
+            <OCCASIONS>
+                <AUTO kenteken="NP-40-1N" merk="Audi">
+                    <MODEL>A5 2.0</MODEL>
+                    <BOUWJAAR>2010</BOUWJAAR>
+                    <BRANDSTOF naam="Euro_95" />
+                    <PRIJS>27950,00</PRIJS>
+                    <APK-VERLOOP-DATUM>02-04-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>15394489-1.jpg</URL>
+                            <ALT>Audi 1</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>15394489-2.jpg</URL>
+                            <ALT>Audi 2</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>15394489-3.jpg</URL>
+                            <ALT>Audi 3</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>15394489-4.jpg</URL>
+                            <ALT>Audi 4</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>15394489-5.jpg</URL>
+                            <ALT>Audi 5</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>15394489-6.jpg</URL>
+                            <ALT>Audi 6</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>16:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <ONDERHOUD/>
+                <APK/>
+                <SCHADEHERSTEL/>
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Jesse</VOORNAAM>
+                <ACHTERNAAM>de Jong</ACHTERNAAM>
+                <FOTO>
+                    <URL>jessep-290x435.jpg</URL>
+                    <ALT>Jesse</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
+            </MEDEWERKER>
+            <MEDEWERKER>
+                <VOORNAAM>Eddy</VOORNAAM>
+                <ACHTERNAAM>de Jong</ACHTERNAAM>
+                <FOTO>
+                    <URL>Eddy-290x435.jpg</URL>
+                    <ALT>Eddie</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
+            </MEDEWERKER>
+        </MEDEWERKERS>
+        <FACILITEITEN>
+            <WASSEN>
+                <WASSTRATEN>
+                    <WASSTRAAT nummer="1">
+                        <PRIJS>5,00</PRIJS>
+                    </WASSTRAAT>
+                </WASSTRATEN>
+            </WASSEN>
+        </FACILITEITEN>
+    </GARAGE>
+    <GARAGE>
+        <NAAM>De Garage Meppel</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Pieter Mastebroekweg</STRAAT>
+            <HUISNUMMER>1B</HUISNUMMER>
+            <POSTCODE>7942 JZ </POSTCODE>
+            <PLAATS>Meppel</PLAATS>
+            <PROVINCIE>Drenthe</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0522 244225</TELEFOONNUMMER>
+        <EMAIL>info@degarage-meppel.nl</EMAIL>
+        <VERKOOP>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </VRIJDAG>
+            </OPENINGSTIJDEN>
+            <DIENSTEN>
+                <VERHUUR/>
+                <LENEN/>
+            </DIENSTEN>
+            <OCCASIONS>
+                <AUTO kenteken="5VRR30" merk="Renault">
+                    <MODEL>Kangoo Express</MODEL>
+                    <BOUWJAAR>2011</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel" />
+                    <PRIJS>4250,00</PRIJS>
+                    <APK-VERLOOP-DATUM>26-10-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>ce726a97401977b38a2d099ce9e9730c6c4b1590.JPG</URL>
+                            <ALT>Renault Kangoo Express</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:30</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </VRIJDAG>
+            </OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <ONDERHOUD />
+                <APK />
+                <SCHADEHERSTEL />
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Gerrit</VOORNAAM>
+                <ACHTERNAAM>Soepart</ACHTERNAAM>
+                <FOTO>
+                    <URL>degarage-autocrew-autobedrijf-meppel-apk-onderhoud-auto_0.jpg</URL>
+                    <ALT>De garage meppel</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
+            </MEDEWERKER>
+        </MEDEWERKERS>
+    </GARAGE>
+    <GARAGE>
+        <NAAM>Stolk autoservice</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>De Wringen </STRAAT>
+            <HUISNUMMER>14</HUISNUMMER>
+            <POSTCODE>7984 NM</POSTCODE>
+            <PLAATS>Dieverbrug</PLAATS>
+            <PROVINCIE>Drenthe</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0521345844</TELEFOONNUMMER>
+        <VERKOOP>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>13:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <DIENSTEN>
+                <VERHUUR/>
+            </DIENSTEN>
+            <OCCASIONS>
+                <AUTO kenteken="22klz1" merk="Citroen">
+                    <MODEL>C1</MODEL>
+                    <BOUWJAAR>2016</BOUWJAAR>
+                    <BRANDSTOF naam="Euro_95" />
+                    <PRIJS>8000,00</PRIJS>
+                    <APK-VERLOOP-DATUM>09-01-2019</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>0286966001488530998.JPG</URL>
+                            <ALT>Citroen C1</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>13:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <ONDERHOUD/>
+                <APK/>
+                <SCHADEHERSTEL/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE />
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Emiel</VOORNAAM>
+                <ACHTERNAAM>Stolk</ACHTERNAAM>
+                <FOTO>
+                    <URL>0804613001486398250.jpg</URL>
+                    <ALT>Emiel Stolk</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
+            </MEDEWERKER>
+        </MEDEWERKERS>
+    </GARAGE>
+    <GARAGE>
+        <NAAM>Jawad Cars</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Industrieweg </STRAAT>
+            <HUISNUMMER>36c</HUISNUMMER>
+            <POSTCODE>9403 AB</POSTCODE>
+            <PLAATS>Assen</PLAATS>
+            <PROVINCIE>Drenthe</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0592371514</TELEFOONNUMMER>
+        <EMAIL>verkoop@jawadcars.nl</EMAIL>
+        <VERKOOP>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <DIENSTEN>
+                <LENEN />
+            </DIENSTEN>
+            <OCCASIONS>
+                <AUTO kenteken="05-RX-DT" merk="Audi">
+                    <MODEL>A3</MODEL>
+                    <BOUWJAAR>2005</BOUWJAAR>
+                    <BRANDSTOF naam="Euro_95" />
+                    <PRIJS>4950,-</PRIJS>
+                    <APK-VERLOOP-DATUM>19-04-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>3986217_1.jpg</URL>
+                            <ALT>Audi 1</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>3986217_3.jpg</URL>
+                            <ALT>Audi 2</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>3986217_7.jpg</URL>
+                            <ALT>Audi 3</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+                <AUTO kenteken="90-XK-LR" merk="BMW">
+                    <MODEL>1 serie</MODEL>
+                    <BOUWJAAR>2007</BOUWJAAR>
+                    <BRANDSTOF naam="Euro_95"/>
+                    <PRIJS>6650,-</PRIJS>
+                    <APK-VERLOOP-DATUM>19-02-2019</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>4275085_2.jpg</URL>
+                            <ALT>BMW 1 serie</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>18:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <ONDERHOUD/>
+                <APK/>
+                <SCHADEHERSTEL/>
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>John</VOORNAAM>
+                <ACHTERNAAM>Jawad</ACHTERNAAM>
+                <FOTO>
+                    <URL>8181 Image content page 724x260 filter NL.jpg</URL>
+                    <ALT>John Jawad</ALT>
+                </FOTO>
+                <FUNCTIE naam="Eigenaar" />
+            </MEDEWERKER>
+        </MEDEWERKERS>
+    </GARAGE>
+</GARAGES>
