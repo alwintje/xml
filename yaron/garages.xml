@@ -57,20 +57,20 @@
                     <APK-VERLOOP-DATUM>14-11-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
-                            <URL>a87ff679a2f3e71d9181a67b7542122c.jpg</URL>
+                            <URL>opelastra.jpg</URL>
                             <ALT>Auto</ALT>
                         </FOTO>
                     </FOTOS>
                 </AUTO>
-                <AUTO kenteken="50LFPF" merk="Opel">
-                    <MODEL>Rover 45 1.6</MODEL>
+                <AUTO kenteken="50LFPF" merk="Rover">
+                    <MODEL> 45 1.6</MODEL>
                     <BOUWJAAR>2003</BOUWJAAR>
                     <BRANDSTOF naam="Euro_95" />
                     <PRIJS>1950,00</PRIJS>
                     <APK-VERLOOP-DATUM>08-09-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
-                            <URL>1679091c5a880faf6fb5e6087eb1b2dc.jpg</URL>
+                            <URL>rover.jpg</URL>
                             <ALT>Auto</ALT>
                         </FOTO>
                     </FOTOS>
@@ -125,13 +125,13 @@
             <MEDEWERKER>
                 <VOORNAAM>Rick</VOORNAAM>
                 <ACHTERNAAM>SchoneWille</ACHTERNAAM>
-                <FOTO>3588b8a8010f88846007457cf3cb87fd.jpg</FOTO>
+                <FOTO>rickschone.jpg</FOTO>
                 <FUNCTIE naam="Verkoper"/>
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Maththijs</VOORNAAM>
                 <ACHTERNAAM>Bakker</ACHTERNAAM>
-                <FOTO>9bd50671f604bcdbfdef7d9483dcbca2.jpg</FOTO>
+                <FOTO>mathijsbakker.jpg</FOTO>
                 <FUNCTIE naam="Verkoper"/>
             </MEDEWERKER>
         </MEDEWERKERS>
@@ -196,7 +196,7 @@
                     <APK-VERLOOP-DATUM>13-11-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
-                            <URL>24e0ee58654f36ec17c2bc57a4447bb0.jpg</URL>
+                            <URL>toyotayaris.jpg</URL>
                             <ALT>Auto</ALT>
                         </FOTO>
                     </FOTOS>
@@ -237,7 +237,7 @@
                 <VOORNAAM>Alex</VOORNAAM>
                 <ACHTERNAAM>Driehuizen</ACHTERNAAM>
                 <FOTO>
-                    <URL>04071d2bd1857c70f2418701d8fee67e.JPG</URL>
+                    <URL>alexdrie.JPG</URL>
                     <ALT>Alex Driehuizen</ALT>
                 </FOTO>
                 <FUNCTIE naam="Monteur" />
@@ -246,7 +246,7 @@
                 <VOORNAAM>Ricka</VOORNAAM>
                 <ACHTERNAAM>Driehuizen</ACHTERNAAM>
                 <FOTO>
-                    <URL>04071d2bd1857c70f2418701d8f3425.JPG</URL>
+                    <URL>rickadrie.JPG</URL>
                     <ALT>Ricka Driehuizen</ALT>
                 </FOTO>
                 <FUNCTIE naam="Telefonist" />
@@ -306,7 +306,7 @@
                     <BRANDSTOF naam="Premium_Benzine" />
                     <PRIJS>2150,00</PRIJS>
                     <FOTOS>
-                        <FOTO>7bcc66e51135490574ed9cb313cf3e8d.jpg</FOTO>
+                        <FOTO>fiatidea.jpg</FOTO>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
@@ -348,7 +348,7 @@
             <MEDEWERKER>
                 <VOORNAAM>Henk</VOORNAAM>
                 <ACHTERNAAM>Visser</ACHTERNAAM>
-                <FOTO>ef77894c0920f61d03984dff245afa74.jpg</FOTO>
+                <FOTO>henkvisser.jpg</FOTO>
                 <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
         </MEDEWERKERS>
@@ -402,7 +402,7 @@
                     <BRANDSTOF naam="Euro_95"/>
                     <PRIJS>10.950,00</PRIJS>
                     <FOTOS>
-                        <FOTO>f878bba49cfaf402831adfbb8a4b4394.jpg</FOTO>
+                        <FOTO>audia3.jpg</FOTO>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
@@ -498,7 +498,7 @@
                     <BRANDSTOF naam="Diesel"/>
                     <PRIJS>11.948,00</PRIJS>
                     <FOTOS>
-                        <FOTO>da9846b3dcc128cf63edcc448801f423.jpg</FOTO>
+                        <FOTO>audia5.jpg</FOTO>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
@@ -508,7 +508,7 @@
             <MEDEWERKER>
                 <VOORNAAM>Frank</VOORNAAM>
                 <ACHTERNAAM>Hoge</ACHTERNAAM>
-                <FOTO>26253c50741faa9c2e2b836773c69fe6.jpg</FOTO>
+                <FOTO>frankhoge.jpg</FOTO>
                 <FUNCTIE naam="Verkoper"/>
             </MEDEWERKER>
         </MEDEWERKERS>
