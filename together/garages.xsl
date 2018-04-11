@@ -15,7 +15,10 @@
                 <script src="js/uikit-icons.min.js"/>
             </head>
             <body>
+
+
                 <div class="uk-container">
+                    <h3>Aantal garages: <xsl:value-of select="count(GARAGES/GARAGE)" /></h3>
                     <ul uk-accordion="">
                         <xsl:apply-templates select="GARAGES/GARAGE"/>
                     </ul>
@@ -23,6 +26,8 @@
             </body>
         </html>
     </xsl:template>
+
+
     <xsl:template match="GARAGES/GARAGE">
         <li>
             <a class="uk-accordion-title" href="#">
