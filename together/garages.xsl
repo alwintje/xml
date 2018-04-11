@@ -169,7 +169,7 @@
             <div>
                 <div class="uk-card uk-card-body uk-card-secondary">
                     <img onerror="this.src='../images/default.jpg';" style="max-width:300px;">
-                        <xsl:attribute name="src">../images/<xsl:value-of select='FOTO/URL'/>
+                        <xsl:attribute name="src">img/<xsl:value-of select='FOTO/URL'/>
                         </xsl:attribute>
                         <xsl:attribute name="alt">Afbeelding:
                             <xsl:value-of select='FOTO/ALT'/>
@@ -185,6 +185,8 @@
     <xsl:template match="GARAGES/GARAGE/VERKOOP/OCCASIONS">
         <h3>Occasions:</h3>
         <div class="uk-panel uk-panel-scrollable table_height">
+          <div class="uk-child-width-1-3@m uk-grid-medium uk-grid-match" uk-grid="">
+             <div>
             <table class="uk-table ">
                 <xsl:for-each select="AUTO">
                     <tbody>
@@ -233,11 +235,24 @@
                     </tbody>
                 </xsl:for-each>
             </table>
+             </div>
+          <div>
+              <img onerror="this.src='img/defaultCar.svg';" style="max-width:300px;">
+                        <xsl:attribute name="src">img/<xsl:value-of select='FOTOS/FOTO/URL'/>
+                        </xsl:attribute>
+                        <xsl:attribute name="alt">Afbeelding:
+                            <xsl:value-of select='FOTOS/FOTO/ALT'/>
+                        </xsl:attribute>
+                    </img>
+            </div>
+          </div>
         </div>
     </xsl:template>
     <xsl:template match="GARAGES/GARAGE/VERKOOP/NIEUWE-AUTOS">
         <h3>Nieuwe auto's:</h3>
         <div class="uk-panel uk-panel-scrollable table_height">
+          <div class="uk-child-width-1-3@m uk-grid-medium uk-grid-match" uk-grid="">
+            <div>
             <table class="uk-table ">
                 <xsl:for-each select="AUTO">
                     <tbody>
@@ -280,6 +295,17 @@
                     </tbody>
                 </xsl:for-each>
             </table>
+            </div>
+          <div>
+              <img onerror="this.src='img/defaultCar.svg';" style="max-width:300px;">
+                        <xsl:attribute name="src">img/<xsl:value-of select='FOTOS/FOTO/URL'/>
+                        </xsl:attribute>
+                        <xsl:attribute name="alt">Afbeelding:
+                            <xsl:value-of select='FOTOS/FOTO/ALT'/>
+                        </xsl:attribute>
+                    </img>
+            </div>
+          </div>
         </div>
     </xsl:template>
 </xsl:stylesheet>
