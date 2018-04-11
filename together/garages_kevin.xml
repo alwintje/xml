@@ -1,169 +1,670 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
-<!DOCTYPE GARAGES SYSTEM "..\together\garages.dtd">
-
-<GARAGES>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="garages.xsl"?>
+<!--<!DOCTYPE GARAGES SYSTEM "garages.dtd" >-->
+<GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garages.xsd">
   <GARAGE>
-    <NAAM>Garage de koning</NAAM>
+    <NAAM>Van Heeren auto's</NAAM>
     <ADRESGEGEVENS>
-      <STRAAT>Herenstraat</STRAAT>
-      <HUISNUMMER>33</HUISNUMMER>
-      <POSTCODE>9402XS</POSTCODE>
-      <PLAATS>Groningen</PLAATS>
-      <PROVINCIE>Groningen</PROVINCIE>
+      <STRAAT>Lindenlaan</STRAAT>
+      <HUISNUMMER>17</HUISNUMMER>
+      <POSTCODE>6024 AE</POSTCODE>
+      <PLAATS>Budel-Dorplein</PLAATS>
+      <PROVINCIE>Noord-Brabant</PROVINCIE>
     </ADRESGEGEVENS>
-    <TELEFOONNUMMER>0468-686841</TELEFOONNUMMER>
-    <EMAIL>contact@garagedeKoning.nl</EMAIL>
+    <TELEFOONNUMMER>06-13842544</TELEFOONNUMMER>
+    <EMAIL>auto@vanheeren.nl</EMAIL>
     <VERKOOP>
       <OPENINGSTIJDEN>
         <MAANDAG>
           <OPENING>08:00</OPENING>
-          <SLUITING>17:30</SLUITING>
+          <SLUITING>12:30</SLUITING>
+          <OPENING>13:00</OPENING>
+          <SLUITING>17:00</SLUITING>
         </MAANDAG>
         <DINSDAG>
           <OPENING>08:00</OPENING>
-          <SLUITING>17:30</SLUITING>
+          <SLUITING>12:30</SLUITING>
+          <OPENING>13:00</OPENING>
+          <SLUITING>17:00</SLUITING>
         </DINSDAG>
         <WOENSDAG>
           <OPENING>08:00</OPENING>
+          <SLUITING>12:30</SLUITING>
+          <OPENING>13:00</OPENING>
           <SLUITING>17:00</SLUITING>
         </WOENSDAG>
         <DONDERDAG>
           <OPENING>08:00</OPENING>
+          <SLUITING>12:30</SLUITING>
+          <OPENING>13:00</OPENING>
           <SLUITING>17:00</SLUITING>
         </DONDERDAG>
         <VRIJDAG>
           <OPENING>08:00</OPENING>
+          <SLUITING>12:30</SLUITING>
+          <OPENING>13:00</OPENING>
           <SLUITING>17:00</SLUITING>
         </VRIJDAG>
         <ZATERDAG>
-          <OPENING>10:00</OPENING>
-          <SLUITING>16:00</SLUITING>
+          <OPENING>08:00</OPENING>
+          <SLUITING>12:30</SLUITING>
+          <OPENING>13:00</OPENING>
+          <SLUITING>17:00</SLUITING>
         </ZATERDAG>
+        <ZONDAG>
+          <OPENING>10:00</OPENING>
+          <SLUITING>12:30</SLUITING>
+        </ZONDAG>
       </OPENINGSTIJDEN>
       <DIENSTEN>
-        <VERHUUR>JA</VERHUUR>
-        <LENEN>JA</LENEN>
+        <LENEN/>
       </DIENSTEN>
-      <AUTOS>
-        <AUTO kenteken="26-NTT-2">
-          <NIEUW>true</NIEUW>
-          <MERK>Porsche</MERK>
-          <MODEL>Cayenne 2s</MODEL>
-          <BOUWJAAR>2018</BOUWJAAR>
-          <BRANDSTOF>Diesel</BRANDSTOF>
-          <PRIJS>98000,00</PRIJS>
-          <DATUM>1-4-2018</DATUM>
-          <APK-VERLOOP-DATUM>1-4-2020</APK-VERLOOP-DATUM>
+      <OCCASIONS>
+        <AUTO kenteken="88AXRD" merk="Volkswagen">
+          <MODEL>Beetle</MODEL>
+          <BOUWJAAR>2016</BOUWJAAR>
+          <BRANDSTOF naam="Euro_95" />
+          <PRIJS>26.000</PRIJS>
+          <APK-VERLOOP-DATUM>13-04-2018</APK-VERLOOP-DATUM>
           <FOTOS>
-            <FOTO>cayenne2sFront.jpg</FOTO>
-            <FOTO>cayenne2sSide.jpg</FOTO>
-            <FOTO>cayenne2sPromo.jpg</FOTO>
+            <FOTO>
+              <URL>88AXRD.jpg</URL>
+              <ALT>Beetle</ALT>
+            </FOTO>
           </FOTOS>
         </AUTO>
-        <AUTO kenteken="99-XDR-4" >
-          <NIEUW>true</NIEUW>
-          <MERK>Audi</MERK>
-          <MODEL>A3</MODEL>
-          <BOUWJAAR>2018</BOUWJAAR>
-          <BRANDSTOF>Benzine</BRANDSTOF>
-          <PRIJS>58000,00</PRIJS>
-          <DATUM>26-2-2017</DATUM>
-          <APK-VERLOOP-DATUM>26-2-2019</APK-VERLOOP-DATUM>
+        <AUTO kenteken="98VC44" merk="Volkswagen">
+          <MODEL>Polo</MODEL>
+          <BOUWJAAR>2001</BOUWJAAR>
+          <BRANDSTOF naam="Euro_95" />
+          <PRIJS>17.000</PRIJS>
+          <APK-VERLOOP-DATUM>05-05-2018</APK-VERLOOP-DATUM>
           <FOTOS>
-            <FOTO>A3Front.jpg</FOTO>
-            <FOTO>A3side.jpg</FOTO>
-            <FOTO>A3inside.jpg</FOTO>
+            <FOTO>
+              <URL></URL>
+              <ALT>Beetle</ALT>
+            </FOTO>
           </FOTOS>
         </AUTO>
-      </AUTOS>
+      </OCCASIONS>
+      <NIEUWE-AUTOS>
+        <AUTO merk="Volkswagen">
+          <MODEL>Arteon</MODEL>
+          <BOUWJAAR>2018</BOUWJAAR>
+          <BRANDSTOF naam="Diesel"/>
+          <PRIJS>40.250,08</PRIJS>
+          <APK-VERLOOP-DATUM>29-01-2020</APK-VERLOOP-DATUM>
+          <FOTOS>
+            <FOTO>
+              <URL>arteon.jpg</URL>
+              <ALT>Auto</ALT>
+            </FOTO>
+          </FOTOS>
+        </AUTO>
+        <AUTO merk="Tesla">
+          <MODEL>Model S</MODEL>
+          <BOUWJAAR>2018</BOUWJAAR>
+          <BRANDSTOF naam="Elektrisch"/>
+          <PRIJS>92.500,00</PRIJS>
+          <APK-VERLOOP-DATUM>20-12-2020</APK-VERLOOP-DATUM>
+          <FOTOS>
+            <FOTO>
+              <URL>modelS.jpg</URL>
+              <ALT>Tesla</ALT>
+            </FOTO>
+          </FOTOS>
+        </AUTO>
+      </NIEUWE-AUTOS>
     </VERKOOP>
     <WERKPLAATS>
       <OPENINGSTIJDEN>
         <MAANDAG>
           <OPENING>08:00</OPENING>
-          <SLUITING>17:30</SLUITING>
+          <SLUITING>12:30</SLUITING>
+          <OPENING>13:00</OPENING>
+          <SLUITING>17:00</SLUITING>
         </MAANDAG>
         <DINSDAG>
           <OPENING>08:00</OPENING>
-          <SLUITING>17:30</SLUITING>
+          <SLUITING>12:30</SLUITING>
+          <OPENING>13:00</OPENING>
+          <SLUITING>17:00</SLUITING>
         </DINSDAG>
         <WOENSDAG>
           <OPENING>08:00</OPENING>
+          <SLUITING>12:30</SLUITING>
+          <OPENING>13:00</OPENING>
           <SLUITING>17:00</SLUITING>
         </WOENSDAG>
         <DONDERDAG>
           <OPENING>08:00</OPENING>
+          <SLUITING>12:30</SLUITING>
+          <OPENING>13:00</OPENING>
           <SLUITING>17:00</SLUITING>
         </DONDERDAG>
         <VRIJDAG>
           <OPENING>08:00</OPENING>
+          <SLUITING>12:30</SLUITING>
+          <OPENING>13:00</OPENING>
           <SLUITING>17:00</SLUITING>
         </VRIJDAG>
+      </OPENINGSTIJDEN>
+      <WERKZAAMHEDEN>
+        <ONDERHOUD/>
+        <APK/>
+        <RUITENREPARATIE/>
+        <AIRCOSERVICE/>
+      </WERKZAAMHEDEN>
+    </WERKPLAATS>
+    <CERTIFICATEN>
+      <BOVAG></BOVAG>
+      <RDW></RDW>
+    </CERTIFICATEN>
+    <MEDEWERKERS>
+      <MEDEWERKER>
+        <VOORNAAM>Hendrikus</VOORNAAM>
+        <ACHTERNAAM>van Heeren</ACHTERNAAM>
+        <FOTO>
+          <URL>hendrikus.jpeg</URL>
+          <ALT>Hendrikus</ALT>
+        </FOTO>
+        <FUNCTIE naam="Eigenaar" />
+      </MEDEWERKER>
+      <MEDEWERKER>
+        <VOORNAAM>Harry</VOORNAAM>
+        <ACHTERNAAM>van Heeren</ACHTERNAAM>
+        <FOTO>
+          <URL></URL>
+          <ALT>Harry</ALT>
+        </FOTO>
+        <FUNCTIE naam="Bandenspecialist" />
+      </MEDEWERKER>
+      <MEDEWERKER>
+        <VOORNAAM>Eddy</VOORNAAM>
+        <ACHTERNAAM>de Jong</ACHTERNAAM>
+        <FOTO>
+          <URL>dave.jpg</URL>
+          <ALT>Eddie</ALT>
+        </FOTO>
+        <FUNCTIE naam="Hoofd monteur" />
+      </MEDEWERKER>
+    </MEDEWERKERS>
+  </GARAGE>
+  <GARAGE>
+    <NAAM>Autofirst vakgarage</NAAM>
+    <ADRESGEGEVENS>
+      <STRAAT>Phillipsweg</STRAAT>
+      <HUISNUMMER>41</HUISNUMMER>
+      <POSTCODE>8754 AB</POSTCODE>
+      <PLAATS>Groningen</PLAATS>
+      <PROVINCIE>Groningen</PROVINCIE>
+    </ADRESGEGEVENS>
+    <TELEFOONNUMMER>0568415624</TELEFOONNUMMER>
+    <EMAIL>info@autofirst.nl</EMAIL>
+    <VERKOOP>
+      <OPENINGSTIJDEN>
+        <MAANDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </MAANDAG>
+        <DINSDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DINSDAG>
+        <WOENSDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </WOENSDAG>
+        <DONDERDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DONDERDAG>
+        <VRIJDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </VRIJDAG>
         <ZATERDAG>
-          <OPENING>10:00</OPENING>
+          <OPENING>09:00</OPENING>
+          <SLUITING>16:00</SLUITING>
+        </ZATERDAG>
+      </OPENINGSTIJDEN>
+      <DIENSTEN>
+        <LENEN/>
+      </DIENSTEN>
+      <OCCASIONS>
+        <AUTO kenteken="NP-40-1N" merk="Audi">
+          <MODEL>A5 2.0</MODEL>
+          <BOUWJAAR>2010</BOUWJAAR>
+          <BRANDSTOF naam="Euro_95" />
+          <PRIJS>27950,00</PRIJS>
+          <APK-VERLOOP-DATUM>02-04-2018</APK-VERLOOP-DATUM>
+          <FOTOS>
+            <FOTO>
+              <URL>15394489-1.jpg</URL>
+              <ALT>Audi 1</ALT>
+            </FOTO>
+            <FOTO>
+              <URL>15394489-2.jpg</URL>
+              <ALT>Audi 2</ALT>
+            </FOTO>
+            <FOTO>
+              <URL>15394489-3.jpg</URL>
+              <ALT>Audi 3</ALT>
+            </FOTO>
+            <FOTO>
+              <URL>15394489-4.jpg</URL>
+              <ALT>Audi 4</ALT>
+            </FOTO>
+            <FOTO>
+              <URL>15394489-5.jpg</URL>
+              <ALT>Audi 5</ALT>
+            </FOTO>
+            <FOTO>
+              <URL>15394489-6.jpg</URL>
+              <ALT>Audi 6</ALT>
+            </FOTO>
+          </FOTOS>
+        </AUTO>
+      </OCCASIONS>
+    </VERKOOP>
+    <WERKPLAATS>
+      <OPENINGSTIJDEN>
+        <MAANDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </MAANDAG>
+        <DINSDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DINSDAG>
+        <WOENSDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </WOENSDAG>
+        <DONDERDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DONDERDAG>
+        <VRIJDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </VRIJDAG>
+        <ZATERDAG>
+          <OPENING>09:00</OPENING>
           <SLUITING>16:00</SLUITING>
         </ZATERDAG>
       </OPENINGSTIJDEN>
       <WERKZAAMHEDEN>
-        <ONDERHOUD>true</ONDERHOUD>
-        <APK>true</APK>
-        <SCHADEHERSTEL>false</SCHADEHERSTEL>
-        <RUITENREPARATIE>false</RUITENREPARATIE>
-        <AIRCOSERVICE>false</AIRCOSERVICE>
-        <BANDENSERVICE>true</BANDENSERVICE>
+        <ONDERHOUD/>
+        <APK/>
+        <SCHADEHERSTEL/>
+        <RUITENREPARATIE/>
+        <AIRCOSERVICE/>
+        <BANDENSERVICE/>
       </WERKZAAMHEDEN>
     </WERKPLAATS>
-    <CERTIFICATEN>
-      <CERTIFICAAT>BOVAG</CERTIFICAAT>
-      <CERTIFICAAT>Bandenspecialist</CERTIFICAAT>
-    </CERTIFICATEN>
     <MEDEWERKERS>
       <MEDEWERKER>
-        <VOORNAAM>Henry</VOORNAAM>
-        <ACHTERNAAM>Ottersma</ACHTERNAAM>
-        <FOTO>henry.jpg</FOTO>
-        <FUNCTIE>Bandenvervanger</FUNCTIE>
+        <VOORNAAM>Jesse</VOORNAAM>
+        <ACHTERNAAM>de Jong</ACHTERNAAM>
+        <FOTO>
+          <URL></URL>
+          <ALT>Jesse</ALT>
+        </FOTO>
+        <FUNCTIE naam="Eigenaar" />
       </MEDEWERKER>
       <MEDEWERKER>
-        <VOORNAAM>Dave</VOORNAAM>
-        <ACHTERNAAM>Meesters</ACHTERNAAM>
-        <FOTO>Dmeesters.jpg</FOTO>
-        <FUNCTIE>Monteur</FUNCTIE>
-      </MEDEWERKER>
-      <MEDEWERKER>
-        <VOORNAAM>Henk</VOORNAAM>
-        <ACHTERNAAM>Meesters</ACHTERNAAM>
-        <FOTO>Hmeesters.jpg</FOTO>
-        <FUNCTIE>Manager</FUNCTIE>
+        <VOORNAAM>Eddy</VOORNAAM>
+        <ACHTERNAAM>de Jong</ACHTERNAAM>
+        <FOTO>
+          <URL>Eddy-290x435.jpg</URL>
+          <ALT>Eddie</ALT>
+        </FOTO>
+        <FUNCTIE naam="Hoofd monteur" />
       </MEDEWERKER>
     </MEDEWERKERS>
     <FACILITEITEN>
-      <POMPEN>
-        <POMP nummer="1">
-          <BRANDSTOFFEN>
-            <BRANDSTOF>Diesel</BRANDSTOF>
-            <BRANDSTOF>Benzine</BRANDSTOF>
-          </BRANDSTOFFEN>
-        </POMP>
-        <POMP nummer="2">
-          <BRANDSTOFFEN>
-            <BRANDSTOF>Diesel</BRANDSTOF>
-            <BRANDSTOF>Benzine</BRANDSTOF>
-          </BRANDSTOFFEN>
-        </POMP>
-        <BRANDSTOF-PRIJZEN>
-          <BRANDSTOF-PRIJS>
-            <BRANDSTOF>Diesel</BRANDSTOF>
-            <PRIJS>1,31</PRIJS>
-          </BRANDSTOF-PRIJS>
-          <BRANDSTOF-PRIJS>
-            <BRANDSTOF>Benzine</BRANDSTOF>
-            <PRIJS>1,51</PRIJS>
-          </BRANDSTOF-PRIJS>
-        </BRANDSTOF-PRIJZEN>
-      </POMPEN>
+      <WASSEN>
+        <WASSTRATEN>
+          <WASSTRAAT nummer="1">
+            <PRIJS>5,00</PRIJS>
+          </WASSTRAAT>
+        </WASSTRATEN>
+      </WASSEN>
     </FACILITEITEN>
+  </GARAGE>
+  <GARAGE>
+    <NAAM>De Mol garage</NAAM>
+    <ADRESGEGEVENS>
+      <STRAAT>Molenweg</STRAAT>
+      <HUISNUMMER>1</HUISNUMMER>
+      <POSTCODE>4142 JZ</POSTCODE>
+      <PLAATS>Emmen</PLAATS>
+      <PROVINCIE>Drenthe</PROVINCIE>
+    </ADRESGEGEVENS>
+    <TELEFOONNUMMER>0542 244225</TELEFOONNUMMER>
+    <EMAIL>info@demol-emmen.nl</EMAIL>
+    <VERKOOP>
+      <OPENINGSTIJDEN>
+        <MAANDAG>
+          <OPENING>08:30</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </MAANDAG>
+        <DINSDAG>
+          <OPENING>08:30</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DINSDAG>
+        <WOENSDAG>
+          <OPENING>08:30</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </WOENSDAG>
+        <DONDERDAG>
+          <OPENING>08:30</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DONDERDAG>
+        <VRIJDAG>
+          <OPENING>08:30</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </VRIJDAG>
+      </OPENINGSTIJDEN>
+      <DIENSTEN>
+        <VERHUUR/>
+        <LENEN/>
+      </DIENSTEN>
+      <OCCASIONS>
+        <AUTO kenteken="23AKW2" merk="Renault">
+          <MODEL>Kangoo Express</MODEL>
+          <BOUWJAAR>2014</BOUWJAAR>
+          <BRANDSTOF naam="Diesel" />
+          <PRIJS>3500,00</PRIJS>
+          <APK-VERLOOP-DATUM>02-04-2017</APK-VERLOOP-DATUM>
+          <FOTOS>
+            <FOTO>
+              <URL>knagoo.jpg</URL>
+              <ALT>Renault Kangoo Express</ALT>
+            </FOTO>
+          </FOTOS>
+        </AUTO>
+      </OCCASIONS>
+      <NIEUWE-AUTOS>
+        <AUTO merk="Tesla">
+          <MODEL>Model 3</MODEL>
+          <BOUWJAAR>2018</BOUWJAAR>
+          <BRANDSTOF naam="Elektrisch"/>
+          <PRIJS>72.500,00</PRIJS>
+          <APK-VERLOOP-DATUM>20-12-2020</APK-VERLOOP-DATUM>
+          <FOTOS>
+            <FOTO>
+              <URL>model3.jpg</URL>
+              <ALT>Tesla</ALT>
+            </FOTO>
+          </FOTOS>
+        </AUTO>
+      </NIEUWE-AUTOS>
+    </VERKOOP>
+    <WERKPLAATS>
+      <OPENINGSTIJDEN>
+        <MAANDAG>
+          <OPENING>08:30</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </MAANDAG>
+        <DINSDAG>
+          <OPENING>08:30</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DINSDAG>
+        <WOENSDAG>
+          <OPENING>08:30</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </WOENSDAG>
+        <DONDERDAG>
+          <OPENING>08:30</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DONDERDAG>
+        <VRIJDAG>
+          <OPENING>08:30</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </VRIJDAG>
+      </OPENINGSTIJDEN>
+      <WERKZAAMHEDEN>
+        <ONDERHOUD />
+        <APK />
+        <SCHADEHERSTEL />
+        <RUITENREPARATIE/>
+        <AIRCOSERVICE/>
+        <BANDENSERVICE/>
+      </WERKZAAMHEDEN>
+    </WERKPLAATS>
+    <MEDEWERKERS>
+      <MEDEWERKER>
+        <VOORNAAM>Gerrit</VOORNAAM>
+        <ACHTERNAAM>Soepart</ACHTERNAAM>
+        <FOTO>
+          <URL></URL>
+          <ALT>Gerrit</ALT>
+        </FOTO>
+        <FUNCTIE naam="Eigenaar" />
+      </MEDEWERKER>
+    </MEDEWERKERS>
+  </GARAGE>
+  <GARAGE>
+    <NAAM>CarOne Garage</NAAM>
+    <ADRESGEGEVENS>
+      <STRAAT>Hoofdstraat </STRAAT>
+      <HUISNUMMER>14</HUISNUMMER>
+      <POSTCODE>5612 NM</POSTCODE>
+      <PLAATS>Ter Apel</PLAATS>
+      <PROVINCIE>Groningen</PROVINCIE>
+    </ADRESGEGEVENS>
+    <TELEFOONNUMMER>0521345844</TELEFOONNUMMER>
+    <VERKOOP>
+      <OPENINGSTIJDEN>
+        <MAANDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </MAANDAG>
+        <DINSDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DINSDAG>
+        <WOENSDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </WOENSDAG>
+        <DONDERDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DONDERDAG>
+        <VRIJDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </VRIJDAG>
+        <ZATERDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>13:00</SLUITING>
+        </ZATERDAG>
+      </OPENINGSTIJDEN>
+      <DIENSTEN>
+        <VERHUUR/>
+      </DIENSTEN>
+      <OCCASIONS>
+        <AUTO kenteken="22klz1" merk="Porsche">
+          <MODEL>Carrera 2S</MODEL>
+          <BOUWJAAR>2002</BOUWJAAR>
+          <BRANDSTOF naam="Euro_95" />
+          <PRIJS>4800,00</PRIJS>
+          <APK-VERLOOP-DATUM>09-01-2019</APK-VERLOOP-DATUM>
+          <FOTOS>
+            <FOTO>
+              <URL></URL>
+              <ALT>Porsche</ALT>
+            </FOTO>
+          </FOTOS>
+        </AUTO>
+      </OCCASIONS>
+    </VERKOOP>
+    <WERKPLAATS>
+      <OPENINGSTIJDEN>
+        <MAANDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </MAANDAG>
+        <DINSDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DINSDAG>
+        <WOENSDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </WOENSDAG>
+        <DONDERDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DONDERDAG>
+        <VRIJDAG>
+          <OPENING>08:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </VRIJDAG>
+        <ZATERDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>13:00</SLUITING>
+        </ZATERDAG>
+      </OPENINGSTIJDEN>
+      <WERKZAAMHEDEN>
+        <ONDERHOUD/>
+        <APK/>
+        <SCHADEHERSTEL/>
+        <AIRCOSERVICE/>
+        <BANDENSERVICE />
+      </WERKZAAMHEDEN>
+    </WERKPLAATS>
+    <MEDEWERKERS>
+      <MEDEWERKER>
+        <VOORNAAM>Henk</VOORNAAM>
+        <ACHTERNAAM>Sok</ACHTERNAAM>
+        <FOTO>
+          <URL></URL>
+          <ALT>Henk Sok</ALT>
+        </FOTO>
+        <FUNCTIE naam="Eigenaar" />
+      </MEDEWERKER>
+    </MEDEWERKERS>
+  </GARAGE>
+  <GARAGE>
+    <NAAM>CarCustoms garage</NAAM>
+    <ADRESGEGEVENS>
+      <STRAAT>Industrieweg </STRAAT>
+      <HUISNUMMER>12</HUISNUMMER>
+      <POSTCODE>9403 AB</POSTCODE>
+      <PLAATS>Gasselte</PLAATS>
+      <PROVINCIE>Drenthe</PROVINCIE>
+    </ADRESGEGEVENS>
+    <TELEFOONNUMMER>059425123</TELEFOONNUMMER>
+    <EMAIL>carCustoms@garages.nl</EMAIL>
+    <VERKOOP>
+      <OPENINGSTIJDEN>
+        <MAANDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </MAANDAG>
+        <DINSDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DINSDAG>
+        <WOENSDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </WOENSDAG>
+        <DONDERDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DONDERDAG>
+        <VRIJDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </VRIJDAG>
+        <ZATERDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>17:00</SLUITING>
+        </ZATERDAG>
+      </OPENINGSTIJDEN>
+      <DIENSTEN>
+        <LENEN />
+      </DIENSTEN>
+      <OCCASIONS>
+        <AUTO kenteken="66NTT2" merk="Toyota">
+          <MODEL>Aygo</MODEL>
+          <BOUWJAAR>2010</BOUWJAAR>
+          <BRANDSTOF naam="Euro_95" />
+          <PRIJS>5600,-</PRIJS>
+          <APK-VERLOOP-DATUM>19-04-2018</APK-VERLOOP-DATUM>
+          <FOTOS>
+            <FOTO>
+              <URL></URL>
+              <ALT></ALT>
+            </FOTO>
+          </FOTOS>
+        </AUTO>
+        <AUTO kenteken="90-XK-LR" merk="BMW">
+          <MODEL>318i</MODEL>
+          <BOUWJAAR>2016</BOUWJAAR>
+          <BRANDSTOF naam="Euro_95"/>
+          <PRIJS>33.500,-</PRIJS>
+          <APK-VERLOOP-DATUM>19-02-2019</APK-VERLOOP-DATUM>
+          <FOTOS>
+            <FOTO>
+              <URL></URL>
+              <ALT>BMW</ALT>
+            </FOTO>
+          </FOTOS>
+        </AUTO>
+      </OCCASIONS>
+    </VERKOOP>
+    <WERKPLAATS>
+      <OPENINGSTIJDEN>
+        <MAANDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </MAANDAG>
+        <DINSDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DINSDAG>
+        <WOENSDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </WOENSDAG>
+        <DONDERDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </DONDERDAG>
+        <VRIJDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>18:00</SLUITING>
+        </VRIJDAG>
+        <ZATERDAG>
+          <OPENING>09:00</OPENING>
+          <SLUITING>17:00</SLUITING>
+        </ZATERDAG>
+      </OPENINGSTIJDEN>
+      <WERKZAAMHEDEN>
+        <ONDERHOUD/>
+        <APK/>
+        <SCHADEHERSTEL/>
+        <RUITENREPARATIE/>
+        <AIRCOSERVICE/>
+        <BANDENSERVICE/>
+      </WERKZAAMHEDEN>
+    </WERKPLAATS>
+    <MEDEWERKERS>
+      <MEDEWERKER>
+        <VOORNAAM>Dave</VOORNAAM>
+        <ACHTERNAAM>Derks</ACHTERNAAM>
+        <FOTO>
+          <URL></URL>
+          <ALT>Dave</ALT>
+        </FOTO>
+        <FUNCTIE naam="Eigenaar" />
+      </MEDEWERKER>
+    </MEDEWERKERS>
   </GARAGE>
 </GARAGES>

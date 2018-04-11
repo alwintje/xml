@@ -16,3 +16,11 @@
     height:500px;
     background:#e5e5e5;
 }
+.autoFoto{
+    display: block;
+    max-width: 230px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+}

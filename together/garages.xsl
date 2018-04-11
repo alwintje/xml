@@ -173,7 +173,7 @@
         <xsl:for-each select="MEDEWERKER">
             <div>
                 <div class="uk-card uk-card-body uk-card-secondary">
-                    <img onerror="this.src='../images/default.jpg';" style="max-width:300px;">
+                    <img onerror="this.src='img/default.jpg';" style="max-width:300px;">
                         <xsl:attribute name="src">img/<xsl:value-of select='FOTO/URL'/>
                         </xsl:attribute>
                         <xsl:attribute name="alt">Afbeelding:
@@ -190,10 +190,11 @@
     <xsl:template match="GARAGES/GARAGE/VERKOOP/OCCASIONS">
         <h3>Occasions:</h3>
         <div class="uk-panel uk-panel-scrollable table_height">
-          <div class="uk-child-width-1-3@m uk-grid-medium uk-grid-match" uk-grid="">
+          <xsl:for-each select="AUTO">
+          <div class="uk-child-width-1-2 uk-grid-medium uk-grid-match" uk-grid="">
              <div>
             <table class="uk-table ">
-                <xsl:for-each select="AUTO">
+                
                     <tbody>
                         <tr>
                             <td class="t_select">Model</td>
@@ -238,11 +239,10 @@
                         <xsl:if test="position() != last()"></xsl:if>
                         <tr style="border-bottom: solid #d3d3d3 1px"></tr>
                     </tbody>
-                </xsl:for-each>
             </table>
              </div>
           <div>
-              <img onerror="this.src='img/defaultCar.svg';" style="max-width:300px;">
+              <img onerror="this.src='img/defaultCar.svg';" style="max-width:300px;" class="autoFoto">
                         <xsl:attribute name="src">img/<xsl:value-of select='FOTOS/FOTO/URL'/>
                         </xsl:attribute>
                         <xsl:attribute name="alt">Afbeelding:
@@ -251,15 +251,17 @@
                     </img>
             </div>
           </div>
+          </xsl:for-each>
         </div>
     </xsl:template>
     <xsl:template match="GARAGES/GARAGE/VERKOOP/NIEUWE-AUTOS">
         <h3>Nieuwe auto's:</h3>
         <div class="uk-panel uk-panel-scrollable table_height">
-          <div class="uk-child-width-1-3@m uk-grid-medium uk-grid-match" uk-grid="">
+          <xsl:for-each select="AUTO">
+          <div class="uk-child-width-1-2@m uk-grid-medium uk-grid-match" uk-grid="">
             <div>
             <table class="uk-table ">
-                <xsl:for-each select="AUTO">
+                
                     <tbody>
                         <tr>
                             <td class="t_select">Model</td>
@@ -298,11 +300,11 @@
                         <xsl:if test="position() != last()"></xsl:if>
                         <tr style="border-bottom: solid #d3d3d3 1px"></tr>
                     </tbody>
-                </xsl:for-each>
+                
             </table>
             </div>
           <div>
-              <img onerror="this.src='img/defaultCar.svg';" style="max-width:300px;">
+              <img onerror="this.src='img/defaultCar.svg';" style="max-width:300px;" class="autoFoto">
                         <xsl:attribute name="src">img/<xsl:value-of select='FOTOS/FOTO/URL'/>
                         </xsl:attribute>
                         <xsl:attribute name="alt">Afbeelding:
@@ -311,6 +313,7 @@
                     </img>
             </div>
           </div>
+            </xsl:for-each>
         </div>
     </xsl:template>
 </xsl:stylesheet>
