@@ -50,7 +50,7 @@
                 <LENEN>Ja</LENEN>
             </DIENSTEN>
             <OCCASIONS>
-                <AUTO merk="Volvo">
+                <AUTO kenteken="53-SZ-KD" merk="Volvo">
                     <MODEL>Astra</MODEL>
                     <BOUWJAAR>2016</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
@@ -63,7 +63,7 @@
                         </FOTO>
                     </FOTOS>
                 </AUTO>
-                <AUTO merk="Fiat">
+                <AUTO kenteken="53-SZ-KD" merk="Fiat">
                     <MODEL>Panda</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
@@ -71,7 +71,7 @@
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
-                            <URL>img/fiatpanda.jpg</URL>
+                            <URL>fiatpanda.jpeg</URL>
                             <ALT>Fiat Panda Foto</ALT>
                         </FOTO>
                     </FOTOS>
@@ -127,13 +127,13 @@
                 <VOORNAAM>Cornee</VOORNAAM>
                 <ACHTERNAAM>van Blerk</ACHTERNAAM>
                 <FOTO>cornee.jpg</FOTO>
-                <FUNCTIE naam="Professionele koffiedrinker">Professionele koffiedrinker</FUNCTIE>
+                <FUNCTIE naam="Professionele koffiedrinker"/>
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Thijs</VOORNAAM>
                 <ACHTERNAAM>Janse</ACHTERNAAM>
                 <FOTO>janse.jpg</FOTO>
-                <FUNCTIE naam="Professionele koffiedrinker">Professionele koffiedrinker</FUNCTIE>
+                <FUNCTIE naam="Professionele koffiedrinker" />
             </MEDEWERKER>
         </MEDEWERKERS>
         <FACILITEITEN>
@@ -198,7 +198,7 @@
                 <LENEN>Nee</LENEN>
             </DIENSTEN>
             <OCCASIONS>
-                <AUTO merk="Volvo">
+                <AUTO kenteken="53-SZ-KD" merk="Volvo">
                     <MODEL>Astra</MODEL>
                     <BOUWJAAR>2016</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
@@ -211,7 +211,7 @@
                         </FOTO>
                     </FOTOS>
                 </AUTO>
-                <AUTO merk="Fiat">
+                <AUTO kenteken="53-SZ-KD" merk="Fiat">
                     <MODEL>Panda</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
@@ -219,7 +219,7 @@
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
-                            <URL>img/fiatpanda.jpg</URL>
+                            <URL>fiatpanda.jpeg</URL>
                             <ALT>Fiat Panda Foto</ALT>
                         </FOTO>
                     </FOTOS>
@@ -274,13 +274,13 @@
                 <VOORNAAM>Cornee</VOORNAAM>
                 <ACHTERNAAM>van Blerk</ACHTERNAAM>
                 <FOTO>cornee.jpg</FOTO>
-                <FUNCTIE naam="Professionele koffiedrinker">Professionele koffiedrinker</FUNCTIE>
+                <FUNCTIE naam="Stagiar" />
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Thijs</VOORNAAM>
                 <ACHTERNAAM>Janse</ACHTERNAAM>
                 <FOTO>janse.jpg</FOTO>
-                <FUNCTIE naam="Professionele koffiedrinker">Professionele koffiedrinker</FUNCTIE>
+                <FUNCTIE naam="Hoofdmonteur" />
             </MEDEWERKER>
         </MEDEWERKERS>
     </GARAGE>
@@ -333,7 +333,7 @@
                 <LENEN>Nee</LENEN>
             </DIENSTEN>
             <OCCASIONS>
-                <AUTO merk="Volvo">
+                <AUTO kenteken="53-SZ-KD" merk="Volvo">
                     <MODEL>Astra</MODEL>
                     <BOUWJAAR>2016</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
@@ -346,7 +346,7 @@
                         </FOTO>
                     </FOTOS>
                 </AUTO>
-                <AUTO merk="Fiat">
+                <AUTO kenteken="53-SZ-KD" merk="Fiat">
                     <MODEL>Panda</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
@@ -354,7 +354,7 @@
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
-                            <URL>img/fiatpanda.jpg</URL>
+                            <URL>fiatpanda.jpeg</URL>
                             <ALT>Fiat Panda Foto</ALT>
                         </FOTO>
                     </FOTOS>
@@ -401,13 +401,12 @@
                 <BANDENSERVICE>Ja</BANDENSERVICE>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
-        <CERTIFICATEN></CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Jan</VOORNAAM>
                 <ACHTERNAAM>Veurink</ACHTERNAAM>
                 <FOTO>jan.jpg</FOTO>
-                <FUNCTIE naam="Hoofdmonteur">Hoofdmonteur</FUNCTIE>
+                <FUNCTIE naam="Hoofdmonteur" />
             </MEDEWERKER>
         </MEDEWERKERS>
         <FACILITEITEN>
@@ -478,7 +477,7 @@
                 <LENEN>Ja</LENEN>
             </DIENSTEN>
             <OCCASIONS>
-                <AUTO merk="Fiat">
+                <AUTO kenteken="53-SZ-KD" merk="Fiat">
                     <MODEL>Panda</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
@@ -486,7 +485,7 @@
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
-                            <URL>img/fiatpanda.jpg</URL>
+                            <URL>fiatpanda.jpeg</URL>
                             <ALT>Fiat Panda Foto</ALT>
                         </FOTO>
                     </FOTOS>
@@ -541,7 +540,7 @@
                 <VOORNAAM>Jan Pieter</VOORNAAM>
                 <ACHTERNAAM>Breken</ACHTERNAAM>
                 <FOTO>janpieter.jpg</FOTO>
-                <FUNCTIE naam="Hoofdmonteur">Hoofdmonteur</FUNCTIE>
+                <FUNCTIE naam="Hoofdmonteur" />
             </MEDEWERKER>
         </MEDEWERKERS>
         <FACILITEITEN>
@@ -614,7 +613,7 @@
                 <LENEN>Ja</LENEN>
             </DIENSTEN>
             <OCCASIONS>
-                <AUTO merk="Fiat">
+                <AUTO kenteken="53-SZ-KD" merk="Fiat">
                     <MODEL>Panda</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
@@ -622,7 +621,7 @@
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
-                            <URL>img/fiatpanda.jpg</URL>
+                            <URL>fiatpanda.jpeg</URL>
                             <ALT>Fiat Panda Foto</ALT>
                         </FOTO>
                     </FOTOS>
@@ -678,7 +677,7 @@
                 <VOORNAAM>Jan Pieter</VOORNAAM>
                 <ACHTERNAAM>Breken</ACHTERNAAM>
                 <FOTO>janpieter.jpg</FOTO>
-                <FUNCTIE naam="Hoofdmonteur">Hoofdmonteur</FUNCTIE>
+                <FUNCTIE naam="Hoofdmonteur" />
             </MEDEWERKER>
         </MEDEWERKERS>
         <FACILITEITEN>

@@ -304,7 +304,7 @@
             </table>
             </div>
           <div>
-              <img onerror="this.src='img/defaultCar.svg';" style="max-width:300px;" class="autoFoto">
+              <img onerror="this.src='img/defaultCar.svg';" style="max-width:100%;" class="autoFoto">
                         <xsl:attribute name="src">img/<xsl:value-of select='FOTOS/FOTO/URL'/>
                         </xsl:attribute>
                         <xsl:attribute name="alt">Afbeelding:
