@@ -126,12 +126,14 @@
                 <VOORNAAM>Rick</VOORNAAM>
                 <ACHTERNAAM>SchoneWille</ACHTERNAAM>
                 <FOTO>rickschone.jpg</FOTO>
+                 <ALT>Rick</ALT>
                 <FUNCTIE naam="Verkoper"/>
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Maththijs</VOORNAAM>
                 <ACHTERNAAM>Bakker</ACHTERNAAM>
                 <FOTO>mathijsbakker.jpg</FOTO>
+                 <ALT>Maththijs</ALT>
                 <FUNCTIE naam="Verkoper"/>
             </MEDEWERKER>
         </MEDEWERKERS>
@@ -307,6 +309,7 @@
                     <PRIJS>2150,00</PRIJS>
                     <FOTOS>
                         <FOTO>fiatidea.jpg</FOTO>
+                         <ALT>Auto</ALT>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
@@ -349,6 +352,7 @@
                 <VOORNAAM>Henk</VOORNAAM>
                 <ACHTERNAAM>Visser</ACHTERNAAM>
                 <FOTO>henkvisser.jpg</FOTO>
+                 <ALT>Henk</ALT>
                 <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
         </MEDEWERKERS>
@@ -403,6 +407,7 @@
                     <PRIJS>10.950,00</PRIJS>
                     <FOTOS>
                         <FOTO>audia3.jpg</FOTO>
+                         <ALT>Auto</ALT>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
@@ -446,7 +451,8 @@
             <MEDEWERKER>
                 <VOORNAAM>Jan</VOORNAAM>
                 <ACHTERNAAM>Aardema</ACHTERNAAM>
-                <FOTO>23f10cc8bec253abbf3f7dc5c87ea155.jpg</FOTO>
+                <FOTO>frankhoge.jpg</FOTO>
+                 <ALT>Auto</ALT>
                 <FUNCTIE naam="Monteur"/>
             </MEDEWERKER>
         </MEDEWERKERS>
@@ -499,6 +505,7 @@
                     <PRIJS>11.948,00</PRIJS>
                     <FOTOS>
                         <FOTO>audia5.jpg</FOTO>
+                         <ALT>Auto</ALT>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
@@ -509,6 +516,7 @@
                 <VOORNAAM>Frank</VOORNAAM>
                 <ACHTERNAAM>Hoge</ACHTERNAAM>
                 <FOTO>frankhoge.jpg</FOTO>
+                 <ALT>frank</ALT>
                 <FUNCTIE naam="Verkoper"/>
             </MEDEWERKER>
         </MEDEWERKERS>
