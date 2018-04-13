@@ -308,7 +308,7 @@
         <VOORNAAM>Jesse</VOORNAAM>
         <ACHTERNAAM>de Jong</ACHTERNAAM>
         <FOTO>
-          <URL></URL>
+          <URL>1.png</URL>
           <ALT>Jesse</ALT>
         </FOTO>
         <FUNCTIE naam="Eigenaar" />
@@ -439,7 +439,7 @@
         <VOORNAAM>Gerrit</VOORNAAM>
         <ACHTERNAAM>Soepart</ACHTERNAAM>
         <FOTO>
-          <URL></URL>
+          <URL>1.png</URL>
           <ALT>Gerrit</ALT>
         </FOTO>
         <FUNCTIE naam="Eigenaar" />
@@ -558,7 +558,7 @@
       <PLAATS>Gasselte</PLAATS>
       <PROVINCIE>Drenthe</PROVINCIE>
     </ADRESGEGEVENS>
-    <TELEFOONNUMMER>059425123</TELEFOONNUMMER>
+    <TELEFOONNUMMER>0594251243</TELEFOONNUMMER>
     <EMAIL>carCustoms@garages.nl</EMAIL>
     <VERKOOP>
       <OPENINGSTIJDEN>
@@ -599,7 +599,7 @@
           <APK-VERLOOP-DATUM>19-04-2018</APK-VERLOOP-DATUM>
           <FOTOS>
             <FOTO>
-              <URL></URL>
+              <URL>1.png</URL>
               <ALT></ALT>
             </FOTO>
           </FOTOS>
