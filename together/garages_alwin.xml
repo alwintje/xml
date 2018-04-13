@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet  href="..\together\garages.xsl" type="text/xsl" ?>
 
-<!DOCTYPE GARAGES SYSTEM "..\together\garages.dtd">
-
-<GARAGES>
+<!--<!DOCTYPE GARAGES SYSTEM "..\together\garages.dtd">-->
+<GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garages.xsd">
     <GARAGE>
         <NAAM>Henk Boertien</NAAM>
         <ADRESGEGEVENS>
@@ -13,7 +12,7 @@
             <PLAATS>Hollandscheveld</PLAATS>
             <PROVINCIE>Drenthe</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER>0528343895</TELEFOONNUMMER>
+        <TELEFOONNUMMER>0528 343895</TELEFOONNUMMER>
         <EMAIL>werkplaats@henkboertien.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
@@ -47,13 +46,19 @@
                     <OPENING>13:00</OPENING>
                     <SLUITING>17:00</SLUITING>
                 </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>12:30</SLUITING>
+                    <OPENING>13:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </ZATERDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
                 <LENEN/>
             </DIENSTEN>
             <OCCASIONS>
                 <AUTO kenteken="64TTRF" merk="Mini">
-                    <MODEL> 1.6 Cooper Chili</MODEL>
+                    <MODEL>1.6 Cooper Chili</MODEL>
                     <BOUWJAAR>2007</BOUWJAAR>
                     <BRANDSTOF naam="Euro_95" />
                     <PRIJS>6750,00</PRIJS>
@@ -278,7 +283,7 @@
         <ADRESGEGEVENS>
             <STRAAT>Pieter Mastebroekweg</STRAAT>
             <HUISNUMMER>1B</HUISNUMMER>
-            <POSTCODE>7942 JZ </POSTCODE>
+            <POSTCODE>7942 JZ</POSTCODE>
             <PLAATS>Meppel</PLAATS>
             <PROVINCIE>Drenthe</PROVINCIE>
         </ADRESGEGEVENS>
