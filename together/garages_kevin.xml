@@ -11,7 +11,7 @@
       <PLAATS>Budel-Dorplein</PLAATS>
       <PROVINCIE>Noord-Brabant</PROVINCIE>
     </ADRESGEGEVENS>
-    <TELEFOONNUMMER>06-13842544</TELEFOONNUMMER>
+    <TELEFOONNUMMER>0613842544</TELEFOONNUMMER>
     <EMAIL>auto@vanheeren.nl</EMAIL>
     <VERKOOP>
       <OPENINGSTIJDEN>
@@ -64,7 +64,7 @@
           <MODEL>Beetle</MODEL>
           <BOUWJAAR>2016</BOUWJAAR>
           <BRANDSTOF naam="Euro_95" />
-          <PRIJS>26.000</PRIJS>
+          <PRIJS>26000,-</PRIJS>
           <APK-VERLOOP-DATUM>13-04-2018</APK-VERLOOP-DATUM>
           <FOTOS>
             <FOTO>
@@ -77,11 +77,11 @@
           <MODEL>Polo</MODEL>
           <BOUWJAAR>2001</BOUWJAAR>
           <BRANDSTOF naam="Euro_95" />
-          <PRIJS>17.000</PRIJS>
+          <PRIJS>17000,-</PRIJS>
           <APK-VERLOOP-DATUM>05-05-2018</APK-VERLOOP-DATUM>
           <FOTOS>
             <FOTO>
-              <URL></URL>
+              <URL>ditisgeenafbeelding.jpg</URL>
               <ALT>Beetle</ALT>
             </FOTO>
           </FOTOS>
@@ -92,7 +92,7 @@
           <MODEL>Arteon</MODEL>
           <BOUWJAAR>2018</BOUWJAAR>
           <BRANDSTOF naam="Diesel"/>
-          <PRIJS>40.250,08</PRIJS>
+          <PRIJS>40250,08</PRIJS>
           <APK-VERLOOP-DATUM>29-01-2020</APK-VERLOOP-DATUM>
           <FOTOS>
             <FOTO>
@@ -104,8 +104,8 @@
         <AUTO merk="Tesla">
           <MODEL>Model S</MODEL>
           <BOUWJAAR>2018</BOUWJAAR>
-          <BRANDSTOF naam="Elektrisch"/>
-          <PRIJS>92.500,00</PRIJS>
+          <BRANDSTOF naam="Diesel"/>
+          <PRIJS>92500,00</PRIJS>
           <APK-VERLOOP-DATUM>20-12-2020</APK-VERLOOP-DATUM>
           <FOTOS>
             <FOTO>
@@ -174,7 +174,7 @@
         <VOORNAAM>Harry</VOORNAAM>
         <ACHTERNAAM>van Heeren</ACHTERNAAM>
         <FOTO>
-          <URL></URL>
+          <URL>1.jpg</URL>
           <ALT>Harry</ALT>
         </FOTO>
         <FUNCTIE naam="Bandenspecialist" />
@@ -390,8 +390,8 @@
         <AUTO merk="Tesla">
           <MODEL>Model 3</MODEL>
           <BOUWJAAR>2018</BOUWJAAR>
-          <BRANDSTOF naam="Elektrisch"/>
-          <PRIJS>72.500,00</PRIJS>
+          <BRANDSTOF naam="Diesel"/>
+          <PRIJS>72500,00</PRIJS>
           <APK-VERLOOP-DATUM>20-12-2020</APK-VERLOOP-DATUM>
           <FOTOS>
             <FOTO>
@@ -495,7 +495,7 @@
           <APK-VERLOOP-DATUM>09-01-2019</APK-VERLOOP-DATUM>
           <FOTOS>
             <FOTO>
-              <URL></URL>
+              <URL>haha.jpg</URL>
               <ALT>Porsche</ALT>
             </FOTO>
           </FOTOS>
@@ -542,7 +542,7 @@
         <VOORNAAM>Henk</VOORNAAM>
         <ACHTERNAAM>Sok</ACHTERNAAM>
         <FOTO>
-          <URL></URL>
+          <URL>lel.jpg</URL>
           <ALT>Henk Sok</ALT>
         </FOTO>
         <FUNCTIE naam="Eigenaar" />
@@ -608,11 +608,11 @@
           <MODEL>318i</MODEL>
           <BOUWJAAR>2016</BOUWJAAR>
           <BRANDSTOF naam="Euro_95"/>
-          <PRIJS>33.500,-</PRIJS>
+          <PRIJS>33500,-</PRIJS>
           <APK-VERLOOP-DATUM>19-02-2019</APK-VERLOOP-DATUM>
           <FOTOS>
             <FOTO>
-              <URL></URL>
+              <URL>lelajsj.jpg</URL>
               <ALT>BMW</ALT>
             </FOTO>
           </FOTOS>
@@ -660,7 +660,7 @@
         <VOORNAAM>Dave</VOORNAAM>
         <ACHTERNAAM>Derks</ACHTERNAAM>
         <FOTO>
-          <URL></URL>
+          <URL>geenbestand.png</URL>
           <ALT>Dave</ALT>
         </FOTO>
         <FUNCTIE naam="Eigenaar" />
