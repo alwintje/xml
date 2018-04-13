@@ -119,20 +119,26 @@
             </WERKZAAMHEDEN>
         </WERKPLAATS>
         <CERTIFICATEN>
-            <BOVAG></BOVAG>
-            <RDW></RDW>
+            <BOVAG />
+            <RDW />
         </CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Cornee</VOORNAAM>
                 <ACHTERNAAM>van Blerk</ACHTERNAAM>
-                <FOTO>cornee.jpg</FOTO>
+                <FOTO>
+                    <URL>cornee.jpg</URL>
+                    <ALT>Cornee</ALT>
+                </FOTO>
                 <FUNCTIE naam="Professionele koffiedrinker"/>
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Thijs</VOORNAAM>
                 <ACHTERNAAM>Janse</ACHTERNAAM>
-                <FOTO>janse.jpg</FOTO>
+                <FOTO>
+                    <URL>janse.jpg</URL>
+                    <ALT>Thijs Janse</ALT>
+                </FOTO>
                 <FUNCTIE naam="Professionele koffiedrinker" />
             </MEDEWERKER>
         </MEDEWERKERS>
@@ -266,19 +272,25 @@
             </WERKZAAMHEDEN>
         </WERKPLAATS>
         <CERTIFICATEN>
-            <RDW></RDW>
+            <RDW/>
         </CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Cornee</VOORNAAM>
                 <ACHTERNAAM>van Blerk</ACHTERNAAM>
-                <FOTO>cornee.jpg</FOTO>
+                <FOTO>
+                    <URL>cornee.jpg</URL>
+                    <ALT>Cornee</ALT>
+                </FOTO>
                 <FUNCTIE naam="Stagiar" />
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Thijs</VOORNAAM>
                 <ACHTERNAAM>Janse</ACHTERNAAM>
-                <FOTO>janse.jpg</FOTO>
+                <FOTO>
+                    <URL>janse.jpg</URL>
+                    <ALT>Thijs Janse</ALT>
+                </FOTO>
                 <FUNCTIE naam="Hoofdmonteur" />
             </MEDEWERKER>
         </MEDEWERKERS>
@@ -404,7 +416,10 @@
             <MEDEWERKER>
                 <VOORNAAM>Jan</VOORNAAM>
                 <ACHTERNAAM>Veurink</ACHTERNAAM>
-                <FOTO>jan.jpg</FOTO>
+                <FOTO>
+                    <URL>jan.jpg</URL>
+                    <ALT>Jan Veurink</ALT>
+                </FOTO>
                 <FUNCTIE naam="Hoofdmonteur" />
             </MEDEWERKER>
         </MEDEWERKERS>
@@ -523,7 +538,7 @@
             </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
                 <ONDERHOUD>Ja</ONDERHOUD>
-                <APK>Ja</APK>
+                <APK>J`a</APK>
                 <SCHADEHERSTEL>Ja</SCHADEHERSTEL>
                 <RUITENREPARATIE>Ja</RUITENREPARATIE>
                 <AIRCOSERVICE>Ja</AIRCOSERVICE>
@@ -531,13 +546,16 @@
             </WERKZAAMHEDEN>
         </WERKPLAATS>
         <CERTIFICATEN>
-           <BOVAG></BOVAG>
+           <BOVAG/>
         </CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Jan Pieter</VOORNAAM>
                 <ACHTERNAAM>Breken</ACHTERNAAM>
-                <FOTO>janpieter.jpg</FOTO>
+                <FOTO>
+                    <URL>janpieter.jpg</URL>
+                    <ALT>Jan Pieter</ALT>
+                </FOTO>
                 <FUNCTIE naam="Hoofdmonteur" />
             </MEDEWERKER>
         </MEDEWERKERS>
@@ -666,14 +684,17 @@
             </WERKZAAMHEDEN>
         </WERKPLAATS>
         <CERTIFICATEN>
-            <BOVAG></BOVAG>
-            <RDW></RDW>
+            <BOVAG />
+            <RDW />
         </CERTIFICATEN>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Jan Pieter</VOORNAAM>
                 <ACHTERNAAM>Breken</ACHTERNAAM>
-                <FOTO>janpieter.jpg</FOTO>
+                <FOTO>
+                    <URL>janpieter.jpg</URL>
+                    <ALT>Jan Pieter Breken</ALT>
+                </FOTO>
                 <FUNCTIE naam="Hoofdmonteur" />
             </MEDEWERKER>
         </MEDEWERKERS>
