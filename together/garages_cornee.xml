@@ -46,8 +46,8 @@
                 </ZATERDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
-                <VERHUUR>Ja</VERHUUR>
-                <LENEN>Ja</LENEN>
+                <VERHUUR />
+                <LENEN />
             </DIENSTEN>
             <OCCASIONS>
                 <AUTO kenteken="53-SZ-KD" merk="Volvo">
@@ -194,8 +194,7 @@
                 </ZATERDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
-                <VERHUUR>Nee</VERHUUR>
-                <LENEN>Nee</LENEN>
+                <LENEN/>
             </DIENSTEN>
             <OCCASIONS>
                 <AUTO kenteken="53-SZ-KD" merk="Volvo">
@@ -329,8 +328,8 @@
                 </ZATERDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
-                <VERHUUR>Ja</VERHUUR>
-                <LENEN>Nee</LENEN>
+                <LENEN/>
+                <VERHUUR />
             </DIENSTEN>
             <OCCASIONS>
                 <AUTO kenteken="53-SZ-KD" merk="Volvo">
@@ -473,8 +472,7 @@
                 </ZATERDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
-                <VERHUUR>Ja</VERHUUR>
-                <LENEN>Ja</LENEN>
+                <VERHUUR />
             </DIENSTEN>
             <OCCASIONS>
                 <AUTO kenteken="53-SZ-KD" merk="Fiat">
@@ -609,8 +607,7 @@
                 </ZATERDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
-                <VERHUUR>Ja</VERHUUR>
-                <LENEN>Ja</LENEN>
+                <LENEN />
             </DIENSTEN>
             <OCCASIONS>
                 <AUTO kenteken="53-SZ-KD" merk="Fiat">
