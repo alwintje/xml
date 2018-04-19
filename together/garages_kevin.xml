@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="garages.xsl"?>
 <!--<!DOCTYPE GARAGES SYSTEM "garages.dtd" >-->
+
 <GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garages.xsd">
   <GARAGE>
     <NAAM>Van Heeren auto's</NAAM>

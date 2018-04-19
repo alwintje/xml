@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet  href="garages.xsl" type="text/xsl" ?>
 
-<!DOCTYPE GARAGES SYSTEM "garages.dtd">
+<!--<!DOCTYPE GARAGES SYSTEM "garages.dtd">-->
 
-<GARAGES>
+<GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garages.xsd">
   <GARAGE>
     <NAAM>Garage Westerink B.V.</NAAM>
     <ADRESGEGEVENS>
