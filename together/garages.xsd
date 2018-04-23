@@ -314,7 +314,7 @@
                                                             <xs:sequence>
                                                                 <xs:element name="ITEM" maxOccurs="unbounded">
                                                                     <xs:complexType>
-                                                                        <xs:choice>
+                                                                        <xs:choice maxOccurs="4">
                                                                             <xs:element name="NAAM" type="xs:string" />
                                                                             <xs:element name="OMSCHRIJVING" type="xs:string" />
                                                                             <xs:element ref="PRIJS" />

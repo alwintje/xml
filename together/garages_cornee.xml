@@ -12,14 +12,10 @@
             <PLAATS>Ommen</PLAATS>
             <PROVINCIE>Overijssel</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER>0529 451 146</TELEFOONNUMMER>
+        <TELEFOONNUMMER>0529 451146</TELEFOONNUMMER>
         <EMAIL>info@absautoherstel.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
-                <ZONDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZONDAG>
                 <MAANDAG>
                     <OPENING>08:00</OPENING>
                     <SLUITING>17:00</SLUITING>
@@ -40,10 +36,6 @@
                     <OPENING>08:00</OPENING>
                     <SLUITING>17:00</SLUITING>
                 </VRIJDAG>
-                <ZATERDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZATERDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
                 <VERHUUR />
@@ -54,7 +46,7 @@
                     <MODEL>Astra</MODEL>
                     <BOUWJAAR>2016</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
-                    <PRIJS>25000</PRIJS>
+                    <PRIJS>6750,00</PRIJS>
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
@@ -67,7 +59,7 @@
                     <MODEL>Panda</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
-                    <PRIJS>6025</PRIJS>
+                    <PRIJS>6025,00</PRIJS>
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
@@ -80,10 +72,6 @@
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
-                <ZONDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZONDAG>
                 <MAANDAG>
                     <OPENING>08:00</OPENING>
                     <SLUITING>17:00</SLUITING>
@@ -104,10 +92,6 @@
                     <OPENING>08:00</OPENING>
                     <SLUITING>17:00</SLUITING>
                 </VRIJDAG>
-                <ZATERDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZATERDAG>
             </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
                 <ONDERHOUD>Ja</ONDERHOUD>
@@ -146,10 +130,10 @@
             <WASSEN>
                 <WASBOXEN>
                     <WASBOX>
-                        <PRIJS>5</PRIJS>
+                        <PRIJS>5,00</PRIJS>
                     </WASBOX>
                     <WASBOX>
-                        <PRIJS>8</PRIJS>
+                        <PRIJS>8,00</PRIJS>
                     </WASBOX>
                 </WASBOXEN>
             </WASSEN>
@@ -158,7 +142,7 @@
 
     <!-- De Groot Auto's -->
     <GARAGE>
-        <NAAM>De Groot Auto's - Ommen</NAAM>
+        <NAAM>De Groot Auto Ommen</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>Strangeweg</STRAAT>
             <HUISNUMMER>11</HUISNUMMER>
@@ -166,14 +150,10 @@
             <PLAATS>Ommen</PLAATS>
             <PROVINCIE>Overijssel</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER>0529 454 709</TELEFOONNUMMER>
+        <TELEFOONNUMMER>0529 454709</TELEFOONNUMMER>
         <EMAIL>info@degrootautosommen.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
-                <ZONDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZONDAG>
                 <MAANDAG>
                     <OPENING>08:00</OPENING>
                     <SLUITING>17:30</SLUITING>
@@ -207,7 +187,7 @@
                     <MODEL>Astra</MODEL>
                     <BOUWJAAR>2016</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
-                    <PRIJS>25000</PRIJS>
+                    <PRIJS>25000,00</PRIJS>
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
@@ -220,7 +200,7 @@
                     <MODEL>Panda</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
-                    <PRIJS>6025</PRIJS>
+                    <PRIJS>6025,00</PRIJS>
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
@@ -233,10 +213,6 @@
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
-                <ZONDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZONDAG>
                 <MAANDAG>
                     <OPENING>08:00</OPENING>
                     <SLUITING>17:00</SLUITING>
@@ -257,10 +233,6 @@
                     <OPENING>08:00</OPENING>
                     <SLUITING>17:00</SLUITING>
                 </VRIJDAG>
-                <ZATERDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZATERDAG>
             </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
                 <ONDERHOUD>Ja</ONDERHOUD>
@@ -306,14 +278,10 @@
             <PLAATS>Ommen</PLAATS>
             <PROVINCIE>Overijssel</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER>0529 456 080</TELEFOONNUMMER>
+        <TELEFOONNUMMER>0529 456080</TELEFOONNUMMER>
         <EMAIL>info@autoveurink.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
-                <ZONDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZONDAG>
                 <MAANDAG>
                     <OPENING>08:00</OPENING>
                     <SLUITING>17:00</SLUITING>
@@ -334,10 +302,6 @@
                     <OPENING>08:00</OPENING>
                     <SLUITING>17:00</SLUITING>
                 </VRIJDAG>
-                <ZATERDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZATERDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
                 <LENEN/>
@@ -348,7 +312,7 @@
                     <MODEL>Astra</MODEL>
                     <BOUWJAAR>2016</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
-                    <PRIJS>25000</PRIJS>
+                    <PRIJS>25000,00</PRIJS>
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
@@ -361,7 +325,7 @@
                     <MODEL>Panda</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
-                    <PRIJS>6025</PRIJS>
+                    <PRIJS>6025,00</PRIJS>
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
@@ -374,10 +338,6 @@
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
-                <ZONDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZONDAG>
                 <MAANDAG>
                     <OPENING>08:00</OPENING>
                     <SLUITING>17:00</SLUITING>
@@ -398,10 +358,6 @@
                     <OPENING>08:00</OPENING>
                     <SLUITING>17:00</SLUITING>
                 </VRIJDAG>
-                <ZATERDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZATERDAG>
             </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
                 <ONDERHOUD>Ja</ONDERHOUD>
@@ -426,16 +382,16 @@
         <FACILITEITEN>
             <WINKEL>
                 <ITEMS>
-                    <ITEM>
+                    <ITEM nummer="1">
                         <NAAM>Ventieldopjes</NAAM>
-                        <OMSCHRIJVING>Dopje om het ventiel mee af te sluiten.</OMSCHRIJVING>
-                        <PRIJS>0.25</PRIJS>
+                        <OMSCHRIJVING>Hallo</OMSCHRIJVING>
+                        <PRIJS>0,25</PRIJS>
                         <VOORRAAD>200</VOORRAAD>
                     </ITEM>
                     <ITEM>
                         <NAAM>Winterbanden</NAAM>
                         <OMSCHRIJVING>Autobanden met meer profiel, handig voor de wintermaanden.</OMSCHRIJVING>
-                        <PRIJS>40</PRIJS>
+                        <PRIJS>40,00</PRIJS>
                         <VOORRAAD>26</VOORRAAD>
                     </ITEM>
                 </ITEMS>
@@ -453,14 +409,10 @@
             <PLAATS>Ommen</PLAATS>
             <PROVINCIE>Overijssel</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER>0529 451 261</TELEFOONNUMMER>
+        <TELEFOONNUMMER>0529 451261</TELEFOONNUMMER>
         <EMAIL>info@autobedrijfvanleussen.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
-                <ZONDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZONDAG>
                 <MAANDAG>
                     <OPENING>07:30</OPENING>
                     <SLUITING>17:00</SLUITING>
@@ -494,7 +446,7 @@
                     <MODEL>Panda</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
-                    <PRIJS>6025</PRIJS>
+                    <PRIJS>6025,00</PRIJS>
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
@@ -507,10 +459,6 @@
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
-                <ZONDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZONDAG>
                 <MAANDAG>
                     <OPENING>07:30</OPENING>
                     <SLUITING>17:00</SLUITING>
@@ -563,18 +511,18 @@
             <POMPEN>
                 <POMP nummer="1">
                     <BRANDSTOFFEN>
-                        <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
-                        <BRANDSTOF naam="Benzine">Benzine</BRANDSTOF>
+                        <BRANDSTOF naam="Diesel"/>
+                        <BRANDSTOF naam="LPG"/>
                     </BRANDSTOFFEN>
                 </POMP>
                 <BRANDSTOF-PRIJZEN>
                     <BRANDSTOF-PRIJS>
-                        <BRANDSTOF naam="Benzine">Benzine</BRANDSTOF>
-                        <PRIJS>1.35</PRIJS>
+                        <BRANDSTOF naam="LPG"/>
+                        <PRIJS>1,35</PRIJS>
                     </BRANDSTOF-PRIJS>
                     <BRANDSTOF-PRIJS>
-                        <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
-                        <PRIJS>1.20</PRIJS>
+                        <BRANDSTOF naam="Euro_95" />
+                        <PRIJS>1,20</PRIJS>
                     </BRANDSTOF-PRIJS>
                 </BRANDSTOF-PRIJZEN>
             </POMPEN>
@@ -591,18 +539,10 @@
             <PLAATS>Ommen</PLAATS>
             <PROVINCIE>Overijssel</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER>0529 453 659</TELEFOONNUMMER>
+        <TELEFOONNUMMER>0529 453659</TELEFOONNUMMER>
         <EMAIL>info@oostendorp.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
-                <ZONDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZONDAG>
-                <MAANDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </MAANDAG>
                 <DINSDAG>
                     <OPENING>07:30</OPENING>
                     <SLUITING>17:00</SLUITING>
@@ -632,7 +572,7 @@
                     <MODEL>Panda</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
-                    <PRIJS>6025</PRIJS>
+                    <PRIJS>6025,00</PRIJS>
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
@@ -645,10 +585,6 @@
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
-                <ZONDAG>
-                    <OPENING>Gesloten</OPENING>
-                    <SLUITING>Gesloten</SLUITING>
-                </ZONDAG>
                 <MAANDAG>
                     <OPENING>07:30</OPENING>
                     <SLUITING>17:00</SLUITING>
@@ -701,13 +637,11 @@
         <FACILITEITEN>
            <WASSEN>
                <WASSTRATEN>
-                   <WASSTRAAT>
-                       <PRIJS>5</PRIJS>
+                   <WASSTRAAT nummer="4">
+                       <PRIJS>5,00</PRIJS>
                    </WASSTRAAT>
-               </WASSTRATEN>
-               <WASSTRATEN>
-                   <WASSTRAAT>
-                       <PRIJS>10</PRIJS>
+                   <WASSTRAAT nummer="5">
+                       <PRIJS>12,00</PRIJS>
                    </WASSTRAAT>
                </WASSTRATEN>
            </WASSEN>
