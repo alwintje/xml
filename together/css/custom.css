@@ -18,10 +18,9 @@
 }
 .autoFoto{
     display: block;
-    max-width: 230px;
+    max-width: 100%;
     max-height: 200px;
-    width: auto;
-    height: auto;
+    margin: 10px;
 }
 .uk-grid div img {
     margin: 10px 0 10px 0;
@@ -32,4 +31,11 @@
 }
 .uk-accordion>:nth-child(n+2) {
     margin-bottom: 20px;
+}
+#carLine {
+    border: 0;
+    height: 1px;
+    background: #333 linear-gradient(to right, #ccc, #333, #ccc);
+    width: 80%;
+    margin: 25px 10% 0 10%;
 }

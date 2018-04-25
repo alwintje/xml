@@ -18,7 +18,9 @@
 
 
                 <div class="uk-container">
-                    <h3>Aantal garages: <xsl:value-of select="count(GARAGES/GARAGE)" /></h3>
+                    <h3>Aantal garages:
+                        <xsl:value-of select="count(GARAGES/GARAGE)"/>
+                    </h3>
                     <ul uk-accordion="">
                         <xsl:apply-templates select="GARAGES/GARAGE"/>
                     </ul>
@@ -180,139 +182,140 @@
                     </xsl:attribute>
                 </img>
                 <br/>
-                <p><xsl:value-of select="VOORNAAM"/><xsl:text> </xsl:text><xsl:value-of select="ACHTERNAAM"/>,
-                <xsl:value-of select="FUNCTIE/@naam"/></p>
+                <p>
+                    <xsl:value-of select="VOORNAAM"/><xsl:text> </xsl:text><xsl:value-of select="ACHTERNAAM"/>,
+                    <xsl:value-of select="FUNCTIE/@naam"/>
+                </p>
             </div>
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="GARAGES/GARAGE/VERKOOP/OCCASIONS">
         <h3>Occasions:</h3>
         <div class="uk-panel uk-panel-scrollable table_height">
-          <xsl:for-each select="AUTO">
-          <div class="uk-child-width-1-2 uk-grid-medium uk-grid-match" uk-grid="">
-             <div>
-            <table class="uk-table ">
-                
-                    <tbody>
-                        <tr>
-                            <td class="t_select">Model</td>
-                            <td class="t_value">
-                                <b>
-                                    <xsl:value-of select="@merk"/>
-                                </b>
-                                <xsl:text> </xsl:text>
-                                <xsl:value-of select="MODEL"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="t_select">Bouwjaar</td>
-                            <td class="t_value">
-                                <xsl:value-of select="BOUWJAAR"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="t_select">Brandstof</td>
-                            <td class="t_value">
-                                <xsl:value-of select="BRANDSTOF/@naam"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="t_select">Kenteken</td>
-                            <td class="t_value">
-                                <xsl:value-of select="@kenteken"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="t_select">Prijs</td>
-                            <td class="t_value">
-                                <xsl:value-of select="PRIJS"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="t_select">APK-verloopdatum</td>
-                            <td class="t_value">
-                                <xsl:value-of select="APK-VERLOOP-DATUM"/>
-                            </td>
-                        </tr>
-                        <xsl:if test="position() != last()"></xsl:if>
-                        <tr style="border-bottom: solid #d3d3d3 1px"></tr>
-                    </tbody>
-            </table>
-             </div>
-          <div>
-              <xsl:for-each select="FOTOS/FOTO">
-                  <img onerror="this.src='img/defaultCar.svg';" style="max-width:300px;" class="autoFoto">
-                    <xsl:attribute name="src">img/<xsl:value-of select='URL'/>
-                    </xsl:attribute>
-                    <xsl:attribute name="alt">Afbeelding:
-                        <xsl:value-of select='ALT'/>
-                    </xsl:attribute>
-                  </img>
-              </xsl:for-each>
-            </div>
-          </div>
-          </xsl:for-each>
+            <xsl:for-each select="AUTO">
+                <div class="uk-width-1-1">
+                    <div>
+                        <table class="uk-table uk-table-divider">
+                            <tbody>
+                                <tr>
+                                    <td class="t_select">Model</td>
+                                    <td class="t_value">
+                                        <b>
+                                            <xsl:value-of select="@merk"/>
+                                        </b>
+                                        <xsl:text> </xsl:text>
+                                        <xsl:value-of select="MODEL"/>
+                                    </td>
+                                    <td class="t_select">Kenteken</td>
+                                    <td class="t_value">
+                                        <xsl:value-of select="@kenteken"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="t_select">Bouwjaar</td>
+                                    <td class="t_value">
+                                        <xsl:value-of select="BOUWJAAR"/>
+                                    </td>
+                                    <td class="t_select">Prijs</td>
+                                    <td class="t_value">
+                                        <xsl:value-of select="PRIJS"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="t_select">Brandstof</td>
+                                    <td class="t_value">
+                                        <xsl:value-of select="BRANDSTOF/@naam"/>
+                                    </td>
+                                    <td class="t_select">APK-verloopdatum</td>
+                                    <td class="t_value">
+                                        <xsl:value-of select="APK-VERLOOP-DATUM"/>
+                                    </td>
+                                </tr>
+                                <xsl:if test="position() != last()"></xsl:if>
+                                <tr style="border-bottom: solid #d3d3d3 1px"></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <h4>Afbeeldingen auto's</h4>
+                <div class="uk-grid">
+                    <xsl:for-each select="FOTOS/FOTO">
+                        <div class="uk-width-1-3">
+                            <img onerror="this.src='img/defaultCar.svg';" class="autoFoto">
+                                <xsl:attribute name="src">img/<xsl:value-of select='URL'/>
+                                </xsl:attribute>
+                                <xsl:attribute name="alt">Afbeelding:
+                                    <xsl:value-of select='ALT'/>
+                                </xsl:attribute>
+                            </img>
+                        </div>
+                        <xsl:if test="position() = last()">
+                            <hr id="carLine" />
+                        </xsl:if>
+                    </xsl:for-each>
+                </div>
+            </xsl:for-each>
         </div>
     </xsl:template>
     <xsl:template match="GARAGES/GARAGE/VERKOOP/NIEUWE-AUTOS">
         <h3>Nieuwe auto's:</h3>
         <div class="uk-panel uk-panel-scrollable table_height">
-          <xsl:for-each select="AUTO">
-          <div class="uk-child-width-1-2@m uk-grid-medium uk-grid-match" uk-grid="">
-            <div>
-            <table class="uk-table ">
-                
-                    <tbody>
-                        <tr>
-                            <td class="t_select">Model</td>
-                            <td class="t_value">
-                                <b>
-                                    <xsl:value-of select="@merk"/>
-                                </b>
-                                <xsl:text> </xsl:text>
-                                <xsl:value-of select="MODEL"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="t_select">Bouwjaar</td>
-                            <td class="t_value">
-                                <xsl:value-of select="BOUWJAAR"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="t_select">Brandstof</td>
-                            <td class="t_value">
-                                <xsl:value-of select="BRANDSTOF/@naam"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="t_select">Prijs</td>
-                            <td class="t_value">
-                                <xsl:value-of select="PRIJS"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="t_select">APK-verloopdatum</td>
-                            <td class="t_value">
-                                <xsl:value-of select="APK-VERLOOP-DATUM"/>
-                            </td>
-                        </tr>
-                        <xsl:if test="position() != last()"></xsl:if>
-                        <tr style="border-bottom: solid #d3d3d3 1px"></tr>
-                    </tbody>
-                
-            </table>
-            </div>
-          <div>
-              <img onerror="this.src='img/defaultCar.svg';" style="max-width:100%;" class="autoFoto">
-                        <xsl:attribute name="src">img/<xsl:value-of select='FOTOS/FOTO/URL'/>
-                        </xsl:attribute>
-                        <xsl:attribute name="alt">Afbeelding:
-                            <xsl:value-of select='FOTOS/FOTO/ALT'/>
-                        </xsl:attribute>
-                    </img>
-            </div>
-          </div>
+            <xsl:for-each select="AUTO">
+                <div class="uk-child-width-1-2@m uk-grid-medium uk-grid-match" uk-grid="">
+                    <div>
+                        <table class="uk-table ">
+
+                            <tbody>
+                                <tr>
+                                    <td class="t_select">Model</td>
+                                    <td class="t_value">
+                                        <b>
+                                            <xsl:value-of select="@merk"/>
+                                        </b>
+                                        <xsl:text> </xsl:text>
+                                        <xsl:value-of select="MODEL"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="t_select">Bouwjaar</td>
+                                    <td class="t_value">
+                                        <xsl:value-of select="BOUWJAAR"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="t_select">Brandstof</td>
+                                    <td class="t_value">
+                                        <xsl:value-of select="BRANDSTOF/@naam"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="t_select">Prijs</td>
+                                    <td class="t_value">
+                                        <xsl:value-of select="PRIJS"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="t_select">APK-verloopdatum</td>
+                                    <td class="t_value">
+                                        <xsl:value-of select="APK-VERLOOP-DATUM"/>
+                                    </td>
+                                </tr>
+                                <xsl:if test="position() != last()"></xsl:if>
+                                <tr style="border-bottom: solid #d3d3d3 1px"></tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <div>
+                        <img onerror="this.src='img/defaultCar.svg';" style="max-width:100%;" class="autoFoto">
+                            <xsl:attribute name="src">img/<xsl:value-of select='FOTOS/FOTO/URL'/>
+                            </xsl:attribute>
+                            <xsl:attribute name="alt">Afbeelding:
+                                <xsl:value-of select='FOTOS/FOTO/ALT'/>
+                            </xsl:attribute>
+                        </img>
+                    </div>
+                </div>
             </xsl:for-each>
         </div>
     </xsl:template>
