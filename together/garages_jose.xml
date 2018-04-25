@@ -364,21 +364,6 @@
         <VERHUUR/>
         <LENEN/>
       </DIENSTEN>
-      <OCCASIONS>
-        <AUTO kenteken="10-ZGL-3" merk="Audi">
-          <MODEL>A1</MODEL>
-          <BOUWJAAR>2012</BOUWJAAR>
-          <BRANDSTOF naam="Super_MLV"/>
-          <PRIJS>12900,00</PRIJS>
-          <APK-VERLOOP-DATUM>13-11-2018</APK-VERLOOP-DATUM>
-          <FOTOS>
-              <FOTO>
-                  <URL>1920x1080_AA1_141009.jpg</URL>
-                  <ALT>Audi</ALT>
-              </FOTO>
-          </FOTOS>
-        </AUTO>
-      </OCCASIONS>
       <NIEUWE-AUTOS>
         <AUTO merk="Citroen">
           <MODEL>C1</MODEL>
@@ -508,7 +493,7 @@
           <APK-VERLOOP-DATUM>13-11-2018</APK-VERLOOP-DATUM>
           <FOTOS>
             <FOTO>
-              <URL>1920x1080_AA1_141009.jpg</URL>
+              <URL>18f4a810f237617620d075aad8d7a342.jpg</URL>
               <ALT>Auto</ALT>
             </FOTO>
           </FOTOS>
@@ -595,6 +580,7 @@
       </WASSEN>
     </FACILITEITEN>
   </GARAGE>
+  <!-- garage broer -->
     <GARAGE>
         <NAAM>Garage Broer B.V.</NAAM>
         <ADRESGEGEVENS>
@@ -606,7 +592,7 @@
         </ADRESGEGEVENS>
         <TELEFOONNUMMER>0341 431583</TELEFOONNUMMER>
         <EMAIL>info@broer.nl</EMAIL>
-
+        <!-- de gegevens van de verkoop afdeling -->
         <VERKOOP>
           <OPENINGSTIJDEN>
             <MAANDAG>
@@ -637,8 +623,24 @@
           <DIENSTEN>
             <LENEN/>
          </DIENSTEN>
+          <NIEUWE-AUTOS>
+            <AUTO merk="Audi">
+              <MODEL>A1</MODEL>
+              <BOUWJAAR>2012</BOUWJAAR>
+              <BRANDSTOF naam="Euro_95"/>
+              <PRIJS>12900,00</PRIJS>
+              <APK-VERLOOP-DATUM>13-11-2018</APK-VERLOOP-DATUM>
+              <FOTOS>
+                <FOTO>
+                  <URL>18f4a810f237617620d075aad8d7a342.jpg</URL>
+                  <ALT>Auto</ALT>
+                </FOTO>
+              </FOTOS>
+            </AUTO>
+          </NIEUWE-AUTOS>
         </VERKOOP>
-        <WERKPLAATS>
+        <!-- de gegevens van de werkplaats van deze garage -->
+      <WERKPLAATS>
             <OPENINGSTIJDEN>
                 <MAANDAG>
                     <OPENING>07:00</OPENING>
@@ -671,10 +673,11 @@
                 <SCHADEHERSTEL/>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
-
+        <!-- de certificaten van deze garage -->
         <CERTIFICATEN>
             <RDW/>
         </CERTIFICATEN>
+        <!-- de medewerkers van deze garage -->
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Henk</VOORNAAM>
@@ -704,6 +707,7 @@
                 <FUNCTIE naam="Monteur" />
             </MEDEWERKER>
         </MEDEWERKERS>
+        <!-- de faciliteiten van deze garage -->
         <FACILITEITEN>
             <WASSEN>
                 <WASBOXEN>
