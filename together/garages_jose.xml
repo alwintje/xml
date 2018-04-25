@@ -92,7 +92,7 @@
         </AUTO>
       </OCCASIONS>
     </VERKOOP>
-    <!-- de gegevens van deze garage -->
+    <!-- de gegevens van de werkplaats deze garage -->
     <WERKPLAATS>
       <OPENINGSTIJDEN>
         <MAANDAG>
@@ -249,6 +249,7 @@
         </AUTO>
       </NIEUWE-AUTOS>
     </VERKOOP>
+    <!-- de werkplaats gegevens -->
     <WERKPLAATS>
       <OPENINGSTIJDEN>
         <MAANDAG>
@@ -284,30 +285,42 @@
         <BANDENSERVICE/>
       </WERKZAAMHEDEN>
     </WERKPLAATS>
+    <!-- de certificaten -->
     <CERTIFICATEN>
       <RDW/>
     </CERTIFICATEN>
+    <!--medewerkers van deze garage -->
     <MEDEWERKERS>
       <MEDEWERKER>
-        <VOORNAAM>Henk</VOORNAAM>
+        <VOORNAAM>Piet</VOORNAAM>
         <ACHTERNAAM>Boertien</ACHTERNAAM>
         <FOTO>
           <URL>DSCN1500[1].JPG</URL>
-          <ALT>Henk Boer</ALT>
+          <ALT>Piet Boer</ALT>
+        </FOTO>
+        <FUNCTIE naam="igenaar" />
+      </MEDEWERKER>
+      <MEDEWERKER>
+        <VOORNAAM>Frank</VOORNAAM>
+        <ACHTERNAAM>Boer</ACHTERNAAM>
+        <FOTO>
+          <URL>eigenaar.jpg</URL>
+          <ALT>Frank Boer</ALT>
         </FOTO>
         <FUNCTIE naam="Eigenaar" />
       </MEDEWERKER>
       <MEDEWERKER>
-        <VOORNAAM>Anne</VOORNAAM>
-        <ACHTERNAAM>Boer</ACHTERNAAM>
+        <VOORNAAM>Piet</VOORNAAM>
+        <ACHTERNAAM>Pieters</ACHTERNAAM>
         <FOTO>
-          <URL>img/DSCN1500[1].JPG</URL>
-          <ALT>Anne Boer</ALT>
+          <URL>8181 Image content page 724x260 filter NL.jpg</URL>
+          <ALT>Piet</ALT>
         </FOTO>
-        <FUNCTIE naam="Verkoper" />
+        <FUNCTIE naam="Monteur"></FUNCTIE>
       </MEDEWERKER>
     </MEDEWERKERS>
   </GARAGE>
+  <!-- de gegevens van garage Erink -->
   <GARAGE>
     <NAAM>Garage Erink B.V.</NAAM>
     <ADRESGEGEVENS>
@@ -319,6 +332,7 @@
     </ADRESGEGEVENS>
     <TELEFOONNUMMER>0341 431188</TELEFOONNUMMER>
     <EMAIL>info@vakgarageerink.nl</EMAIL>
+    <!--gegevens van de verkoop afdeling van deze garage -->
     <VERKOOP>
       <OPENINGSTIJDEN>
         <MAANDAG>
@@ -374,13 +388,14 @@
           <APK-VERLOOP-DATUM>29-01-2020</APK-VERLOOP-DATUM>
           <FOTOS>
               <FOTO>
-                  <URL>0000166_citroen-c1-actie_550.png</URL>
+                  <URL>turn_48_mmd1404.png</URL>
                   <ALT>citroen</ALT>
               </FOTO>
           </FOTOS>
         </AUTO>
       </NIEUWE-AUTOS>
     </VERKOOP>
+    <!-- gegevens werkplaats van deze garage -->
     <WERKPLAATS>
       <OPENINGSTIJDEN>
         <MAANDAG>
@@ -415,9 +430,11 @@
         <BANDENSERVICE/>
       </WERKZAAMHEDEN>
     </WERKPLAATS>
+    <!--certificaten van de garage-->
     <CERTIFICATEN>
       <BOVAG/>
     </CERTIFICATEN>
+      <!--medewerkers van deze garage -->
     <MEDEWERKERS>
       <MEDEWERKER>
         <VOORNAAM>Henk</VOORNAAM>
@@ -439,6 +456,7 @@
       </MEDEWERKER>
     </MEDEWERKERS>
   </GARAGE>
+    <!--garage boer-->
   <GARAGE>
     <NAAM>Garage Boer B.V.</NAAM>
     <ADRESGEGEVENS>
@@ -450,6 +468,7 @@
     </ADRESGEGEVENS>
     <TELEFOONNUMMER>0341 431583</TELEFOONNUMMER>
     <EMAIL>info@deboer.nl</EMAIL>
+      <!-- gegevens van de verkoop afdeling van deze garage -->
     <VERKOOP>
       <OPENINGSTIJDEN>
         <MAANDAG>
@@ -496,6 +515,7 @@
         </AUTO>
       </NIEUWE-AUTOS>
     </VERKOOP>
+      <!-- gegevens van de werkplaats van deze garage-->
     <WERKPLAATS>
       <OPENINGSTIJDEN>
         <MAANDAG>
@@ -529,10 +549,12 @@
         <SCHADEHERSTEL/>
       </WERKZAAMHEDEN>
     </WERKPLAATS>
-    <CERTIFICATEN>
+    <!--certificaten van deze garage -->
+      <CERTIFICATEN>
       <BOVAG/>
       <RDW/>
     </CERTIFICATEN>
+      <!--medewerkers van deze garage-->
     <MEDEWERKERS>
       <MEDEWERKER>
         <VOORNAAM>Henk</VOORNAAM>
@@ -562,6 +584,7 @@
         <FUNCTIE naam="Monteur" />
       </MEDEWERKER>
     </MEDEWERKERS>
+      <!-- de faciliteiten van deze garage -->
     <FACILITEITEN>
       <WASSEN>
         <WASSTRATEN>
@@ -583,6 +606,7 @@
         </ADRESGEGEVENS>
         <TELEFOONNUMMER>0341 431583</TELEFOONNUMMER>
         <EMAIL>info@broer.nl</EMAIL>
+
         <VERKOOP>
           <OPENINGSTIJDEN>
             <MAANDAG>
