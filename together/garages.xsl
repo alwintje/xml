@@ -79,7 +79,7 @@
                         </table>
                     </div>
                     <div>
-                        <table class="uk-table">
+                        <table class="uk-table" id="werkzaameheden">
                             <caption>Werkzaamheden:</caption>
                             <tbody>
                                 <xsl:for-each select="WERKPLAATS/WERKZAAMHEDEN/*">

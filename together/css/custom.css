@@ -23,3 +23,9 @@
     width: auto;
     height: auto;
 }
+.uk-grid div img {
+    margin: 10px 0 10px 0;
+}
+#werkzaameheden {
+    margin-left: 50px;
+}
