@@ -25,6 +25,7 @@
 }
 .uk-grid div img {
     margin: 10px 0 10px 0;
+    max-height: 300px;
 }
 #werkzaameheden {
     margin-left: 50px;

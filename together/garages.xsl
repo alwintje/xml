@@ -240,13 +240,15 @@
             </table>
              </div>
           <div>
-              <img onerror="this.src='img/defaultCar.svg';" style="max-width:300px;" class="autoFoto">
-                        <xsl:attribute name="src">img/<xsl:value-of select='FOTOS/FOTO/URL'/>
-                        </xsl:attribute>
-                        <xsl:attribute name="alt">Afbeelding:
-                            <xsl:value-of select='FOTOS/FOTO/ALT'/>
-                        </xsl:attribute>
-                    </img>
+              <xsl:for-each select="FOTOS/FOTO">
+                  <img onerror="this.src='img/defaultCar.svg';" style="max-width:300px;" class="autoFoto">
+                    <xsl:attribute name="src">img/<xsl:value-of select='URL'/>
+                    </xsl:attribute>
+                    <xsl:attribute name="alt">Afbeelding:
+                        <xsl:value-of select='ALT'/>
+                    </xsl:attribute>
+                  </img>
+              </xsl:for-each>
             </div>
           </div>
           </xsl:for-each>
