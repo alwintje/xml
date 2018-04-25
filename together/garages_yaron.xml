@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="garages.xsl"?>
 
+
+
+<!--<!DOCTYPE GARAGES SYSTEM "garages.dtd" >-->
 <GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garages.xsd">
-<!--<!DOCTYPE GARAGES SYSTEM "..\together\garages.dtd">-->
-
     <GARAGE>
         <NAAM>Shell coevorden</NAAM>
         <ADRESGEGEVENS>
@@ -125,13 +127,19 @@
             <MEDEWERKER>
                 <VOORNAAM>Rick</VOORNAAM>
                 <ACHTERNAAM>SchoneWille</ACHTERNAAM>
-                <FOTO>rickschone.jpg</FOTO>
+                <FOTO>
+                    <URL>rickschone.JPG</URL>
+                    <ALT>Foto</ALT>
+                </FOTO>
                 <FUNCTIE naam="Verkoper"/>
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Maththijs</VOORNAAM>
                 <ACHTERNAAM>Bakker</ACHTERNAAM>
-                <FOTO>mathijsbakker.jpg</FOTO>
+                <FOTO>
+                    <URL>mathijsbakker.JPG</URL>
+                    <ALT>Foto</ALT>
+                </FOTO>
                 <FUNCTIE naam="Verkoper"/>
             </MEDEWERKER>
         </MEDEWERKERS>
@@ -151,11 +159,11 @@
         <ADRESGEGEVENS>
             <STRAAT>Rembrandtlaan </STRAAT>
             <HUISNUMMER>76</HUISNUMMER>
-            <POSTCODE>7741 76</POSTCODE>
+            <POSTCODE>7741 AK</POSTCODE>
             <PLAATS>Coevorden</PLAATS>
             <PROVINCIE>Drenthe</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER>0524-516949</TELEFOONNUMMER>
+        <TELEFOONNUMMER>0524 516949</TELEFOONNUMMER>
         <EMAIL>info@3huizen.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
@@ -246,7 +254,7 @@
                 <VOORNAAM>Ricka</VOORNAAM>
                 <ACHTERNAAM>Driehuizen</ACHTERNAAM>
                 <FOTO>
-                    <URL>rickadrie.JPG</URL>
+                    <URL>rickadrie.jpg</URL>
                     <ALT>Ricka Driehuizen</ALT>
                 </FOTO>
                 <FUNCTIE naam="Telefonist" />
@@ -262,7 +270,7 @@
             <PLAATS>Coevorden</PLAATS>
             <PROVINCIE>Drenthe</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER>0341 439 000</TELEFOONNUMMER>
+        <TELEFOONNUMMER>0341 439000</TELEFOONNUMMER>
         <EMAIL>info@tinQ.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
@@ -305,8 +313,12 @@
                     <BOUWJAAR>2004</BOUWJAAR>
                     <BRANDSTOF naam="Premium_Benzine" />
                     <PRIJS>2150,00</PRIJS>
+                    <APK-VERLOOP-DATUM>13-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>fiatidea.jpg</FOTO>
+                        <FOTO>
+                            <URL>fiatidea.jpg</URL>
+                            <ALT>Auto</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
@@ -348,7 +360,10 @@
             <MEDEWERKER>
                 <VOORNAAM>Henk</VOORNAAM>
                 <ACHTERNAAM>Visser</ACHTERNAAM>
-                <FOTO>henkvisser.jpg</FOTO>
+                <FOTO>
+                    <URL>henkvisser.JPG</URL>
+                    <ALT>Foto</ALT>
+                </FOTO>
                 <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
         </MEDEWERKERS>
@@ -362,7 +377,7 @@
             <PLAATS>Emmen</PLAATS>
             <PROVINCIE>Drenthe</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER>0591 630 848</TELEFOONNUMMER>
+        <TELEFOONNUMMER>0591 630848</TELEFOONNUMMER>
         <EMAIL>info@autopaas.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
@@ -400,9 +415,13 @@
                     <MODEL>A3</MODEL>
                     <BOUWJAAR>2009</BOUWJAAR>
                     <BRANDSTOF naam="Euro_95"/>
-                    <PRIJS>10.950,00</PRIJS>
+                    <PRIJS>10950,00</PRIJS>
+                    <APK-VERLOOP-DATUM>13-04-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>audia3.jpg</FOTO>
+                        <FOTO>
+                            <URL>audia3.jpg</URL>
+                            <ALT>Auto</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
@@ -446,7 +465,10 @@
             <MEDEWERKER>
                 <VOORNAAM>Jan</VOORNAAM>
                 <ACHTERNAAM>Aardema</ACHTERNAAM>
-                <FOTO>23f10cc8bec253abbf3f7dc5c87ea155.jpg</FOTO>
+                <FOTO>
+                    <URL>jan.JPG</URL>
+                    <ALT>Foto</ALT>
+                </FOTO>
                 <FUNCTIE naam="Monteur"/>
             </MEDEWERKER>
         </MEDEWERKERS>
@@ -460,7 +482,7 @@
             <PLAATS>Emmen</PLAATS>
             <PROVINCIE>Drenthe</PROVINCIE>
         </ADRESGEGEVENS>
-        <TELEFOONNUMMER>0591 531 915</TELEFOONNUMMER>
+        <TELEFOONNUMMER>0591 531915</TELEFOONNUMMER>
         <EMAIL>info@autohoge.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
@@ -496,19 +518,60 @@
                     <MODEL>A5</MODEL>
                     <BOUWJAAR>2008</BOUWJAAR>
                     <BRANDSTOF naam="Diesel"/>
-                    <PRIJS>11.948,00</PRIJS>
+                    <PRIJS>11948,00</PRIJS>
+                    <APK-VERLOOP-DATUM>13-04-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
-                        <FOTO>audia5.jpg</FOTO>
+                        <FOTO>
+                            <URL>audia5.jpg</URL>
+                            <ALT>Auto</ALT>
+                        </FOTO>
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
         </VERKOOP>
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>09:30</OPENING>
+                    <SLUITING>16:30</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <WERKZAAMHEDEN>
+                <ONDERHOUD/>
+                <APK/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
         <CERTIFICATEN/>
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Frank</VOORNAAM>
                 <ACHTERNAAM>Hoge</ACHTERNAAM>
-                <FOTO>frankhoge.jpg</FOTO>
+                <FOTO>
+                    <URL>frankhoge.JPG</URL>
+                    <ALT>Foto</ALT>
+                </FOTO>
                 <FUNCTIE naam="Verkoper"/>
             </MEDEWERKER>
         </MEDEWERKERS>
