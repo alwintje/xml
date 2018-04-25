@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="garages.xsl"?>
-
-
-
 <!--<!DOCTYPE GARAGES SYSTEM "garages.dtd" >-->
 <GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garages.xsd">
     <GARAGE>
@@ -77,7 +74,35 @@
                         </FOTO>
                     </FOTOS>
                 </AUTO>
+                <AUTO kenteken="NB850X" merk="Audi">
+                    <MODEL> Q7 etron</MODEL>
+                    <BOUWJAAR>2016</BOUWJAAR>
+                    <BRANDSTOF naam="Euro_95" />
+                    <PRIJS>109791,00</PRIJS>
+                    <APK-VERLOOP-DATUM>08-09-2020</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>audiq7.jpg</URL>
+                            <ALT>Auto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
             </OCCASIONS>
+            <NIEUWE-AUTOS>
+                <AUTO merk="BMW">
+                    <MODEL>I8</MODEL>
+                    <BOUWJAAR>2018</BOUWJAAR>
+                    <BRANDSTOF naam="Euro_95"/>
+                    <PRIJS>100000,00</PRIJS>
+                    <APK-VERLOOP-DATUM>29-01-2020</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>bmwi8.jpg</URL>
+                            <ALT>Auto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </NIEUWE-AUTOS>
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -322,6 +347,21 @@
                     </FOTOS>
                 </AUTO>
             </OCCASIONS>
+            <NIEUWE-AUTOS>
+                <AUTO merk="Mercedes">
+                    <MODEL>S600 AMG</MODEL>
+                    <BOUWJAAR>2018</BOUWJAAR>
+                    <BRANDSTOF naam="Euro_95"/>
+                    <PRIJS>180000,00</PRIJS>
+                    <APK-VERLOOP-DATUM>29-01-2020</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>s600amg.jpg</URL>
+                            <ALT>Auto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </NIEUWE-AUTOS>
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
@@ -527,7 +567,35 @@
                         </FOTO>
                     </FOTOS>
                 </AUTO>
+                <AUTO kenteken="PP089R" merk="Tesla">
+                    <MODEL>X</MODEL>
+                    <BOUWJAAR>2017</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel"/>
+                    <PRIJS>141700,00</PRIJS>
+                    <APK-VERLOOP-DATUM>13-04-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>modelx.png</URL>
+                            <ALT>Auto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
             </OCCASIONS>
+            <NIEUWE-AUTOS>
+                <AUTO merk="BMW">
+                    <MODEL>750LI</MODEL>
+                    <BOUWJAAR>2018</BOUWJAAR>
+                    <BRANDSTOF naam="Euro_95"/>
+                    <PRIJS>130000,00</PRIJS>
+                    <APK-VERLOOP-DATUM>29-01-2020</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>bmw7li.jpg</URL>
+                            <ALT>Auto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </NIEUWE-AUTOS>
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
