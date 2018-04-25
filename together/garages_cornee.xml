@@ -45,7 +45,7 @@
                 <AUTO kenteken="53-SZ-KD" merk="Volvo">
                     <MODEL>Astra</MODEL>
                     <BOUWJAAR>2016</BOUWJAAR>
-                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <BRANDSTOF naam="Diesel" />
                     <PRIJS>6750,00</PRIJS>
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
