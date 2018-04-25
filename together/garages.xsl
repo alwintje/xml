@@ -79,7 +79,7 @@
                         </table>
                     </div>
                     <div>
-                        <table class="uk-table">
+                        <table class="uk-table" id="werkzaameheden">
                             <caption>Werkzaamheden:</caption>
                             <tbody>
                                 <xsl:for-each select="WERKPLAATS/WERKZAAMHEDEN/*">
@@ -112,7 +112,7 @@
                 </div>
                 <hr class="uk-divider-icon"/>
                 <h3>Werknemers:</h3>
-                <div class="uk-child-width-1-3@m uk-grid-medium uk-grid-match" uk-grid="">
+                <div class="uk-grid">
                     <xsl:apply-templates select="MEDEWERKERS"/>
                 </div>
                 <hr class="uk-divider-icon"/>
@@ -171,19 +171,17 @@
     </xsl:template>
     <xsl:template match="GARAGES/GARAGE/MEDEWERKERS">
         <xsl:for-each select="MEDEWERKER">
-            <div>
-                <div class="uk-card uk-card-body uk-card-secondary">
-                    <img onerror="this.src='img/default.jpg';" style="max-width:300px;">
-                        <xsl:attribute name="src">img/<xsl:value-of select='FOTO/URL'/>
-                        </xsl:attribute>
-                        <xsl:attribute name="alt">Afbeelding:
-                            <xsl:value-of select='FOTO/ALT'/>
-                        </xsl:attribute>
-                    </img>
-                    <br/>
-                    <xsl:value-of select="VOORNAAM"/><xsl:text> </xsl:text><xsl:value-of select="ACHTERNAAM"/>,
-                    <xsl:value-of select="FUNCTIE/@naam"/>
-                </div>
+            <div class="uk-width-1-2">
+                <img onerror="this.src='img/default.jpg';">
+                    <xsl:attribute name="src">img/<xsl:value-of select='FOTO/URL'/>
+                    </xsl:attribute>
+                    <xsl:attribute name="alt">Afbeelding:
+                        <xsl:value-of select='FOTO/ALT'/>
+                    </xsl:attribute>
+                </img>
+                <br/>
+                <p><xsl:value-of select="VOORNAAM"/><xsl:text> </xsl:text><xsl:value-of select="ACHTERNAAM"/>,
+                <xsl:value-of select="FUNCTIE/@naam"/></p>
             </div>
         </xsl:for-each>
     </xsl:template>
@@ -242,13 +240,15 @@
             </table>
              </div>
           <div>
-              <img onerror="this.src='img/defaultCar.svg';" style="max-width:300px;" class="autoFoto">
-                        <xsl:attribute name="src">img/<xsl:value-of select='FOTOS/FOTO/URL'/>
-                        </xsl:attribute>
-                        <xsl:attribute name="alt">Afbeelding:
-                            <xsl:value-of select='FOTOS/FOTO/ALT'/>
-                        </xsl:attribute>
-                    </img>
+              <xsl:for-each select="FOTOS/FOTO">
+                  <img onerror="this.src='img/defaultCar.svg';" style="max-width:300px;" class="autoFoto">
+                    <xsl:attribute name="src">img/<xsl:value-of select='URL'/>
+                    </xsl:attribute>
+                    <xsl:attribute name="alt">Afbeelding:
+                        <xsl:value-of select='ALT'/>
+                    </xsl:attribute>
+                  </img>
+              </xsl:for-each>
             </div>
           </div>
           </xsl:for-each>
