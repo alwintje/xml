@@ -61,7 +61,7 @@
                     <MODEL>1.6 Cooper Chili</MODEL>
                     <BOUWJAAR>2007</BOUWJAAR>
                     <BRANDSTOF naam="Euro_95" />
-                    <PRIJS>6750,00</PRIJS>
+                    <PRIJS>6.750,00</PRIJS>
                     <APK-VERLOOP-DATUM>13-04-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
@@ -177,11 +177,12 @@
                 <LENEN/>
             </DIENSTEN>
             <OCCASIONS>
+
                 <AUTO kenteken="NP-40-1N" merk="Audi">
                     <MODEL>A5 2.0</MODEL>
                     <BOUWJAAR>2010</BOUWJAAR>
                     <BRANDSTOF naam="Euro_95" />
-                    <PRIJS>27950,00</PRIJS>
+                    <PRIJS>999.233.215,-</PRIJS>
                     <APK-VERLOOP-DATUM>02-04-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
@@ -321,7 +322,7 @@
                     <MODEL>Kangoo Express</MODEL>
                     <BOUWJAAR>2011</BOUWJAAR>
                     <BRANDSTOF naam="Diesel" />
-                    <PRIJS>4250,00</PRIJS>
+                    <PRIJS>4.250,00</PRIJS>
                     <APK-VERLOOP-DATUM>26-10-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
@@ -421,7 +422,7 @@
                     <MODEL>C1</MODEL>
                     <BOUWJAAR>2016</BOUWJAAR>
                     <BRANDSTOF naam="Euro_95" />
-                    <PRIJS>8000,00</PRIJS>
+                    <PRIJS>8.000,00</PRIJS>
                     <APK-VERLOOP-DATUM>09-01-2019</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
@@ -525,7 +526,7 @@
                     <MODEL>A3</MODEL>
                     <BOUWJAAR>2005</BOUWJAAR>
                     <BRANDSTOF naam="Euro_95" />
-                    <PRIJS>4950,-</PRIJS>
+                    <PRIJS>4.950,-</PRIJS>
                     <APK-VERLOOP-DATUM>19-04-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
@@ -546,7 +547,7 @@
                     <MODEL>1 serie</MODEL>
                     <BOUWJAAR>2007</BOUWJAAR>
                     <BRANDSTOF naam="Euro_95"/>
-                    <PRIJS>6650,-</PRIJS>
+                    <PRIJS>6.650,-</PRIJS>
                     <APK-VERLOOP-DATUM>19-02-2019</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
