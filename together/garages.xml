@@ -2752,4 +2752,685 @@
             </MEDEWERKER>
         </MEDEWERKERS>
     </GARAGE>
+    <!-- Garages Cornee -->
+    <!-- Begin ABS Autoherstel -->
+    <GARAGE>
+        <NAAM>ABS Autoherstel</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Strangeweg</STRAAT>
+            <HUISNUMMER>20</HUISNUMMER>
+            <POSTCODE>7731 GW</POSTCODE>
+            <PLAATS>Ommen</PLAATS>
+            <PROVINCIE>Overijssel</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0529 451146</TELEFOONNUMMER>
+        <EMAIL>info@absautoherstel.nl</EMAIL>
+        <!-- Info over het verkoop gedeelte van deze garage -->
+        <VERKOOP>
+            <!-- Openingstijden van het verkoop gedeelte van deze garage -->
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+            </OPENINGSTIJDEN>
+            <!-- Wat biedt deze verkoop afdeling naast verkoop -->
+            <DIENSTEN>
+                <VERHUUR />
+                <LENEN />
+            </DIENSTEN>
+            <!-- Verkoop van de gebruikte auto's -->
+            <OCCASIONS>
+                <AUTO kenteken="22-DE-QQ" merk="Volkswagen">
+                    <MODEL>Transporter</MODEL>
+                    <BOUWJAAR>2004</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel" />
+                    <PRIJS>3750,00</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>transporter.jpg</URL>
+                            <ALT>Volkswagen Transporter Foto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+                <AUTO kenteken="53-SZ-KD" merk="Fiat">
+                    <MODEL>Panda</MODEL>
+                    <BOUWJAAR>2006</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>6025,00</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>fiatpanda.jpeg</URL>
+                            <ALT>Fiat Panda Foto</ALT>
+                        </FOTO>
+                        <FOTO>
+                            <URL>fiatpandabinnen.jpg</URL>
+                            <ALT>Fiat Panda Foto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <!-- De gegevens van de werkplaats deze garage -->
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+            </OPENINGSTIJDEN>
+            <!-- Werkzaamheden van de garage -->
+            <WERKZAAMHEDEN>
+                <ONDERHOUD />
+                <APK/>
+                <SCHADEHERSTEL/>
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <!-- Certificaten van de garage -->
+        <CERTIFICATEN>
+            <BOVAG />
+            <RDW />
+        </CERTIFICATEN>
+        <!-- De medewerkers van deze garage -->
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Cornee</VOORNAAM>
+                <ACHTERNAAM>van Blerk</ACHTERNAAM>
+                <FOTO>
+                    <URL>cornee.jpg</URL>
+                    <ALT>Cornee</ALT>
+                </FOTO>
+                <FUNCTIE naam="Hoofdmonteur"/>
+            </MEDEWERKER>
+            <MEDEWERKER>
+                <VOORNAAM>Thijs</VOORNAAM>
+                <ACHTERNAAM>Janse</ACHTERNAAM>
+                <FOTO>
+                    <URL>janse.jpg</URL>
+                    <ALT>Thijs Janse</ALT>
+                </FOTO>
+                <FUNCTIE naam="Professionele koffiedrinker" />
+            </MEDEWERKER>
+        </MEDEWERKERS>
+        <!-- Faciliteiten van de garage -->
+        <FACILITEITEN>
+            <WASSEN>
+                <WASBOXEN>
+                    <WASBOX>
+                        <PRIJS>5,00</PRIJS>
+                    </WASBOX>
+                    <WASBOX>
+                        <PRIJS>8,00</PRIJS>
+                    </WASBOX>
+                </WASBOXEN>
+            </WASSEN>
+        </FACILITEITEN>
+    </GARAGE>
+
+    <!-- Begin de Groot Auto's Ommen -->
+    <GARAGE>
+        <NAAM>De Groot Auto Ommen</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Strangeweg</STRAAT>
+            <HUISNUMMER>11</HUISNUMMER>
+            <POSTCODE>7731 GV</POSTCODE>
+            <PLAATS>Ommen</PLAATS>
+            <PROVINCIE>Overijssel</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0529 454709</TELEFOONNUMMER>
+        <EMAIL>info@degrootautosommen.nl</EMAIL>
+        <!-- Info over het verkoop gedeelte van deze garage -->
+        <VERKOOP>
+            <!-- Openingstijden van het verkoop gedeelte van deze garage -->
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:30</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>16:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <!-- Wat biedt deze verkoop afdeling naast verkoop -->
+            <DIENSTEN>
+                <LENEN/>
+            </DIENSTEN>
+            <!-- Verkoop van de gebruikte auto's -->
+            <OCCASIONS>
+                <AUTO kenteken="53-SZ-KD" merk="Volvo">
+                    <MODEL>Astra</MODEL>
+                    <BOUWJAAR>2016</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>25000,00</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>opelastra.jpg</URL>
+                            <ALT>Opel Astra Foto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+                <AUTO kenteken="53-SZ-KD" merk="Fiat">
+                    <MODEL>Panda</MODEL>
+                    <BOUWJAAR>2008</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>6025,00</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>fiatpanda.jpeg</URL>
+                            <ALT>Fiat Panda Foto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <!-- De gegevens van de werkplaats van deze garage -->
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+            </OPENINGSTIJDEN>
+            <!-- Werkzaamheden van de garage -->
+            <WERKZAAMHEDEN>
+                <ONDERHOUD/>
+                <APK/>
+                <SCHADEHERSTEL/>
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <!-- Certificaten van de garage -->
+        <CERTIFICATEN>
+            <RDW/>
+        </CERTIFICATEN>
+        <!-- De medewerkers van deze garage -->
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Cornee</VOORNAAM>
+                <ACHTERNAAM>van Blerk</ACHTERNAAM>
+                <FOTO>
+                    <URL>cornee.jpg</URL>
+                    <ALT>Cornee</ALT>
+                </FOTO>
+                <FUNCTIE naam="Stagiar" />
+            </MEDEWERKER>
+            <MEDEWERKER>
+                <VOORNAAM>Thijs</VOORNAAM>
+                <ACHTERNAAM>Janse</ACHTERNAAM>
+                <FOTO>
+                    <URL>janse.jpg</URL>
+                    <ALT>Thijs Janse</ALT>
+                </FOTO>
+                <FUNCTIE naam="Hoofdmonteur" />
+            </MEDEWERKER>
+        </MEDEWERKERS>
+    </GARAGE>
+
+    <!-- Begin Auto Veuring -->
+    <GARAGE>
+        <NAAM>Auto Veurink</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Eskampweg</STRAAT>
+            <HUISNUMMER>9</HUISNUMMER>
+            <POSTCODE>7731 TA</POSTCODE>
+            <PLAATS>Ommen</PLAATS>
+            <PROVINCIE>Overijssel</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0529 456080</TELEFOONNUMMER>
+        <EMAIL>info@autoveurink.nl</EMAIL>
+        <!-- Info over het verkoop gedeelte van deze garage -->
+        <VERKOOP>
+            <!-- Openingstijden van het verkoop gedeelte van deze garage -->
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+            </OPENINGSTIJDEN>
+            <!-- Wat biedt deze verkoop afdeling naast verkoop -->
+            <DIENSTEN>
+                <LENEN/>
+                <VERHUUR />
+            </DIENSTEN>
+            <!-- Verkoop van de gebruikte auto's -->
+            <OCCASIONS>
+                <AUTO kenteken="53-SZ-KD" merk="Volvo">
+                    <MODEL>Astra</MODEL>
+                    <BOUWJAAR>2016</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>25000,00</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>opelastra.jpg</URL>
+                            <ALT>Opel Astra Foto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+                <AUTO kenteken="53-SZ-KD" merk="Fiat">
+                    <MODEL>Panda</MODEL>
+                    <BOUWJAAR>2008</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>6025,00</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>fiatpanda.jpeg</URL>
+                            <ALT>Fiat Panda Foto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <!-- De gegevens van de werkplaats van deze garage -->
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+            </OPENINGSTIJDEN>
+            <!-- Werkzaamheden van de garage -->
+            <WERKZAAMHEDEN>
+                <ONDERHOUD/>
+                <APK/>
+                <SCHADEHERSTEL/>
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <!-- De medewerkers van deze garage -->
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Jan</VOORNAAM>
+                <ACHTERNAAM>Veurink</ACHTERNAAM>
+                <FOTO>
+                    <URL>jan.jpg</URL>
+                    <ALT>Jan Veurink</ALT>
+                </FOTO>
+                <FUNCTIE naam="Hoofdmonteur" />
+            </MEDEWERKER>
+        </MEDEWERKERS>
+        <!-- Faciliteiten van de garage -->
+        <FACILITEITEN>
+            <WINKEL>
+                <AUTO-ACCESSOIRES/>
+                <ROOKWAAR/>
+            </WINKEL>
+        </FACILITEITEN>
+    </GARAGE>
+
+    <!-- Begin Garage van Leussen -->
+    <GARAGE>
+        <NAAM>Garage van Leussen</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Brink</STRAAT>
+            <HUISNUMMER>2</HUISNUMMER>
+            <POSTCODE>7731 TG</POSTCODE>
+            <PLAATS>Ommen</PLAATS>
+            <PROVINCIE>Overijssel</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0529 451261</TELEFOONNUMMER>
+        <EMAIL>info@autobedrijfvanleussen.nl</EMAIL>
+        <!-- Info over het verkoop gedeelte van deze garage -->
+        <VERKOOP>
+            <!-- Openingstijden van het verkoop gedeelte van deze garage -->
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <!-- Wat biedt deze verkoop afdeling naast verkoop -->
+            <DIENSTEN>
+                <VERHUUR />
+            </DIENSTEN>
+            <!-- Verkoop van de gebruikte auto's -->
+            <OCCASIONS>
+                <AUTO kenteken="53-SZ-KD" merk="Fiat">
+                    <MODEL>Panda</MODEL>
+                    <BOUWJAAR>2008</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>6025,00</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>fiatpanda.jpeg</URL>
+                            <ALT>Fiat Panda Foto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <!-- De gegevens van de werkplaats van deze garage -->
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <!-- Werkzaamheden van de garage -->
+            <WERKZAAMHEDEN>
+                <ONDERHOUD/>
+                <APK />
+                <SCHADEHERSTEL/>
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <!-- Certificaten van de garage -->
+        <CERTIFICATEN>
+            <BOVAG/>
+        </CERTIFICATEN>
+        <!-- De medewerkers van deze garage -->
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Jan Pieter</VOORNAAM>
+                <ACHTERNAAM>Breken</ACHTERNAAM>
+                <FOTO>
+                    <URL>janpieter.jpg</URL>
+                    <ALT>Jan Pieter</ALT>
+                </FOTO>
+                <FUNCTIE naam="Hoofdmonteur" />
+            </MEDEWERKER>
+        </MEDEWERKERS>
+        <!-- Faciliteiten van de garage -->
+        <FACILITEITEN>
+            <POMPEN>
+                <POMP nummer="1">
+                    <BRANDSTOFFEN>
+                        <BRANDSTOF naam="Diesel"/>
+                        <BRANDSTOF naam="LPG"/>
+                    </BRANDSTOFFEN>
+                </POMP>
+                <BRANDSTOF-PRIJZEN>
+                    <BRANDSTOF-PRIJS>
+                        <BRANDSTOF naam="LPG"/>
+                        <PRIJS>1,35</PRIJS>
+                    </BRANDSTOF-PRIJS>
+                    <BRANDSTOF-PRIJS>
+                        <BRANDSTOF naam="Euro_95" />
+                        <PRIJS>1,20</PRIJS>
+                    </BRANDSTOF-PRIJS>
+                </BRANDSTOF-PRIJZEN>
+            </POMPEN>
+        </FACILITEITEN>
+    </GARAGE>
+
+    <!-- Begin Oostendorp BV -->
+    <GARAGE>
+        <NAAM>Oostendorp BV</NAAM>
+        <ADRESGEGEVENS>
+            <STRAAT>Balkerweg</STRAAT>
+            <HUISNUMMER>10</HUISNUMMER>
+            <POSTCODE>7731 RZ</POSTCODE>
+            <PLAATS>Ommen</PLAATS>
+            <PROVINCIE>Overijssel</PROVINCIE>
+        </ADRESGEGEVENS>
+        <TELEFOONNUMMER>0529 453659</TELEFOONNUMMER>
+        <EMAIL>info@oostendorp.nl</EMAIL>
+        <!-- Info over het verkoop gedeelte van deze garage -->
+        <VERKOOP>
+            <!-- Openingstijden van het verkoop gedeelte van deze garage -->
+            <OPENINGSTIJDEN>
+                <DINSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>09:00</OPENING>
+                    <SLUITING>16:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <!-- Wat biedt deze verkoop afdeling naast verkoop -->
+            <DIENSTEN>
+                <LENEN />
+            </DIENSTEN>
+            <!-- Verkoop van de gebruikte auto's -->
+            <OCCASIONS>
+                <AUTO kenteken="53-SZ-KD" merk="Fiat">
+                    <MODEL>Panda</MODEL>
+                    <BOUWJAAR>2008</BOUWJAAR>
+                    <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
+                    <PRIJS>6025,00</PRIJS>
+                    <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
+                    <FOTOS>
+                        <FOTO>
+                            <URL>fiatpanda.jpeg</URL>
+                            <ALT>Fiat Panda Foto</ALT>
+                        </FOTO>
+                    </FOTOS>
+                </AUTO>
+            </OCCASIONS>
+        </VERKOOP>
+        <!-- De gegevens van de werkplaats van deze garage -->
+        <WERKPLAATS>
+            <OPENINGSTIJDEN>
+                <MAANDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </MAANDAG>
+                <DINSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DINSDAG>
+                <WOENSDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </WOENSDAG>
+                <DONDERDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </DONDERDAG>
+                <VRIJDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </VRIJDAG>
+                <ZATERDAG>
+                    <OPENING>08:00</OPENING>
+                    <SLUITING>17:00</SLUITING>
+                </ZATERDAG>
+            </OPENINGSTIJDEN>
+            <!-- Werkzaamheden van de garage -->
+            <WERKZAAMHEDEN>
+                <ONDERHOUD/>
+                <APK/>
+                <SCHADEHERSTEL/>
+                <RUITENREPARATIE/>
+                <AIRCOSERVICE/>
+                <BANDENSERVICE/>
+            </WERKZAAMHEDEN>
+        </WERKPLAATS>
+        <!-- Certificaten van de garage -->
+        <CERTIFICATEN>
+            <BOVAG />
+            <RDW />
+        </CERTIFICATEN>
+        <!-- De medewerkers van deze garage -->
+        <MEDEWERKERS>
+            <MEDEWERKER>
+                <VOORNAAM>Jan Pieter</VOORNAAM>
+                <ACHTERNAAM>Breken</ACHTERNAAM>
+                <FOTO>
+                    <URL>janpieter.jpg</URL>
+                    <ALT>Jan Pieter Breken</ALT>
+                </FOTO>
+                <FUNCTIE naam="Hoofdmonteur" />
+            </MEDEWERKER>
+        </MEDEWERKERS>
+        <!-- Faciliteiten van de garage -->
+        <FACILITEITEN>
+            <WASSEN>
+                <WASSTRATEN>
+                    <WASSTRAAT nummer="4">
+                        <PRIJS>5,00</PRIJS>
+                    </WASSTRAAT>
+                    <WASSTRAAT nummer="5">
+                        <PRIJS>12,00</PRIJS>
+                    </WASSTRAAT>
+                </WASSTRATEN>
+            </WASSEN>
+        </FACILITEITEN>
+    </GARAGE>
 </GARAGES>
