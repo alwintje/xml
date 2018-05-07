@@ -3,10 +3,22 @@
  * 0 OF MEER
  ? 0 OF 1
 -->
-
+<!-- Collectie alle garages -->
 <!ELEMENT GARAGES (GARAGE+)>
+<!-- Alle categoriën van een garage zijn:
+    -   Naam.
+    -   Adresgegevens.
+    -   Telefoonnummer.
+    -   Email.
+    -   Website (optioneel).
+    -   Verkoop, dit gaat om de verkoop van auto's.
+    -   Werkplaats, beschrijft de openingstijden en werkzaamheden van de werkplaats.
+    -   Certificaten, beschrijft de certificering van de garages.
+    -   Medewerkers, beschrijft de medewerkers van de garages.
+    -   Faciliteiten, dit bevat alle overige services die de garages kunnen bieden met o.a. wasstraten en pompen.
+    -->
 <!ELEMENT GARAGE (NAAM, ADRESGEGEVENS, TELEFOONNUMMER, EMAIL, WEBSITE?, VERKOOP, WERKPLAATS, CERTIFICATEN?, MEDEWERKERS, FACILITEITEN?)>
-
+<!-- Alle contactgegevens van de garage -->
 <!ELEMENT NAAM (#PCDATA)>
 <!ELEMENT EMAIL (#PCDATA)>
 <!ELEMENT TELEFOONNUMMER (#PCDATA)>
@@ -17,11 +29,11 @@
 <!ELEMENT POSTCODE (#PCDATA)>
 <!ELEMENT PLAATS (#PCDATA)>
 <!ELEMENT PROVINCIE (#PCDATA)>
-
+<!-- Autoverkoop van de garage algemene informatie-->
 <!ELEMENT VERKOOP (OPENINGSTIJDEN, DIENSTEN?, (NIEUWE-AUTOS?, OCCASIONS?))>
-
 <!ELEMENT OPENINGSTIJDEN (ZONDAG?, MAANDAG?, DINSDAG?, WOENSDAG?, DONDERDAG?, VRIJDAG?, ZATERDAG?)>
 <!ENTITY % TIJDEN "(OPENING, SLUITING)+">
+<!-- Voor alle dagen wordt een openingstijd en sluitingstijd opgeslagen -->
 <!ELEMENT ZONDAG %TIJDEN;>
 <!ELEMENT MAANDAG %TIJDEN;>
 <!ELEMENT DINSDAG %TIJDEN;>
@@ -29,27 +41,130 @@
 <!ELEMENT DONDERDAG %TIJDEN;>
 <!ELEMENT VRIJDAG %TIJDEN;>
 <!ELEMENT ZATERDAG %TIJDEN;>
-
 <!ELEMENT OPENING (#PCDATA)>
 <!ELEMENT SLUITING (#PCDATA)>
-
+<!-- Verhuur en leenservice -->
 <!ELEMENT DIENSTEN (VERHUUR?, LENEN?)>
 <!ELEMENT VERHUUR EMPTY>
 <!ELEMENT LENEN EMPTY>
-
-
 <!ELEMENT NIEUWE-AUTOS (AUTO+)>
 <!ELEMENT OCCASIONS (AUTO+)
 <!ELEMENT AUTO (MODEL, BOUWJAAR, BRANDSTOF, PRIJS, APK-VERLOOP-DATUM, FOTOS)>
 <!ATTLIST AUTO kenteken CDATA>
 <!ATTLIST AUTO merk (Alfa_Romeo AMC Asia Aston_Martin Audi Austin Autobianchi Bedford Bentley Bitter BMW Brilliance Bugatti Buick Cadillac Chevrolet Chrysler Citroen Dacia Daewoo DAF Daihatsu Diversen Dodge Ferrari Fiat Fisker Ford Ford_Usa FSO GMC Honda Hummer Hyundai Infiniti Innocenti Isuzu Iveco Jaguar Jeep Kia Lada Lamborghini Lancia Landrover Landwind LDV Lexus Leyland Lotus MAN Maserati Maybach Mazda Mercedes MG Mini Mitsubishi Morris Nissan NSU Oldsmobile Opel Peugeot PGO Piaggio Plymouth Pontiac Porsche Proton Reliant Renault Rolls_Royce Rover Saab Seat Skoda Smart Ssang Yong Subaru Sunbeam Suzuki Talbot Tata Tesla Toyota Trabant Triumph TVR Vauxhall Volkswagen Volvo Xedos Yue Loong Zastava) #REQUIRED>
-<!-- Selecteer merk, Alfa Romeo, AMC, Asia, Aston Martin, Audi, Austin, Autobianchi, Bedford, Bentley, Bitter, BMW, Brilliance, Bugatti, Buick, Cadillac, Chevrolet, Chrysler, Citroen, Dacia, Daewoo, DAF, Daihatsu, Diversen, Dodge, Ferrari, Fiat, Fisker, Ford, Ford Usa, FSO, GMC, Honda, Hummer, Hyundai, Infiniti, Innocenti, Isuzu, Iveco, Jaguar, Jeep, Kia, Lada, Lamborghini, Lancia, Landrover, Landwind, LDV, Lexus, Leyland, Lotus, MAN, Maserati, Maybach, Mazda, Mercedes, MG, Mini, Mitsubishi, Morris, Nissan, NSU, Oldsmobile, Opel, Peugeot, PGO, Piaggio, Plymouth, Pontiac, Porsche, Proton, Reliant, Renault, Rolls Royce, Rover, Saab, Seat, Skoda, Smart, Ssang Yong, Subaru, Sunbeam, Suzuki, Talbot, Tata, Tesla, Toyota, Trabant, Triumph, TVR, Vauxhall, Volkswagen, Volvo, Xedos, Yue Loong, Zastava -->
+<!-- MERKEN LIJST
+    -   Alfa Romeo
+    -   AMC
+    -   Asia
+    -   Aston Martin
+    -   Audi
+    -   Austin
+    -   Autobianchi
+    -   Bedford
+    -   Bentley
+    -   Bitter
+    -   BMW
+    -   Brilliance
+    -   Bugatti
+    -   Buick
+    -   Cadillac
+    -   Chevrolet
+    -   Chrysler
+    -   Citroen
+    -   Dacia
+    -   Daewoo
+    -   DAF
+    -   Daihatsu
+    -   Diversen
+    -   Dodge
+    -   Ferrari
+    -   Fiat
+    -   Fisker
+    -   Ford
+    -   Ford Usa
+    -   FSO
+    -   GMC
+    -   Honda
+    -   Hummer
+    -   Hyundai
+    -   Infiniti
+    -   Innocenti
+    -   Isuzu
+    -   Iveco
+    -   Jaguar
+    -   Jeep
+    -   Kia
+    -   Lada
+    -   Lamborghini
+    -   Lancia
+    -   Landrover
+    -   Landwind
+    -   LDV
+    -   Lexus
+    -   Leyland
+    -   Lotus
+    -   MAN
+    -   Maserati
+    -   Maybach
+    -   Mazda
+    -   Mercedes
+    -   MG
+    -   Mini
+    -   Mitsubishi
+    -   Morris
+    -   Nissan
+    -   NSU
+    -   Oldsmobile
+    -   Opel
+    -   Peugeot
+    -   PGO
+    -   Piaggio
+    -   Plymouth
+    -   Pontiac
+    -   Porsche
+    -   Proton
+    -   Reliant
+    -   Renault
+    -   Rolls Royce
+    -   Rover
+    -   Saab
+    -   Seat
+    -   Skoda
+    -   Smart
+    -   Ssang Yong
+    -   Subaru
+    -   Sunbeam
+    -   Suzuki
+    -   Talbot
+    -   Tata
+    -   Tesla
+    -   Toyota
+    -   Trabant
+    -   Triumph
+    -   TVR
+    -   Vauxhall
+    -   Volkswagen
+    -   Volvo
+    -   Xedos
+    -   Yue Loong
+    -   Zastava
+    -->
 <!ELEMENT MODEL (#PCDATA)>
 <!ELEMENT BOUWJAAR (#PCDATA)>
 <!ELEMENT BRANDSTOF EMPTY>
+<!-- Verschillende brandstoffen zijn gedefninieerd
+    -   Euro_95
+    -   LPG
+    -   DIESEL
+    -   CNG
+    -   Super_plus
+    -   Super_MLV
+    -   Premium_benzine
+    -   Premium_diesel
+    -->
 <!ATTLIST BRANDSTOF naam (Euro_95 LPG Diesel CNG Super_Plus Super_MLV Premium_Benzine Premium_Diesel) #REQUIRED>
-
 <!ELEMENT PRIJS (#PCDATA)>
+<!-- APK DATUM AUTO's EN FOTO's-->
 <!ELEMENT APK-VERLOOP-DATUM (#PCDATA)>
 <!ELEMENT FOTOS (FOTO+)>
 <!ELEMENT FOTO (URL, ALT)>
@@ -59,18 +174,19 @@
 
 <!ELEMENT WERKPLAATS (OPENINGSTIJDEN, WERKZAAMHEDEN)>
 <!-- OPENINGSTIJDEN IS AL GEDEFINEERD -->
-<!ELEMENT WERKZAAMHEDEN (ONDERHOUD, APK, SCHADEHERSTEL, RUITENREPARATIE, AIRCOSERVICE, BANDENSERVICE)>
-<!ELEMENT ONDERHOUD (#PCDATA)>
-<!ELEMENT APK (#PCDATA)>
-<!ELEMENT SCHADEHERSTEL (#PCDATA)>
-<!ELEMENT RUITENREPARATIE (#PCDATA)>
-<!ELEMENT AIRCOSERVICE (#PCDATA)>
-<!ELEMENT BANDENSERVICE (#PCDATA)>
-
+<!ELEMENT WERKZAAMHEDEN (ONDERHOUD?, APK?, SCHADEHERSTEL?, RUITENREPARATIE?, AIRCOSERVICE?, BANDENSERVICE?)>
+<!-- Verschillende werkzaamheden die in de werkplaats gedaan kunnen worden -->
+<!ELEMENT ONDERHOUD EMPTY>
+<!ELEMENT APK EMPTY>
+<!ELEMENT SCHADEHERSTEL EMPTY>
+<!ELEMENT RUITENREPARATIE EMPTY)>
+<!ELEMENT AIRCOSERVICE EMPTY>
+<!ELEMENT BANDENSERVICE EMPTY)>
+<!-- Verschillende mogelijke certificaten, lege velden geven aan of het wel of niet bestaat -->
 <!ELEMENT CERTIFICATEN (BOVAG?, RDW?)>
 <!ELEMENT BOVAG EMPTY>
 <!ELEMENT RDW EMPTY>
-
+<!-- Medewerkers van het bedrijf met foto en functie-->
 <!ELEMENT MEDEWERKERS (MEDEWERKER+)>
 <!ELEMENT MEDEWERKER (VOORNAAM,TUSSENVOEGSEL?,ACHTERNAAM,FOTO,FUNCTIE)>
 <!ELEMENT VOORNAAM (#PCDATA)>
@@ -79,41 +195,31 @@
 <!-- FOTO IS AL GEDEFINEERD -->
 <!ELEMENT FUNCTIE EMPTY>
 <!ATTLIST FUNCTIE naam (Eigenaar Medewerker Monteur Verkoper Telefonist) #REQUIRED >
-
-
+<!-- OVerige faciliteiten die de winkel kan hebben -->
 <!ELEMENT FACILITEITEN (POMPEN?, WASSEN?, WINKEL?)>
-
-
 <!ELEMENT POMPEN (POMP+, BRANDSTOF-PRIJZEN)>
 <!ELEMENT POMP (BRANDSTOFFEN*)>
 <!ATTLIST POMP nummer CDATA #REQUIRED>
 <!ELEMENT BRANDSTOFFEN (BRANDSTOF+)>
 <!-- BRANDSTOF IS AL GEDEFINEERD -->
-
 <!ELEMENT BRANDSTOF-PRIJZEN (BRANDSTOF-PRIJS+)>
 <!ELEMENT BRANDSTOF-PRIJS (BRANDSTOF, PRIJS)>
 <!-- BRANDSTOF IS AL GEDEFINEERD -->
 <!-- PRIJS IS AL GEDEFINEERD -->
-
-
 <!ELEMENT WASSEN (WASSTRATEN?, WASBOXEN?)>
 <!ELEMENT WASSTRATEN (WASSTRAAT+)>
 <!ELEMENT WASSTRAAT (PRIJS)>
-<!ATTLIST WASSTRAAT nummer CDATA #REQUIRED>
 <!-- PRIJS IS AL GEDEFINEERD -->
 <!ELEMENT WASBOXEN (WASBOX+)>
-<!ATTLIST WASBOX nummer CDATA #REQUIRED>
 <!ELEMENT WASBOX (PRIJS)>
 <!-- PRIJS IS AL GEDEFINEERD -->
-
-<!ELEMENT WINKEL (ITEMS)>
+<!ELEMENT WINKEL (LEVENSMIDDELEN?, ROOKWAAR?, TIJDSCHRIFTEN?, AUTO-ACCESOIRES?)>
+<!-- Alle mogelijke producttypen die een winkel kan hebben -->
+<!ELEMENT LEVENSMIDDELEN (#PCDATA)>
+<!ELEMENT ROOKWAAR (#PCDATA)>
+<!ELEMENT TIJDSCHRIFTEN (#PCDATA)>
+<!ELEMENT AUTO-ACCESOIRES (#PCDATA)>
 <!-- OPENINGSTIJDEN IS AL GEDEFINEERD -->
-<!ELEMENT ITEMS (ITEM+)>
-<!ELEMENT ITEM (NAAM,OMSCHRIJVING,PRIJS,VOORRAAD)>
-<!-- NAAM IS AL GEDEFINEERD -->
-<!ELEMENT OMSCHRIJVING (#PCDATA)>
-<!-- PRIJS IS AL GEDEFINEERD -->
-<!ELEMENT VOORRAAD (#PCDATA)>
 
 
 
