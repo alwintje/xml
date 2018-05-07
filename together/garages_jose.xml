@@ -168,7 +168,7 @@
           <URL>o.jpg</URL>
           <ALT>Piet</ALT>
         </FOTO>
-        <FUNCTIE naam="Monteur"></FUNCTIE>
+        <FUNCTIE naam="Monteur"/>
       </MEDEWERKER>
     </MEDEWERKERS>
   </GARAGE>
@@ -304,7 +304,7 @@
           <URL>8181 Image content page 724x260 filter NL.jpg</URL>
           <ALT>Piet</ALT>
         </FOTO>
-        <FUNCTIE naam="Monteur"></FUNCTIE>
+        <FUNCTIE naam="Monteur"/>
       </MEDEWERKER>
     </MEDEWERKERS>
   </GARAGE>
