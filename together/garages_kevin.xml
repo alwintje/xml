@@ -158,8 +158,8 @@
       </WERKZAAMHEDEN>
     </WERKPLAATS>
     <CERTIFICATEN>
-      <BOVAG></BOVAG>
-      <RDW></RDW>
+      <BOVAG/>
+      <RDW/>
     </CERTIFICATEN>
     <MEDEWERKERS>
       <MEDEWERKER>
@@ -601,7 +601,7 @@
           <FOTOS>
             <FOTO>
               <URL>1.png</URL>
-              <ALT></ALT>
+              <ALT>Aygo</ALT>
             </FOTO>
           </FOTOS>
         </AUTO>
