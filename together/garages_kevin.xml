@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="garages.xsl"?>
 <!--<!DOCTYPE GARAGES SYSTEM "garages.dtd" >-->
-
 <GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garages.xsd">
+  <!-- GARAGE 1 -->
   <GARAGE>
     <NAAM>Van Heeren auto's</NAAM>
     <ADRESGEGEVENS>
@@ -15,6 +15,7 @@
     <TELEFOONNUMMER>0613842544</TELEFOONNUMMER>
     <EMAIL>auto@vanheeren.nl</EMAIL>
     <VERKOOP>
+      <!-- openingstijden van het verkoop gedeelte van deze garage -->
       <OPENINGSTIJDEN>
         <MAANDAG>
           <OPENING>08:00</OPENING>
@@ -191,6 +192,7 @@
       </MEDEWERKER>
     </MEDEWERKERS>
   </GARAGE>
+  <!-- GARAGE 2 -->
   <GARAGE>
     <NAAM>Autofirst vakgarage</NAAM>
     <ADRESGEGEVENS>
@@ -203,6 +205,7 @@
     <TELEFOONNUMMER>0568415624</TELEFOONNUMMER>
     <EMAIL>info@autofirst.nl</EMAIL>
     <VERKOOP>
+      <!-- openingstijden van het verkoop gedeelte van deze garage -->
       <OPENINGSTIJDEN>
         <MAANDAG>
           <OPENING>08:00</OPENING>
@@ -232,6 +235,7 @@
       <DIENSTEN>
         <LENEN/>
       </DIENSTEN>
+      <!-- Garage met nieuwe auto's en occasions en meerdere foto's-->
       <OCCASIONS>
         <AUTO kenteken="NP-40-1N" merk="Audi">
           <MODEL>A5 2.0</MODEL>
@@ -334,6 +338,7 @@
       </WASSEN>
     </FACILITEITEN>
   </GARAGE>
+  <!-- GARAGE 3 -->
   <GARAGE>
     <NAAM>De Mol garage</NAAM>
     <ADRESGEGEVENS>
@@ -346,6 +351,7 @@
     <TELEFOONNUMMER>0542 244225</TELEFOONNUMMER>
     <EMAIL>info@demol-emmen.nl</EMAIL>
     <VERKOOP>
+      <!-- openingstijden van het verkoop gedeelte van deze garage -->
       <OPENINGSTIJDEN>
         <MAANDAG>
           <OPENING>08:30</OPENING>
@@ -372,6 +378,7 @@
         <VERHUUR/>
         <LENEN/>
       </DIENSTEN>
+      <!-- Garage met nieuwe auto's en occasions -->
       <OCCASIONS>
         <AUTO kenteken="23AKW2" merk="Renault">
           <MODEL>Kangoo Express</MODEL>
@@ -447,6 +454,7 @@
       </MEDEWERKER>
     </MEDEWERKERS>
   </GARAGE>
+  <!-- GARAGE 4 -->
   <GARAGE>
     <NAAM>CarOne Garage</NAAM>
     <ADRESGEGEVENS>
@@ -458,6 +466,7 @@
     </ADRESGEGEVENS>
     <TELEFOONNUMMER>0521345844</TELEFOONNUMMER>
     <VERKOOP>
+      <!-- openingstijden van het verkoop gedeelte van deze garage -->
       <OPENINGSTIJDEN>
         <MAANDAG>
           <OPENING>08:00</OPENING>
@@ -550,6 +559,7 @@
       </MEDEWERKER>
     </MEDEWERKERS>
   </GARAGE>
+  <!-- GARAGE 5 -->
   <GARAGE>
     <NAAM>CarCustoms garage</NAAM>
     <ADRESGEGEVENS>
@@ -562,6 +572,7 @@
     <TELEFOONNUMMER>0594251243</TELEFOONNUMMER>
     <EMAIL>carCustoms@garages.nl</EMAIL>
     <VERKOOP>
+      <!-- openingstijden van het verkoop gedeelte van deze garage -->
       <OPENINGSTIJDEN>
         <MAANDAG>
           <OPENING>09:00</OPENING>

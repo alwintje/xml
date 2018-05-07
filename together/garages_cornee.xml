@@ -42,22 +42,22 @@
                 <LENEN />
             </DIENSTEN>
             <OCCASIONS>
-                <AUTO kenteken="53-SZ-KD" merk="Volvo">
-                    <MODEL>Astra</MODEL>
-                    <BOUWJAAR>2016</BOUWJAAR>
+                <AUTO kenteken="22-DE-QQ" merk="Volkswagen">
+                    <MODEL>Transporter</MODEL>
+                    <BOUWJAAR>2004</BOUWJAAR>
                     <BRANDSTOF naam="Diesel" />
-                    <PRIJS>6750,00</PRIJS>
+                    <PRIJS>3750,00</PRIJS>
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
                     <FOTOS>
                         <FOTO>
-                            <URL>opelastra.jpg</URL>
-                            <ALT>Opel Astra Foto</ALT>
+                            <URL>transporter.jpg</URL>
+                            <ALT>Volkswagen Transporter Foto</ALT>
                         </FOTO>
                     </FOTOS>
                 </AUTO>
                 <AUTO kenteken="53-SZ-KD" merk="Fiat">
                     <MODEL>Panda</MODEL>
-                    <BOUWJAAR>2008</BOUWJAAR>
+                    <BOUWJAAR>2006</BOUWJAAR>
                     <BRANDSTOF naam="Diesel">Diesel</BRANDSTOF>
                     <PRIJS>6025,00</PRIJS>
                     <APK-VERLOOP-DATUM>26-08-2018</APK-VERLOOP-DATUM>
@@ -67,7 +67,7 @@
                             <ALT>Fiat Panda Foto</ALT>
                         </FOTO>
                         <FOTO>
-                            <URL>fiatpanda.jpeg</URL>
+                            <URL>fiatpandabinnen.jpg</URL>
                             <ALT>Fiat Panda Foto</ALT>
                         </FOTO>
                     </FOTOS>
@@ -118,7 +118,7 @@
                     <URL>cornee.jpg</URL>
                     <ALT>Cornee</ALT>
                 </FOTO>
-                <FUNCTIE naam="Professionele koffiedrinker"/>
+                <FUNCTIE naam="Hoofdmonteur"/>
             </MEDEWERKER>
             <MEDEWERKER>
                 <VOORNAAM>Thijs</VOORNAAM>
