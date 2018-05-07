@@ -134,6 +134,12 @@
                 <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
         </MEDEWERKERS>
+        <FACILITEITEN>
+            <WINKEL>
+                <AUTO-ACCESSOIRES/>
+                <LEVENSMIDDELEN/>
+            </WINKEL>
+        </FACILITEITEN>
     </GARAGE>
     <GARAGE>
         <NAAM>De Jong</NAAM>
@@ -376,6 +382,21 @@
                 <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
         </MEDEWERKERS>
+        <FACILITEITEN>
+            <POMPEN>
+                <POMP nummer="1">
+                    <BRANDSTOFFEN>
+                        <BRANDSTOF naam="LPG"/>
+                    </BRANDSTOFFEN>
+                </POMP>
+                <BRANDSTOF-PRIJZEN>
+                    <BRANDSTOF-PRIJS>
+                        <BRANDSTOF naam="LPG"/>
+                        <PRIJS>0.89</PRIJS>
+                    </BRANDSTOF-PRIJS>
+                </BRANDSTOF-PRIJZEN>
+            </POMPEN>
+        </FACILITEITEN>
     </GARAGE>
     <GARAGE>
         <NAAM>Stolk autoservice</NAAM>
@@ -464,8 +485,8 @@
                 <ONDERHOUD/>
                 <APK/>
                 <SCHADEHERSTEL/>
-                <AIRCOSERVICE/>
                 <BANDENSERVICE />
+                <AIRCOSERVICE/>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
         <MEDEWERKERS>
@@ -479,6 +500,23 @@
                 <FUNCTIE naam="Eigenaar" />
             </MEDEWERKER>
         </MEDEWERKERS>
+        <FACILITEITEN>
+            <WASSEN>
+                <WASBOXEN>
+                    <WASBOX>
+                        <PRIJS>3,-</PRIJS>
+                    </WASBOX>
+                </WASBOXEN>
+                <WASSTRATEN>
+                    <WASSTRAAT>
+                        <PRIJS>5,-</PRIJS>
+                    </WASSTRAAT>
+                    <WASSTRAAT>
+                        <PRIJS>10,-</PRIJS>
+                    </WASSTRAAT>
+                </WASSTRATEN>
+            </WASSEN>
+        </FACILITEITEN>
     </GARAGE>
     <GARAGE>
         <NAAM>Jawad Cars</NAAM>
