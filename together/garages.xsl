@@ -208,48 +208,41 @@
             <caption>Prijs voor brandstoffen</caption>
             <tr>
                 <xsl:for-each select="BRANDSTOF-PRIJZEN/BRANDSTOF-PRIJS">
-                    <th>
-                        <xsl:value-of select="BRANDSTOF/@naam"/>
-                    </th>
-                    <td>
-                        <xsl:value-of select="BRANDSTOF/PRIJS"/>
-                    </td>
+                        <th><xsl:value-of select="BRANDSTOF/@naam"/></th>
                 </xsl:for-each>
             </tr>
+            <tr>
+                <xsl:for-each select="BRANDSTOF-PRIJZEN/BRANDSTOF-PRIJS">
+                    <td>€<xsl:value-of select="PRIJS"/></td>
+                </xsl:for-each>
+            </tr>
+
         </table>
 
     </xsl:template>
     <xsl:template match="GARAGES/GARAGE/FACILITEITEN/WASSEN">
-        <xsl:for-each select="WASSTRATEN/WASSTRAAT">
-            Wasstraat
-            <xsl:value-of select="position()"/> kost
-            <xsl:value-of select="PRIJS"/>
-            <br/>
-        </xsl:for-each>
-        <table class="ui-table uk-table-justify">
+        <table class="ui-table">
             <caption>Wasbox met prijs</caption>
-            <tbody>
-                <xsl:for-each select="WASBOXEN/WASBOX">
-                    <tr>
-                        <td>Wasbox
-                            <xsl:value-of select="position()"/>
-                        </td>
-                        <td>
-                            <xsl:value-of select="PRIJS"/>
-                        </td>
-                    </tr>
-                </xsl:for-each>
-                <xsl:for-each select="WASSTRATEN/WASSTRAAT">
-                    <tr>
-                        <td>
-                            Wasstraat <xsl:value-of select="position()"/>
-                        </td>
-                        <td>
-                            <xsl:value-of select="PRIJS"/>
-                        </td>
-                    </tr>
-                </xsl:for-each>
-            </tbody>
+            <xsl:for-each select="WASBOXEN/WASBOX">
+                <tr>
+                    <td>Wasbox
+                        <xsl:value-of select="position()"/>
+                    </td>
+                    <td>
+                        €<xsl:value-of select="PRIJS"/>
+                    </td>
+                </tr>
+            </xsl:for-each>
+            <xsl:for-each select="WASSTRATEN/WASSTRAAT">
+                <tr>
+                    <td>
+                        Wasstraat <xsl:value-of select="position()"/>
+                    </td>
+                    <td>
+                        €<xsl:value-of select="PRIJS"/>
+                    </td>
+                </tr>
+            </xsl:for-each>
         </table>
     </xsl:template>
     <xsl:template match="GARAGES/GARAGE/FACILITEITEN/WINKEL">
@@ -276,8 +269,7 @@
         <xsl:for-each select="MEDEWERKER">
             <div class="uk-width-1-2">
                 <img onerror="this.src='img/default.jpg';">
-                    <xsl:attribute name="src">img/
-                        <xsl:value-of select='FOTO/URL'/>
+                    <xsl:attribute name="src">img/<xsl:value-of select='FOTO/URL'/>
                     </xsl:attribute>
                     <xsl:attribute name="alt">Afbeelding:
                         <xsl:value-of select='FOTO/ALT'/>
@@ -346,8 +338,7 @@
                     <xsl:for-each select="FOTOS/FOTO">
                         <div class="uk-width-1-3">
                             <img onerror="this.src='img/defaultCar.svg';" class="autoFoto">
-                                <xsl:attribute name="src">img/
-                                    <xsl:value-of select='URL'/>
+                                <xsl:attribute name="src">img/<xsl:value-of select='URL'/>
                                 </xsl:attribute>
                                 <xsl:attribute name="alt">Afbeelding:
                                     <xsl:value-of select='ALT'/>
