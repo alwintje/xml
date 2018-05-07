@@ -293,14 +293,14 @@
                 <xs:element ref="OPENINGSTIJDEN" />
                 <xs:element name="WERKZAAMHEDEN">
                     <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="ONDERHOUD" minOccurs="0"/>
-                            <xs:element name="APK" minOccurs="0"/>
-                            <xs:element name="SCHADEHERSTEL" minOccurs="0"/>
-                            <xs:element name="RUITENREPARATIE" minOccurs="0"/>
-                            <xs:element name="AIRCOSERVICE" minOccurs="0"/>
-                            <xs:element name="BANDENSERVICE" minOccurs="0"/>
-                        </xs:sequence>
+                        <xs:choice maxOccurs="6">
+                            <xs:element name="ONDERHOUD" />
+                            <xs:element name="APK" />
+                            <xs:element name="SCHADEHERSTEL" />
+                            <xs:element name="RUITENREPARATIE" />
+                            <xs:element name="AIRCOSERVICE" />
+                            <xs:element name="BANDENSERVICE" />
+                        </xs:choice>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
@@ -428,8 +428,8 @@
     -->
     <xs:element name="WASSEN">
         <xs:complexType>
-            <xs:sequence>
-                <xs:element name="WASSTRATEN" minOccurs="0">
+            <xs:choice maxOccurs="2">
+                <xs:element name="WASSTRATEN">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="WASSTRAAT" maxOccurs="unbounded">
@@ -443,7 +443,7 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="WASBOXEN" minOccurs="0">
+                <xs:element name="WASBOXEN">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="WASBOX" maxOccurs="unbounded">
@@ -457,34 +457,20 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-            </xs:sequence>
+            </xs:choice>
         </xs:complexType>
     </xs:element>
     <!--
         Element WINKEL
-        TODO: aanpassen a.d.h.v. feedback
     -->
     <xs:element name="WINKEL">
         <xs:complexType>
-            <xs:sequence>
-                <xs:element name="ITEMS" >
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="ITEM" maxOccurs="unbounded">
-                                <xs:complexType>
-                                    <xs:choice maxOccurs="4">
-                                        <xs:element name="NAAM" type="xs:string" />
-                                        <xs:element name="OMSCHRIJVING" type="xs:string" />
-                                        <xs:element ref="PRIJS" />
-                                        <xs:element name="VOORRAAD" type="xs:integer" />
-                                    </xs:choice>
-                                    <xs:attribute type="xs:string" name="nummer" />
-                                </xs:complexType>
-                            </xs:element>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-            </xs:sequence>
+            <xs:choice maxOccurs="4">
+                <xs:element name="LEVENSMIDDELEN"/>
+                <xs:element name="ROOKWAAR" />
+                <xs:element name="TIJDSCHRIFTEN"/>
+                <xs:element name="AUTO-ACCESSOIRES"/>
+            </xs:choice>
         </xs:complexType>
     </xs:element>
     <!--
