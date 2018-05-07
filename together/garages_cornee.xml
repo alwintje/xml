@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../together/garages.xsl"?>
+<?xml-stylesheet type="text/xsl" href="garages.xsl"?>
 
 <GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garages.xsd">
     <!-- ABS Autoherstel -->
@@ -385,20 +385,10 @@
         </MEDEWERKERS>
         <FACILITEITEN>
             <WINKEL>
-                <ITEMS>
-                    <ITEM nummer="1">
-                        <NAAM>Ventieldopjes</NAAM>
-                        <OMSCHRIJVING>Hallo</OMSCHRIJVING>
-                        <PRIJS>0,25</PRIJS>
-                        <VOORRAAD>200</VOORRAAD>
-                    </ITEM>
-                    <ITEM>
-                        <NAAM>Winterbanden</NAAM>
-                        <OMSCHRIJVING>Autobanden met meer profiel, handig voor de wintermaanden.</OMSCHRIJVING>
-                        <PRIJS>40,00</PRIJS>
-                        <VOORRAAD>26</VOORRAAD>
-                    </ITEM>
-                </ITEMS>
+                <AUTO-ACCESSOIRES/>
+                <LEVENSMIDDELEN/>
+                <ROOKWAAR/>
+                <TIJDSCHRIFTEN/>
             </WINKEL>
         </FACILITEITEN>
     </GARAGE>
@@ -514,6 +504,12 @@
         <FACILITEITEN>
             <POMPEN>
                 <POMP nummer="1">
+                    <BRANDSTOFFEN>
+                        <BRANDSTOF naam="Diesel"/>
+                        <BRANDSTOF naam="LPG"/>
+                    </BRANDSTOFFEN>
+                </POMP>
+                <POMP nummer="2">
                     <BRANDSTOFFEN>
                         <BRANDSTOF naam="Diesel"/>
                         <BRANDSTOF naam="LPG"/>
@@ -640,14 +636,14 @@
         </MEDEWERKERS>
         <FACILITEITEN>
            <WASSEN>
-               <WASSTRATEN>
-                   <WASSTRAAT nummer="4">
+               <WASBOXEN>
+                   <WASBOX>
                        <PRIJS>5,00</PRIJS>
-                   </WASSTRAAT>
-                   <WASSTRAAT nummer="5">
+                   </WASBOX>
+                   <WASBOX>
                        <PRIJS>12,00</PRIJS>
-                   </WASSTRAAT>
-               </WASSTRATEN>
+                   </WASBOX>
+               </WASBOXEN>
            </WASSEN>
         </FACILITEITEN>
     </GARAGE>
