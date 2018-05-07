@@ -193,14 +193,14 @@
 
         <xsl:for-each select="POMP">
             <table class="uk-table uk-table-striped">
-            <tr>
-                <th>Pomp <xsl:value-of select="position()"/></th>
-            </tr>
-            <xsl:for-each select="BRANDSTOFFEN/BRANDSTOF">
                 <tr>
-                    <td><xsl:value-of select="@naam"/></td>
+                    <th>Pomp <xsl:value-of select="position()"/></th>
                 </tr>
-            </xsl:for-each>
+                <xsl:for-each select="BRANDSTOFFEN/BRANDSTOF">
+                    <tr>
+                        <td><xsl:value-of select="@naam"/></td>
+                    </tr>
+                </xsl:for-each>
             </table>
         </xsl:for-each>
 
@@ -208,7 +208,7 @@
             <caption>Prijs voor brandstoffen</caption>
             <tr>
                 <xsl:for-each select="BRANDSTOF-PRIJZEN/BRANDSTOF-PRIJS">
-                        <th><xsl:value-of select="BRANDSTOF/@naam"/></th>
+                    <th><xsl:value-of select="BRANDSTOF/@naam"/></th>
                 </xsl:for-each>
             </tr>
             <tr>
@@ -222,7 +222,6 @@
     </xsl:template>
     <xsl:template match="GARAGES/GARAGE/FACILITEITEN/WASSEN">
         <table class="ui-table">
-            <caption>Wasbox met prijs</caption>
             <xsl:for-each select="WASBOXEN/WASBOX">
                 <tr>
                     <td>Wasbox
