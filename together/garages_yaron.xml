@@ -21,6 +21,10 @@
         <EMAIL>info@shell.com</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </ZONDAG>
                 <MAANDAG>
                     <OPENING>07:00</OPENING>
                     <SLUITING>21:00</SLUITING>
@@ -45,10 +49,6 @@
                     <OPENING>07:30</OPENING>
                     <SLUITING>21:00</SLUITING>
                 </ZATERDAG>
-                <ZONDAG>
-                    <OPENING>07:30</OPENING>
-                    <SLUITING>21:00</SLUITING>
-                </ZONDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
                 <LENEN/>
@@ -115,6 +115,10 @@
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </ZONDAG>
                 <MAANDAG>
                     <OPENING>07:00</OPENING>
                     <SLUITING>21:00</SLUITING>
@@ -139,10 +143,6 @@
                     <OPENING>07:30</OPENING>
                     <SLUITING>21:00</SLUITING>
                 </ZATERDAG>
-                <ZONDAG>
-                    <OPENING>07:30</OPENING>
-                    <SLUITING>21:00</SLUITING>
-                </ZONDAG>
             </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
                 <ONDERHOUD/>
@@ -317,6 +317,10 @@
         <EMAIL>info@tinQ.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>00:00</OPENING>
+                    <SLUITING>24:00</SLUITING>
+                </ZONDAG>
                 <MAANDAG>
                     <OPENING>00:00</OPENING>
                     <SLUITING>24:00</SLUITING>
@@ -341,10 +345,6 @@
                     <OPENING>00:00</OPENING>
                     <SLUITING>24:00</SLUITING>
                 </ZATERDAG>
-                <ZONDAG>
-                    <OPENING>00:00</OPENING>
-                    <SLUITING>24:00</SLUITING>
-                </ZONDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
                 <VERHUUR/>
