@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="garages.xsl"?>
-<!DOCTYPE GARAGES SYSTEM "garages.dtd" >
-<!--<GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garages.xsd">-->
+<!--<!DOCTYPE GARAGES SYSTEM "garages.dtd" >-->
+<GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garages.xsd">
 
     <!-- START NIEUWE GARAGE  -->
-<GARAGES>
+<!--<GARAGES>-->
     <GARAGE>
+
+        <!--BASIS INFORMATIE-->
+
         <NAAM>Shell coevorden</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>EUROPAWEG </STRAAT>
@@ -50,6 +53,9 @@
             <DIENSTEN>
                 <LENEN/>
             </DIENSTEN>
+
+            <!--BESCHIKBARE AUTOS-->
+
             <OCCASIONS>
                 <AUTO kenteken="XDLF76" merk="Opel">
                     <MODEL>Opel Astra 1.6-16V</MODEL>
@@ -184,6 +190,7 @@
 
     <!-- START NIEUWE GARAGE  -->
     <GARAGE>
+        <!--BASIS INFORMATIE-->
         <NAAM>3huizen garage</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>Rembrandtlaan </STRAAT>
@@ -224,6 +231,9 @@
             <DIENSTEN>
                 <LENEN/>
             </DIENSTEN>
+
+            <!--BESCHIKBARE AUTOS-->
+
             <OCCASIONS>
                 <AUTO kenteken="69LZNV" merk="Mini">
                     <MODEL> Toyota Yaris Verso</MODEL>
@@ -293,6 +303,8 @@
 
     <!-- START NIEUWE GARAGE  -->
     <GARAGE>
+        <!--BASIS INFORMATIE-->
+
         <NAAM>TinQ coevorden</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>Krimweg</STRAAT>
@@ -338,6 +350,9 @@
                 <VERHUUR/>
                 <LENEN/>
             </DIENSTEN>
+
+            <!--BESCHIKBARE AUTOS-->
+
             <OCCASIONS>
                 <AUTO kenteken="87PVXP" merk="Fiat">
                     <MODEL>Idea</MODEL>
@@ -418,6 +433,8 @@
     <!-- START NIEUWE GARAGE  -->
 
     <GARAGE>
+        <!--BASIS INFORMATIE-->
+
         <NAAM>Autopaas Emmen</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>Magelhaenstraat</STRAAT>
@@ -459,6 +476,9 @@
             </OPENINGSTIJDEN>
             <DIENSTEN>
             </DIENSTEN>
+
+            <!--BESCHIKBARE AUTOS-->
+
             <OCCASIONS>
                 <AUTO kenteken="70HJK7" merk="Audi">
                     <MODEL>A3</MODEL>
@@ -526,6 +546,8 @@
     <!-- START NIEUWE GARAGE  -->
 
     <GARAGE>
+        <!--BASIS INFORMATIE-->
+
         <NAAM>Auto Hoge Emmen bv</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>Jacob Le Mairestraat</STRAAT>
@@ -565,6 +587,9 @@
             </OPENINGSTIJDEN>
             <DIENSTEN>
             </DIENSTEN>
+
+            <!--BESCHIKBARE AUTOS-->
+
             <OCCASIONS>
                 <AUTO kenteken="8SPD66" merk="Audi">
                     <MODEL>A5</MODEL>
