@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="garages.xsl"?>
 
-
-
 <!--<!DOCTYPE GARAGES SYSTEM "garages.dtd" >-->
 <GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garages.xsd">
+  <!-- Begin garage Westerink -->
   <GARAGE>
-    <!-- begin garage Westerink -->
     <NAAM>Garage Westerink</NAAM>
     <ADRESGEGEVENS>
       <STRAAT>Westeinde</STRAAT>
@@ -17,9 +15,9 @@
     </ADRESGEGEVENS>
     <TELEFOONNUMMER>0341 431188</TELEFOONNUMMER>
     <EMAIL>info@vakgaragewesterink.nl</EMAIL>
-    <!-- info over het verkoop gedeelte van deze garage -->
+    <!-- Info over het verkoop gedeelte van deze garage -->
     <VERKOOP>
-      <!-- openingstijden van het verkoop gedeelte van deze garage -->
+      <!-- Openingstijden van het verkoop gedeelte van deze garage -->
       <OPENINGSTIJDEN>
         <MAANDAG>
           <OPENING>08:00</OPENING>
@@ -58,11 +56,11 @@
           <SLUITING>18:00</SLUITING>
         </ZATERDAG>
       </OPENINGSTIJDEN>
-      <!-- wat biedt deze verkoop afdeling naast verkoop -->
+      <!-- Wat biedt deze verkoop afdeling naast verkoop -->
       <DIENSTEN>
         <VERHUUR/>
       </DIENSTEN>
-      <!-- verkoop van de gebruikte auto's -->
+      <!-- Verkoop van de gebruikte auto's -->
       <OCCASIONS>
         <AUTO kenteken="10-ZGL-3" merk="Audi">
           <MODEL>A1</MODEL>
@@ -92,7 +90,7 @@
         </AUTO>
       </OCCASIONS>
     </VERKOOP>
-    <!-- de gegevens van de werkplaats deze garage -->
+    <!-- De gegevens van de werkplaats van deze garage -->
     <WERKPLAATS>
       <OPENINGSTIJDEN>
         <MAANDAG>
@@ -132,6 +130,7 @@
           <SLUITING>18:00</SLUITING>
         </ZATERDAG>
       </OPENINGSTIJDEN>
+      <!-- Werkzaamheden van de garage -->
       <WERKZAAMHEDEN>
         <ONDERHOUD/>
         <APK/>
@@ -140,17 +139,18 @@
         <BANDENSERVICE/>
       </WERKZAAMHEDEN>
     </WERKPLAATS>
+    <!-- Certificaten van de garage -->
     <CERTIFICATEN>
       <RDW/>
     </CERTIFICATEN>
     <!-- De medewerkers van deze garage -->
     <MEDEWERKERS>
       <MEDEWERKER>
-        <VOORNAAM>Henk</VOORNAAM>
+        <VOORNAAM>Marco</VOORNAAM>
         <ACHTERNAAM>Boertien</ACHTERNAAM>
         <FOTO>
           <URL>eigenaar.jpg</URL>
-          <ALT>Henk Boer</ALT>
+          <ALT>Marco Boertien</ALT>
         </FOTO>
         <FUNCTIE naam="Eigenaar" />
       </MEDEWERKER>
@@ -167,15 +167,14 @@
         <VOORNAAM>Piet</VOORNAAM>
         <ACHTERNAAM>Pieterson</ACHTERNAAM>
         <FOTO>
-          <URL>8181 Image content page 724x260 filter NL.jpg</URL>
+          <URL>o.jpg</URL>
           <ALT>Piet</ALT>
         </FOTO>
-        <FUNCTIE naam="Monteur"></FUNCTIE>
+        <FUNCTIE naam="Monteur"/>
       </MEDEWERKER>
     </MEDEWERKERS>
   </GARAGE>
-
-  <!-- de gegevens van garage Wester -->
+  <!-- De gegevens van garage Wester -->
   <GARAGE>
     <NAAM>Garage Wester B.V.</NAAM>
     <ADRESGEGEVENS>
@@ -187,7 +186,7 @@
     </ADRESGEGEVENS>
     <TELEFOONNUMMER>0341 431188</TELEFOONNUMMER>
     <EMAIL>info@vakgaragewester.nl</EMAIL>
-    <!-- het verkoop gedeelte van deze garage -->
+    <!-- Het verkoop gedeelte van deze garage -->
     <VERKOOP>
       <OPENINGSTIJDEN>
         <MAANDAG>
@@ -249,7 +248,7 @@
         </AUTO>
       </NIEUWE-AUTOS>
     </VERKOOP>
-    <!-- de werkplaats gegevens -->
+    <!-- De werkplaats gegevens -->
     <WERKPLAATS>
       <OPENINGSTIJDEN>
         <MAANDAG>
@@ -285,21 +284,12 @@
         <BANDENSERVICE/>
       </WERKZAAMHEDEN>
     </WERKPLAATS>
-    <!-- de certificaten -->
+    <!-- De certificaten -->
     <CERTIFICATEN>
       <RDW/>
     </CERTIFICATEN>
-    <!--medewerkers van deze garage -->
+    <!-- Medewerkers van deze garage -->
     <MEDEWERKERS>
-      <MEDEWERKER>
-        <VOORNAAM>Piet</VOORNAAM>
-        <ACHTERNAAM>Boertien</ACHTERNAAM>
-        <FOTO>
-          <URL>DSCN1500[1].JPG</URL>
-          <ALT>Piet Boer</ALT>
-        </FOTO>
-        <FUNCTIE naam="igenaar" />
-      </MEDEWERKER>
       <MEDEWERKER>
         <VOORNAAM>Frank</VOORNAAM>
         <ACHTERNAAM>Boer</ACHTERNAAM>
@@ -316,11 +306,11 @@
           <URL>8181 Image content page 724x260 filter NL.jpg</URL>
           <ALT>Piet</ALT>
         </FOTO>
-        <FUNCTIE naam="Monteur"></FUNCTIE>
+        <FUNCTIE naam="Monteur"/>
       </MEDEWERKER>
     </MEDEWERKERS>
   </GARAGE>
-  <!-- de gegevens van garage Erink -->
+  <!-- De gegevens van garage Erink -->
   <GARAGE>
     <NAAM>Garage Erink B.V.</NAAM>
     <ADRESGEGEVENS>
@@ -332,7 +322,7 @@
     </ADRESGEGEVENS>
     <TELEFOONNUMMER>0341 431188</TELEFOONNUMMER>
     <EMAIL>info@vakgarageerink.nl</EMAIL>
-    <!--gegevens van de verkoop afdeling van deze garage -->
+    <!-- Gegevens van de verkoop afdeling van deze garage -->
     <VERKOOP>
       <OPENINGSTIJDEN>
         <MAANDAG>
@@ -380,7 +370,7 @@
         </AUTO>
       </NIEUWE-AUTOS>
     </VERKOOP>
-    <!-- gegevens werkplaats van deze garage -->
+    <!-- Gegevens werkplaats van deze garage -->
     <WERKPLAATS>
       <OPENINGSTIJDEN>
         <MAANDAG>
@@ -415,17 +405,17 @@
         <BANDENSERVICE/>
       </WERKZAAMHEDEN>
     </WERKPLAATS>
-    <!--certificaten van de garage-->
+    <!-- Certificaten van de garage-->
     <CERTIFICATEN>
       <BOVAG/>
     </CERTIFICATEN>
-      <!--medewerkers van deze garage -->
+      <!-- Medewerkers van deze garage -->
     <MEDEWERKERS>
       <MEDEWERKER>
         <VOORNAAM>Henk</VOORNAAM>
         <ACHTERNAAM>Boertien</ACHTERNAAM>
         <FOTO>
-          <URL>DSCN1500[1].JPG</URL>
+          <URL>o.jpg</URL>
           <ALT>Henk Boer</ALT>
         </FOTO>
         <FUNCTIE naam="Eigenaar" />
@@ -434,14 +424,14 @@
         <VOORNAAM>Anne</VOORNAAM>
         <ACHTERNAAM>Boer</ACHTERNAAM>
         <FOTO>
-          <URL>DSCN1500[1].JPG</URL>
+          <URL>glimlachende-verkoopster-die-een-auto-controleert_13339-174581.jpg</URL>
           <ALT>Anne Boer</ALT>
         </FOTO>
         <FUNCTIE naam="Verkoper" />
       </MEDEWERKER>
     </MEDEWERKERS>
   </GARAGE>
-    <!--garage boer-->
+    <!-- Garage boer -->
   <GARAGE>
     <NAAM>Garage Boer B.V.</NAAM>
     <ADRESGEGEVENS>
@@ -453,7 +443,7 @@
     </ADRESGEGEVENS>
     <TELEFOONNUMMER>0341 431583</TELEFOONNUMMER>
     <EMAIL>info@deboer.nl</EMAIL>
-      <!-- gegevens van de verkoop afdeling van deze garage -->
+      <!-- Gegevens van de verkoop afdeling van deze garage -->
     <VERKOOP>
       <OPENINGSTIJDEN>
         <MAANDAG>
@@ -500,7 +490,7 @@
         </AUTO>
       </NIEUWE-AUTOS>
     </VERKOOP>
-      <!-- gegevens van de werkplaats van deze garage-->
+      <!-- Gegevens van de werkplaats van deze garage-->
     <WERKPLAATS>
       <OPENINGSTIJDEN>
         <MAANDAG>
@@ -534,18 +524,18 @@
         <SCHADEHERSTEL/>
       </WERKZAAMHEDEN>
     </WERKPLAATS>
-    <!--certificaten van deze garage -->
+    <!-- Certificaten van deze garage -->
       <CERTIFICATEN>
       <BOVAG/>
       <RDW/>
     </CERTIFICATEN>
-      <!--medewerkers van deze garage-->
+      <!-- Medewerkers van deze garage-->
     <MEDEWERKERS>
       <MEDEWERKER>
         <VOORNAAM>Henk</VOORNAAM>
         <ACHTERNAAM>Elf</ACHTERNAAM>
         <FOTO>
-          <URL>DSCN1500[1].JPG</URL>
+          <URL>o.JPG</URL>
           <ALT>Henk Elf</ALT>
         </FOTO>
         <FUNCTIE naam="Eigenaar" />
@@ -554,8 +544,8 @@
         <VOORNAAM>Anne</VOORNAAM>
         <ACHTERNAAM>Boer</ACHTERNAAM>
         <FOTO>
-          <URL>img/DSCN1500[1].JPG</URL>
-          <ALT>Anne Boer</ALT>
+            <URL>glimlachende-verkoopster-die-een-auto-controleert_13339-174581.jpg</URL>
+            <ALT>Anne Boer</ALT>
         </FOTO>
         <FUNCTIE naam="Telefonist" />
       </MEDEWERKER>
@@ -563,13 +553,13 @@
         <VOORNAAM>Mark</VOORNAAM>
         <ACHTERNAAM>Boer</ACHTERNAAM>
         <FOTO>
-          <URL>img/8181 Image content page 724x260 filter NL.jpg</URL>
+          <URL>o.jpg</URL>
           <ALT>Mark Boer</ALT>
         </FOTO>
         <FUNCTIE naam="Monteur" />
       </MEDEWERKER>
     </MEDEWERKERS>
-      <!-- de faciliteiten van deze garage -->
+      <!-- De faciliteiten van deze garage -->
     <FACILITEITEN>
       <WASSEN>
         <WASSTRATEN>
@@ -580,8 +570,8 @@
       </WASSEN>
     </FACILITEITEN>
   </GARAGE>
-  <!-- garage broer -->
-    <GARAGE>
+  <!-- Garage broer -->
+  <GARAGE>
         <NAAM>Garage Broer B.V.</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>Westeinde</STRAAT>
@@ -592,7 +582,7 @@
         </ADRESGEGEVENS>
         <TELEFOONNUMMER>0341 431583</TELEFOONNUMMER>
         <EMAIL>info@broer.nl</EMAIL>
-        <!-- de gegevens van de verkoop afdeling -->
+        <!-- De gegevens van de verkoop afdeling -->
         <VERKOOP>
           <OPENINGSTIJDEN>
             <MAANDAG>
@@ -639,7 +629,7 @@
             </AUTO>
           </NIEUWE-AUTOS>
         </VERKOOP>
-        <!-- de gegevens van de werkplaats van deze garage -->
+        <!-- De gegevens van de werkplaats van deze garage -->
       <WERKPLAATS>
             <OPENINGSTIJDEN>
                 <MAANDAG>
@@ -673,17 +663,17 @@
                 <SCHADEHERSTEL/>
             </WERKZAAMHEDEN>
         </WERKPLAATS>
-        <!-- de certificaten van deze garage -->
+        <!-- De certificaten van deze garage -->
         <CERTIFICATEN>
             <RDW/>
         </CERTIFICATEN>
-        <!-- de medewerkers van deze garage -->
+        <!-- De medewerkers van deze garage -->
         <MEDEWERKERS>
             <MEDEWERKER>
                 <VOORNAAM>Henk</VOORNAAM>
                 <ACHTERNAAM>Elven</ACHTERNAAM>
                 <FOTO>
-                    <URL>DSCN1500[1].JPG</URL>
+                    <URL>o.JPG</URL>
                     <ALT>Henk Elven</ALT>
                 </FOTO>
                 <FUNCTIE naam="Eigenaar" />
@@ -692,7 +682,7 @@
                 <VOORNAAM>Anne</VOORNAAM>
                 <ACHTERNAAM>Boer</ACHTERNAAM>
                 <FOTO>
-                    <URL>DSCN1500[1].JPG</URL>
+                    <URL>glimlachende-verkoopster-die-een-auto-controleert_13339-174581.jpg</URL>
                     <ALT>Anne Boer</ALT>
                 </FOTO>
                 <FUNCTIE naam="Telefonist" />
@@ -701,17 +691,17 @@
                 <VOORNAAM>Mark</VOORNAAM>
                 <ACHTERNAAM>Boer</ACHTERNAAM>
                 <FOTO>
-                    <URL>8181 Image content page 724x260 filter NL.jpg</URL>
+                    <URL>o.jpg</URL>
                     <ALT>Mark Boer</ALT>
                 </FOTO>
                 <FUNCTIE naam="Monteur" />
             </MEDEWERKER>
         </MEDEWERKERS>
-        <!-- de faciliteiten van deze garage -->
+        <!-- De faciliteiten van deze garage -->
         <FACILITEITEN>
             <WASSEN>
                 <WASBOXEN>
-                    <WASBOX nummer="1">
+                    <WASBOX>
                         <PRIJS>10,00</PRIJS>
                     </WASBOX>
                 </WASBOXEN>

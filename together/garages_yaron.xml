@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="garages.xsl"?>
-<!DOCTYPE GARAGES SYSTEM "garages.dtd" >
-<!--<GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garages.xsd">-->
+<!--<!DOCTYPE GARAGES SYSTEM "garages.dtd" >-->
+<GARAGES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garages.xsd">
 
     <!-- START NIEUWE GARAGE  -->
-<GARAGES>
+<!--<GARAGES>-->
     <GARAGE>
+
+        <!--BASIS INFORMATIE-->
+
         <NAAM>Shell coevorden</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>EUROPAWEG </STRAAT>
@@ -18,6 +21,10 @@
         <EMAIL>info@shell.com</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </ZONDAG>
                 <MAANDAG>
                     <OPENING>07:00</OPENING>
                     <SLUITING>21:00</SLUITING>
@@ -42,14 +49,13 @@
                     <OPENING>07:30</OPENING>
                     <SLUITING>21:00</SLUITING>
                 </ZATERDAG>
-                <ZONDAG>
-                    <OPENING>07:30</OPENING>
-                    <SLUITING>21:00</SLUITING>
-                </ZONDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
                 <LENEN/>
             </DIENSTEN>
+
+            <!--BESCHIKBARE AUTOS-->
+
             <OCCASIONS>
                 <AUTO kenteken="XDLF76" merk="Opel">
                     <MODEL>Opel Astra 1.6-16V</MODEL>
@@ -109,6 +115,10 @@
         </VERKOOP>
         <WERKPLAATS>
             <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>07:30</OPENING>
+                    <SLUITING>21:00</SLUITING>
+                </ZONDAG>
                 <MAANDAG>
                     <OPENING>07:00</OPENING>
                     <SLUITING>21:00</SLUITING>
@@ -133,10 +143,6 @@
                     <OPENING>07:30</OPENING>
                     <SLUITING>21:00</SLUITING>
                 </ZATERDAG>
-                <ZONDAG>
-                    <OPENING>07:30</OPENING>
-                    <SLUITING>21:00</SLUITING>
-                </ZONDAG>
             </OPENINGSTIJDEN>
             <WERKZAAMHEDEN>
                 <ONDERHOUD/>
@@ -184,6 +190,7 @@
 
     <!-- START NIEUWE GARAGE  -->
     <GARAGE>
+        <!--BASIS INFORMATIE-->
         <NAAM>3huizen garage</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>Rembrandtlaan </STRAAT>
@@ -224,6 +231,9 @@
             <DIENSTEN>
                 <LENEN/>
             </DIENSTEN>
+
+            <!--BESCHIKBARE AUTOS-->
+
             <OCCASIONS>
                 <AUTO kenteken="69LZNV" merk="Mini">
                     <MODEL> Toyota Yaris Verso</MODEL>
@@ -293,6 +303,8 @@
 
     <!-- START NIEUWE GARAGE  -->
     <GARAGE>
+        <!--BASIS INFORMATIE-->
+
         <NAAM>TinQ coevorden</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>Krimweg</STRAAT>
@@ -305,6 +317,10 @@
         <EMAIL>info@tinQ.nl</EMAIL>
         <VERKOOP>
             <OPENINGSTIJDEN>
+                <ZONDAG>
+                    <OPENING>00:00</OPENING>
+                    <SLUITING>24:00</SLUITING>
+                </ZONDAG>
                 <MAANDAG>
                     <OPENING>00:00</OPENING>
                     <SLUITING>24:00</SLUITING>
@@ -329,15 +345,14 @@
                     <OPENING>00:00</OPENING>
                     <SLUITING>24:00</SLUITING>
                 </ZATERDAG>
-                <ZONDAG>
-                    <OPENING>00:00</OPENING>
-                    <SLUITING>24:00</SLUITING>
-                </ZONDAG>
             </OPENINGSTIJDEN>
             <DIENSTEN>
                 <VERHUUR/>
                 <LENEN/>
             </DIENSTEN>
+
+            <!--BESCHIKBARE AUTOS-->
+
             <OCCASIONS>
                 <AUTO kenteken="87PVXP" merk="Fiat">
                     <MODEL>Idea</MODEL>
@@ -418,6 +433,8 @@
     <!-- START NIEUWE GARAGE  -->
 
     <GARAGE>
+        <!--BASIS INFORMATIE-->
+
         <NAAM>Autopaas Emmen</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>Magelhaenstraat</STRAAT>
@@ -459,6 +476,9 @@
             </OPENINGSTIJDEN>
             <DIENSTEN>
             </DIENSTEN>
+
+            <!--BESCHIKBARE AUTOS-->
+
             <OCCASIONS>
                 <AUTO kenteken="70HJK7" merk="Audi">
                     <MODEL>A3</MODEL>
@@ -526,6 +546,8 @@
     <!-- START NIEUWE GARAGE  -->
 
     <GARAGE>
+        <!--BASIS INFORMATIE-->
+
         <NAAM>Auto Hoge Emmen bv</NAAM>
         <ADRESGEGEVENS>
             <STRAAT>Jacob Le Mairestraat</STRAAT>
@@ -565,6 +587,9 @@
             </OPENINGSTIJDEN>
             <DIENSTEN>
             </DIENSTEN>
+
+            <!--BESCHIKBARE AUTOS-->
+
             <OCCASIONS>
                 <AUTO kenteken="8SPD66" merk="Audi">
                     <MODEL>A5</MODEL>
