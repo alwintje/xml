@@ -40,7 +40,7 @@
                 <xs:element name="EMAIL" minOccurs="0">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
-                            <xs:pattern value="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)"/>
+                            <!--<xs:pattern value="(^[a-zA-Z0-9_.+\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-.]+$)"/>-->
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
@@ -119,7 +119,7 @@
                 </xs:element>
 
                 <!-- Provincie -->
-                <xs:element type="xs:string" name="PROVINCIE">
+                <xs:element name="PROVINCIE">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
                             <xs:enumeration value="Groningen" />
